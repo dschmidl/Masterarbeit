@@ -1,0 +1,1438 @@
+﻿Log file open, 07/25/17 11:10:17
+LogInit:Display: Running engine for game: DSHockeyGame
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(334262224) SRandInit(334262224).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.125510
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.25-09.10.17:840][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.25-09.10.17:840][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.25-09.10.17:855][  0]LogInit: Computer: PC1011604132
+[2017.07.25-09.10.17:855][  0]LogInit: User: LocalAdmin
+[2017.07.25-09.10.17:855][  0]LogInit: CPU Page size=4096, Cores=6
+[2017.07.25-09.10.17:855][  0]LogInit: High frequency timer resolution =3.220792 MHz
+[2017.07.25-09.10.17:856][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.07.25-09.10.17:856][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.25-09.10.17:856][  0]LogMemory: Process Physical Memory: 273.73 MB used, 273.73 MB peak
+[2017.07.25-09.10.17:856][  0]LogMemory: Process Virtual Memory: 268.23 MB used, 268.23 MB peak
+[2017.07.25-09.10.17:856][  0]LogMemory: Physical Memory: 3052.58 MB used,  13242.45 MB free, 16295.03 MB total
+[2017.07.25-09.10.17:856][  0]LogMemory: Virtual Memory: 649.01 MB used,  13242.45 MB free, 134217728.00 MB total
+[2017.07.25-09.10.18:061][  0]LogInit: Using OS detected language (de-DE).
+[2017.07.25-09.10.18:061][  0]LogInit: Using OS detected locale (de-DE).
+[2017.07.25-09.10.18:070][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the language.
+[2017.07.25-09.10.18:070][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the locale.
+[2017.07.25-09.10.19:107][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.25-09.10.19:127][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980 Ti' (Feature Level 11_0)
+[2017.07.25-09.10.19:127][  0]LogD3D11RHI:       6102/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.07.25-09.10.19:129][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.25-09.10.19:129][  0]LogD3D11RHI:       0/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.25-09.10.19:129][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.25-09.10.19:132][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.25-09.10.19:132][  0]LogD3D11RHI:     GPU DeviceId: 0x17c8 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.25-09.10.19:132][  0]LogWindows: EnumDisplayDevices:
+[2017.07.25-09.10.19:132][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980 Ti' (P:1 D:1)
+[2017.07.25-09.10.19:132][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2017.07.25-09.10.19:132][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2017.07.25-09.10.19:132][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2017.07.25-09.10.19:132][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.07.25-09.10.19:132][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980 Ti
+[2017.07.25-09.10.19:132][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.07.25-09.10.19:132][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.07.25-09.10.19:132][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.25-09.10.19:147][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.25-09.10.19:168][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.07.25-09.10.19:214][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (../../../../MA Daniel Schmidl/Masterarbeit/Intermediate/Shaders/WorkingDirectory/8124/).
+[2017.07.25-09.10.19:214][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/LocalAdmin/AppData/Local/Temp/UnrealShaderWorkingDir/BB8024694C7C7321AE2F13A0B67393D7/'.
+[2017.07.25-09.10.19:215][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.25-09.10.20:935][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.25-09.10.20:972][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.25-09.10.21:010][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.25-09.10.21:048][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.25-09.10.21:090][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.25-09.10.21:128][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.25-09.10.21:166][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.25-09.10.21:205][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.25-09.10.21:238][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.25-09.10.21:277][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.25-09.10.21:315][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.25-09.10.21:354][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.25-09.10.21:391][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.25-09.10.21:429][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.25-09.10.21:467][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.25-09.10.21:543][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.25-09.10.21:543][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.25-09.10.21:571][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.25-09.10.21:664][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.25-09.10.21:686][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.25-09.10.21:724][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.25-09.10.21:762][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.25-09.10.21:798][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.25-09.10.21:837][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.25-09.10.21:837][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.25-09.10.22:423][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.25-09.10.22:754][  0]LogDerivedDataCache: Loaded boot cache 0.33s 113MB C:/Users/LocalAdmin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.25-09.10.22:754][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/LocalAdmin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.25-09.10.22:754][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../MA Daniel Schmidl/Masterarbeit/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.25-09.10.22:754][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.25-09.10.22:754][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../MA Daniel Schmidl/Masterarbeit/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.25-09.10.22:754][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.25-09.10.22:776][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.25-09.10.22:788][  0]LogDerivedDataCache: Using Local data cache path C:/Users/LocalAdmin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.25-09.10.22:800][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.25-09.10.22:801][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.25-09.10.22:804][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.25-09.10.22:804][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.25-09.10.25:645][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.25-09.10.25:748][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.25-09.10.25:966][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.25-09.10.26:028][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.25-09.10.26:062][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.25-09.10.26:062][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.25-09.10.26:062][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.25-09.10.26:670][  0]LogNetVersion: DSHockeyGame , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 256397287)
+[2017.07.25-09.10.26:730][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
+[2017.07.25-09.10.26:759][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.014262 seconds
+[2017.07.25-09.10.26:764][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.25-09.10.26:764][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.07.25-09.10.26:764][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.25-09.10.26:804][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.25-09.10.29:520][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.25-09.10.29:551][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.25-09.10.29:983][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.25-09.10.30:299][  0]SourceControl: Info Source control is disabled
+[2017.07.25-09.10.30:300][  0]SourceControl: Info Source control is disabled
+[2017.07.25-09.10.30:334][  0]SourceControl: Info Source control is disabled
+[2017.07.25-09.10.30:368][  0]SourceControl: Info Source control is disabled
+[2017.07.25-09.10.30:859][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.25-09.10.31:320][  0]LogEngine: Initializing Engine...
+[2017.07.25-09.10.34:383][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-F79729DE
+[2017.07.25-09.10.34:591][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.25-09.10.34:592][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.25-09.10.34:700][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.25-09.10.34:718][  0]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.10.34:730][  0]LogInit: FAudioDevice initialized.
+[2017.07.25-09.10.34:779][  0]LogDerivedDataCache: Saved boot cache 0.05s 103MB C:/Users/LocalAdmin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.25-09.10.34:794][  0]LogInit: Texture streaming: Enabled
+[2017.07.25-09.10.34:860][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.25-09.10.35:019][  0]LogInit: Transaction tracking system initialized
+[2017.07.25-09.10.35:234][  0]BlueprintLog: New page: Editor Load
+[2017.07.25-09.10.35:878][  0]LocalizationService: Info Localization service is disabled
+[2017.07.25-09.10.36:373][  0]LogConsoleResponse:Display: 
+[2017.07.25-09.10.36:536][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.25-09.10.36:536][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.25-09.10.37:276][  0]LogFileCache: Scanning file cache for directory 'D:/MA Daniel Schmidl/Masterarbeit/Content/' took 0.01s
+[2017.07.25-09.10.37:276][  0]SourceControl: Info Source control is disabled
+[2017.07.25-09.10.37:276][  0]Cmd: MAP LOAD FILE="../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.25-09.10.37:278][  0]LightingResults: New page: Lighting Build
+[2017.07.25-09.10.37:308][  0]MapCheck: New page: Map Check
+[2017.07.25-09.10.37:308][  0]LightingResults: New page: Lighting Build
+[2017.07.25-09.10.37:413][  0]LogAIModule: Creating AISystem for world StartupMap
+[2017.07.25-09.10.37:424][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.25-09.10.37:432][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.25-09.10.37:479][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.613ms to complete.
+[2017.07.25-09.10.37:479][  0]LogFileHelpers: Loading map 'StartupMap' took 0.203
+[2017.07.25-09.10.37:529][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.25-09.10.37:597][  0]LogCollectionManager: Loaded 0 collections in 0.000871 seconds
+[2017.07.25-09.10.37:663][  0]LogFileCache: Scanning file cache for directory 'D:/MA Daniel Schmidl/Masterarbeit/Saved/Collections/' took 0.01s
+[2017.07.25-09.10.37:664][  0]LogFileCache: Scanning file cache for directory 'D:/MA Daniel Schmidl/Masterarbeit/Content/Developers/LocalAdmin/Collections/' took 0.01s
+[2017.07.25-09.10.37:664][  0]LogFileCache: Scanning file cache for directory 'D:/MA Daniel Schmidl/Masterarbeit/Content/Collections/' took 0.01s
+[2017.07.25-09.10.37:664][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.07.25-09.10.37:672][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2329 classes and 491 folders.
+[2017.07.25-09.10.37:718][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.07.25-09.10.37:814][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.07.25-09.10.37:845][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.07.25-09.10.37:879][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.25-09.10.37:884][  0]LogSlate: Took 0.000909 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.25-09.10.37:887][  0]LogSlate: Took 0.001067 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.25-09.10.37:893][  0]LogSlate: Took 0.000948 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.25-09.10.37:988][  0]LogRenderer: Reallocating scene render targets to support 1412x808 NumSamples 1 (Frame:1).
+[2017.07.25-09.10.38:093][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.25-09.10.38:146][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.07.25-09.10.38:146][  0]LogLoad: (Engine Initialization) Total time: 22.81 seconds
+[2017.07.25-09.10.38:146][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.04 seconds
+[2017.07.25-09.10.38:146][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.07.25-09.10.38:155][  0]LogOcInput: OculusInput pre-init called
+[2017.07.25-09.10.38:155][  0]LogHMD: Starting GearVRController plugin
+[2017.07.25-09.10.38:174][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.25-09.10.38:266][  1]LogAssetRegistry: Asset discovery search completed in 11.5568 seconds
+[2017.07.25-09.10.38:267][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.07.25-09.10.38:267][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000034 seconds (updated 0 objects)
+[2017.07.25-09.10.40:801][294]LogSlate: Took 0.000908 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.25-09.10.42:110][449]Cmd: MAP LOAD FILE="../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/PrototypeMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.25-09.10.42:113][449]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.25-09.10.42:118][449]LightingResults: New page: Lighting Build
+[2017.07.25-09.10.42:119][449]LoadErrors: New page: Loading map: PrototypeMap.umap
+[2017.07.25-09.10.42:121][449]MapCheck: New page: Map Check
+[2017.07.25-09.10.42:121][449]LightingResults: New page: Lighting Build
+[2017.07.25-09.10.42:270][449]LogBlueprint:Warning: [Compiler BP_MotionController] Warning  ProjectPointToNavigation_DEPRECATED  is deprecated; This version of ProjectPointToNavigation is deprecated. Please use the new version
+[2017.07.25-09.10.42:288][449]LogBlueprint:Warning: [Compiler BP_MotionController] Warning [0026.96] Compile of BP_MotionController successful, but with 1 Warning(s) [in 29 ms] (/Game/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController)
+[2017.07.25-09.10.42:288][449]LogBlueprint:Warning: [Compiler BP_MotionController] Warning [0026.96] Compile of BP_MotionController successful, but with 2 Warning(s) [in 0 ms] (/Game/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController)
+[2017.07.25-09.10.42:288][449]LogBlueprint:Warning: [Compiler BP_MotionController] Warning [0026.96] Compile of BP_MotionController successful, but with 3 Warning(s) [in 0 ms] (/Game/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController)
+[2017.07.25-09.10.42:307][449]LogBlueprint:Warning: [Compiler BP_MotionController] Warning  ProjectPointToNavigation_DEPRECATED  is deprecated; This version of ProjectPointToNavigation is deprecated. Please use the new version
+[2017.07.25-09.10.42:324][449]LogBlueprint:Warning: [Compiler BP_MotionController] Warning [0026.99] Compile of BP_MotionController successful, but with 1 Warning(s) [in 28 ms] (/Game/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController)
+[2017.07.25-09.10.42:324][449]LogBlueprint:Warning: [Compiler BP_MotionController] Warning [0026.99] Compile of BP_MotionController successful, but with 2 Warning(s) [in 0 ms] (/Game/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController)
+[2017.07.25-09.10.42:324][449]LogBlueprint:Warning: [Compiler BP_MotionController] Warning [0026.99] Compile of BP_MotionController successful, but with 3 Warning(s) [in 0 ms] (/Game/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController)
+[2017.07.25-09.10.42:861][449]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.10.42:882][449]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.25-09.10.42:919][449]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.25-09.10.42:974][449]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.851ms to complete.
+[2017.07.25-09.10.42:974][449]LogFileHelpers: Loading map 'PrototypeMap' took 0.866
+[2017.07.25-09.10.46:849][867]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.10.46:886][867]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.10.46:886][867]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:10:46 PM)
+[2017.07.25-09.10.46:886][867]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.10.46:888][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002068s)
+[2017.07.25-09.10.46:889][867]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.10.46:889][867]LogPlayLevel: PIE: World Init took: (0.000613s)
+[2017.07.25-09.10.46:889][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002889s)
+[2017.07.25-09.10.46:907][867]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.10.46:915][867]LogInit: FAudioDevice initialized.
+[2017.07.25-09.10.46:958][867]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.10.46:961][867]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.10.46
+[2017.07.25-09.10.46:962][867]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.10.46:962][867]LogScript:Warning: Accessed None trying to read property gamemode
+	TriggerBoxGoal_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap:PersistentLevel.TriggerBoxGoal_Blueprint
+	Function /Game/VirtualRealityBP/Blueprints/TriggerBoxGoal_Blueprint.TriggerBoxGoal_Blueprint_C:ExecuteUbergraph_TriggerBoxGoal_Blueprint:007E
+[2017.07.25-09.10.46:962][867]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.10.46:962][867]LogWorld: Bringing up level for play took: 0.002521
+[2017.07.25-09.10.46:994][867]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.07.25-09.10.46:998][867]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap -0.611
+[2017.07.25-09.10.47:018][868]LogRenderer: Reallocating scene render targets to support 1976x1132 NumSamples 1 (Frame:1).
+[2017.07.25-09.10.54:918][791]LogEditorViewport: Clicking on Actor (LMB): Field_BP_C (Field)
+[2017.07.25-09.10.55:722][883]LogEditorViewport: Clicking on Actor (LMB): PuckActor_BP_C (PuckActor_BP)
+[2017.07.25-09.11.03:042][705]LogEditorViewport: Clicking on Actor (LMB): Field_BP_C (Field)
+[2017.07.25-09.11.03:737][783]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (MotionControllerPawn)
+[2017.07.25-09.11.07:454][188]LogEditorViewport: Clicking on Actor (LMB): Field_BP_C (Field)
+[2017.07.25-09.11.08:094][257]LogEditorViewport: Clicking on Actor (LMB): PuckActor_BP_C (PuckActor_BP)
+[2017.07.25-09.11.10:747][568]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.11.10:759][568]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.11.10:760][568]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:11:10 PM)
+[2017.07.25-09.11.10:760][568]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.11.10:762][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001951s)
+[2017.07.25-09.11.10:762][568]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.11.10:762][568]LogPlayLevel: PIE: World Init took: (0.000594s)
+[2017.07.25-09.11.10:762][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002720s)
+[2017.07.25-09.11.10:782][568]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.11.10:790][568]LogInit: FAudioDevice initialized.
+[2017.07.25-09.11.10:820][568]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.11.10:823][568]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.11.10
+[2017.07.25-09.11.10:823][568]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.11.10:823][568]LogScript:Warning: Accessed None trying to read property gamemode
+	TriggerBoxGoal_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap:PersistentLevel.TriggerBoxGoal_Blueprint
+	Function /Game/VirtualRealityBP/Blueprints/TriggerBoxGoal_Blueprint.TriggerBoxGoal_Blueprint_C:ExecuteUbergraph_TriggerBoxGoal_Blueprint:007E
+[2017.07.25-09.11.10:823][568]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.11.10:823][568]LogWorld: Bringing up level for play took: 0.001765
+[2017.07.25-09.11.10:826][568]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap -0.783
+[2017.07.25-09.12.49:661][405]LogSlate: Took 0.002507 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.25-09.13.47:640][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.13.47:641][  2]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:13:47 PM)
+[2017.07.25-09.13.47:641][  2]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.13.47:643][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002196s)
+[2017.07.25-09.13.47:643][  2]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.13.47:644][  2]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2017.07.25-09.13.47:644][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.003162s)
+[2017.07.25-09.13.47:666][  2]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.13.47:674][  2]LogInit: FAudioDevice initialized.
+[2017.07.25-09.13.47:748][  2]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.13.47:751][  2]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.13.47
+[2017.07.25-09.13.47:751][  2]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.13.47:751][  2]LogScript:Warning: Accessed None trying to read property gamemode
+	TriggerBoxGoal_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap:PersistentLevel.TriggerBoxGoal_Blueprint
+	Function /Game/VirtualRealityBP/Blueprints/TriggerBoxGoal_Blueprint.TriggerBoxGoal_Blueprint_C:ExecuteUbergraph_TriggerBoxGoal_Blueprint:007E
+[2017.07.25-09.13.47:751][  2]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.13.47:751][  2]LogWorld: Bringing up level for play took: 0.002102
+[2017.07.25-09.13.47:757][  2]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap 0.149
+[2017.07.25-09.13.47:791][  3]LogRenderer: Reallocating scene render targets to support 3024x1680 NumSamples 1 (Frame:1).
+[2017.07.25-09.17.08:644][355]LogTemp: Repeting last play command: VR Preview
+[2017.07.25-09.17.08:662][355]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.17.08:663][355]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:17:08 PM)
+[2017.07.25-09.17.08:663][355]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.17.08:665][355]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002376s)
+[2017.07.25-09.17.08:666][355]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.17.08:666][355]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2017.07.25-09.17.08:666][355]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.003604s)
+[2017.07.25-09.17.08:686][355]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.17.08:695][355]LogInit: FAudioDevice initialized.
+[2017.07.25-09.17.12:270][355]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-F79729DE
+[2017.07.25-09.17.12:303][355]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.17.12:306][355]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.17.12
+[2017.07.25-09.17.12:306][355]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.17.12:306][355]LogScript:Warning: Accessed None trying to read property gamemode
+	TriggerBoxGoal_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap:PersistentLevel.TriggerBoxGoal_Blueprint
+	Function /Game/VirtualRealityBP/Blueprints/TriggerBoxGoal_Blueprint.TriggerBoxGoal_Blueprint_C:ExecuteUbergraph_TriggerBoxGoal_Blueprint:007E
+[2017.07.25-09.17.12:306][355]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.17.12:306][355]LogWorld: Bringing up level for play took: 0.002233
+[2017.07.25-09.17.12:312][355]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap 2.704
+[2017.07.25-09.18.12:018][  8]LogEditorViewport: Clicking on Actor (LMB): Field_BP_C (Field)
+[2017.07.25-09.18.12:853][104]LogEditorViewport: Clicking on Actor (LMB): PuckActor_BP_C (PuckActor_BP)
+[2017.07.25-09.18.31:788][368]LogTemp: Repeting last play command: VR Preview
+[2017.07.25-09.18.31:801][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.18.31:801][368]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:18:31 PM)
+[2017.07.25-09.18.31:801][368]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.18.31:803][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002076s)
+[2017.07.25-09.18.31:804][368]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.18.31:804][368]LogPlayLevel: PIE: World Init took: (0.000617s)
+[2017.07.25-09.18.31:804][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002878s)
+[2017.07.25-09.18.31:825][368]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.18.31:834][368]LogInit: FAudioDevice initialized.
+[2017.07.25-09.18.31:905][368]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.18.31:908][368]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.18.31
+[2017.07.25-09.18.31:908][368]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.18.31:908][368]LogScript:Warning: Accessed None trying to read property gamemode
+	TriggerBoxGoal_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap:PersistentLevel.TriggerBoxGoal_Blueprint
+	Function /Game/VirtualRealityBP/Blueprints/TriggerBoxGoal_Blueprint.TriggerBoxGoal_Blueprint_C:ExecuteUbergraph_TriggerBoxGoal_Blueprint:007E
+[2017.07.25-09.18.31:908][368]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.18.31:908][368]LogWorld: Bringing up level for play took: 0.002012
+[2017.07.25-09.18.31:914][368]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap 0.305
+[2017.07.25-09.19.40:676][865]LogEditorViewport: Clicking on Actor (LMB): Field_BP_C (Field)
+[2017.07.25-09.19.54:710][501]LogEditorViewport: Clicking on Actor (LMB): Goal_BP_C (Goal)
+[2017.07.25-09.19.55:950][646]LogEditorViewport: Clicking on Actor (LMB): Goal_BP_C (Goal)
+[2017.07.25-09.20.15:324][927]LogEditorViewport: Clicking on Actor (LMB): Field_BP_C (Field)
+[2017.07.25-09.20.20:206][509]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (MotionControllerPawn)
+[2017.07.25-09.21.02:890][616]LogTemp: Repeting last play command: VR Preview
+[2017.07.25-09.21.02:904][616]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.21.02:904][616]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:21:02 PM)
+[2017.07.25-09.21.02:904][616]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.21.02:906][616]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002124s)
+[2017.07.25-09.21.02:906][616]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.21.02:907][616]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2017.07.25-09.21.02:907][616]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.003002s)
+[2017.07.25-09.21.02:956][616]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.21.02:966][616]LogInit: FAudioDevice initialized.
+[2017.07.25-09.21.03:041][616]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.21.03:044][616]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.21.03
+[2017.07.25-09.21.03:044][616]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.21.03:044][616]LogScript:Warning: Accessed None trying to read property gamemode
+	TriggerBoxGoal_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap:PersistentLevel.TriggerBoxGoal_Blueprint
+	Function /Game/VirtualRealityBP/Blueprints/TriggerBoxGoal_Blueprint.TriggerBoxGoal_Blueprint_C:ExecuteUbergraph_TriggerBoxGoal_Blueprint:007E
+[2017.07.25-09.21.03:044][616]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.21.03:045][616]LogWorld: Bringing up level for play took: 0.002028
+[2017.07.25-09.21.03:050][616]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap -0.558
+[2017.07.25-09.21.43:525][480]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (MotionControllerPawn)
+[2017.07.25-09.21.47:151][908]LogTemp: Repeting last play command: VR Preview
+[2017.07.25-09.21.47:165][908]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.21.47:165][908]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:21:47 PM)
+[2017.07.25-09.21.47:165][908]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.21.47:167][908]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001952s)
+[2017.07.25-09.21.47:167][908]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.21.47:168][908]LogPlayLevel: PIE: World Init took: (0.000584s)
+[2017.07.25-09.21.47:168][908]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002727s)
+[2017.07.25-09.21.47:211][908]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.21.47:219][908]LogInit: FAudioDevice initialized.
+[2017.07.25-09.21.47:296][908]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.21.47:298][908]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.21.47
+[2017.07.25-09.21.47:299][908]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.21.47:299][908]LogScript:Warning: Accessed None trying to read property gamemode
+	TriggerBoxGoal_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap:PersistentLevel.TriggerBoxGoal_Blueprint
+	Function /Game/VirtualRealityBP/Blueprints/TriggerBoxGoal_Blueprint.TriggerBoxGoal_Blueprint_C:ExecuteUbergraph_TriggerBoxGoal_Blueprint:007E
+[2017.07.25-09.21.47:299][908]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.21.47:299][908]LogWorld: Bringing up level for play took: 0.001879
+[2017.07.25-09.21.47:305][908]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap -0.304
+[2017.07.25-09.22.26:340][546]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (MotionControllerPawn)
+[2017.07.25-09.22.39:056][ 64]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.07.25-09.22.39:593][120]LogEditorViewport: Clicking on Actor (LMB): 3D_Menu_C (3D_Menu)
+[2017.07.25-09.22.47:613][ 33]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.07.25-09.22.48:172][ 33]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.25-09.22.48:237][ 33]LogSlate: Took 0.001042 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.25-09.23.15:570][840]LogEditorViewport: Clicking on Actor (LMB): PuckActor_BP_C (PuckActor_BP)
+[2017.07.25-09.23.26:358][ 44]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.23.26:358][ 44]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:23:26 PM)
+[2017.07.25-09.23.26:358][ 44]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.23.26:360][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001906s)
+[2017.07.25-09.23.26:360][ 44]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.23.26:360][ 44]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2017.07.25-09.23.26:361][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002659s)
+[2017.07.25-09.23.26:387][ 44]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.23.26:395][ 44]LogInit: FAudioDevice initialized.
+[2017.07.25-09.23.26:423][ 44]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.23.26:425][ 44]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.23.26
+[2017.07.25-09.23.26:425][ 44]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.23.26:425][ 44]LogScript:Warning: Accessed None trying to read property gamemode
+	TriggerBoxGoal_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap:PersistentLevel.TriggerBoxGoal_Blueprint
+	Function /Game/VirtualRealityBP/Blueprints/TriggerBoxGoal_Blueprint.TriggerBoxGoal_Blueprint_C:ExecuteUbergraph_TriggerBoxGoal_Blueprint:007E
+[2017.07.25-09.23.26:425][ 44]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.23.26:426][ 44]LogWorld: Bringing up level for play took: 0.001802
+[2017.07.25-09.23.26:428][ 44]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap 0.82
+[2017.07.25-09.23.26:673][ 72]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.23.26:675][ 72]LogScript:Warning: Accessed None trying to read property gamemode
+	TriggerBoxGoal_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap:PersistentLevel.TriggerBoxGoal_Blueprint
+	Function /Game/VirtualRealityBP/Blueprints/TriggerBoxGoal_Blueprint.TriggerBoxGoal_Blueprint_C:ExecuteUbergraph_TriggerBoxGoal_Blueprint:007E
+[2017.07.25-09.23.26:675][ 72]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.23.30:242][489]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.23.30:254][489]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.23.30:254][489]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:23:30 PM)
+[2017.07.25-09.23.30:254][489]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.23.30:256][489]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001963s)
+[2017.07.25-09.23.30:257][489]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.23.30:257][489]LogPlayLevel: PIE: World Init took: (0.000564s)
+[2017.07.25-09.23.30:257][489]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002706s)
+[2017.07.25-09.23.30:282][489]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.23.30:290][489]LogInit: FAudioDevice initialized.
+[2017.07.25-09.23.30:323][489]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.23.30:325][489]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.23.30
+[2017.07.25-09.23.30:325][489]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.23.30:325][489]LogScript:Warning: Accessed None trying to read property gamemode
+	TriggerBoxGoal_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap:PersistentLevel.TriggerBoxGoal_Blueprint
+	Function /Game/VirtualRealityBP/Blueprints/TriggerBoxGoal_Blueprint.TriggerBoxGoal_Blueprint_C:ExecuteUbergraph_TriggerBoxGoal_Blueprint:007E
+[2017.07.25-09.23.30:325][489]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.23.30:325][489]LogWorld: Bringing up level for play took: 0.001723
+[2017.07.25-09.23.30:328][489]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap 0.72
+[2017.07.25-09.23.30:572][517]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.23.30:572][517]LogScript:Warning: Accessed None trying to read property gamemode
+	TriggerBoxGoal_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap:PersistentLevel.TriggerBoxGoal_Blueprint
+	Function /Game/VirtualRealityBP/Blueprints/TriggerBoxGoal_Blueprint.TriggerBoxGoal_Blueprint_C:ExecuteUbergraph_TriggerBoxGoal_Blueprint:007E
+[2017.07.25-09.23.30:572][517]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.25.41:555][236]LogEditorViewport: Clicking on Actor (LMB): PuckActor_BP_C (PuckActor_BP)
+[2017.07.25-09.25.57:482][650]BlueprintLog: New page: Compile TriggerBoxGoal_Blueprint
+[2017.07.25-09.25.57:500][650]LogUObjectGlobals:Warning: Guid referenced by BoxComponent /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap:PersistentLevel.TriggerBoxGoal_Blueprint.CollisionComp is already used by BoxComponent /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap:PersistentLevel.REINST_TriggerBoxGoal_Blueprint_C_0.CollisionComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.07.25-09.25.57:500][650]LogUObjectGlobals:Warning: Guid referenced by BillboardComponent /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap:PersistentLevel.TriggerBoxGoal_Blueprint.Sprite is already used by BillboardComponent /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap:PersistentLevel.REINST_TriggerBoxGoal_Blueprint_C_0.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.07.25-09.25.57:947][660]LogSavePackage: Save=45.88ms
+[2017.07.25-09.25.57:947][660]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit/Saved/TriggerBoxGoal_BlueprintC0AE412C47E3FF28DAEFF99D22B62027.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/TriggerBoxGoal_Blueprint.uasset'
+[2017.07.25-09.25.57:948][660]LogSavePackage:Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/TriggerBoxGoal_Blueprint.uasset
+[2017.07.25-09.26.01:244][951]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.26.01:257][951]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.26.01:257][951]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:26:01 PM)
+[2017.07.25-09.26.01:257][951]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.26.01:259][951]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001964s)
+[2017.07.25-09.26.01:260][951]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.26.01:260][951]LogPlayLevel: PIE: World Init took: (0.000597s)
+[2017.07.25-09.26.01:260][951]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002742s)
+[2017.07.25-09.26.01:285][951]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.26.01:294][951]LogInit: FAudioDevice initialized.
+[2017.07.25-09.26.01:322][951]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.26.01:325][951]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.26.01
+[2017.07.25-09.26.01:325][951]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.26.01:325][951]LogScript:Warning: Accessed None trying to read property gamemode
+	TriggerBoxGoal_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap:PersistentLevel.TriggerBoxGoal_Blueprint
+	Function /Game/VirtualRealityBP/Blueprints/TriggerBoxGoal_Blueprint.TriggerBoxGoal_Blueprint_C:ExecuteUbergraph_TriggerBoxGoal_Blueprint:007E
+[2017.07.25-09.26.01:325][951]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.26.01:325][951]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.26.01:325][951]LogScript:Warning: Accessed None trying to read property gamemode
+	TriggerBoxGoal_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap:PersistentLevel.TriggerBoxGoal_Blueprint
+	Function /Game/VirtualRealityBP/Blueprints/TriggerBoxGoal_Blueprint.TriggerBoxGoal_Blueprint_C:ExecuteUbergraph_TriggerBoxGoal_Blueprint:007E
+[2017.07.25-09.26.01:325][951]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.26.01:325][951]LogWorld: Bringing up level for play took: 0.001988
+[2017.07.25-09.26.01:328][951]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap -0.28
+[2017.07.25-09.26.01:572][979]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.26.01:572][979]LogScript:Warning: Accessed None trying to read property gamemode
+	TriggerBoxGoal_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap:PersistentLevel.TriggerBoxGoal_Blueprint
+	Function /Game/VirtualRealityBP/Blueprints/TriggerBoxGoal_Blueprint.TriggerBoxGoal_Blueprint_C:ExecuteUbergraph_TriggerBoxGoal_Blueprint:007E
+[2017.07.25-09.26.01:572][979]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.26.07:398][667]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.26.07:410][667]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.26.07:410][667]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:26:07 PM)
+[2017.07.25-09.26.07:410][667]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.26.07:412][667]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001965s)
+[2017.07.25-09.26.07:413][667]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.26.07:413][667]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2017.07.25-09.26.07:413][667]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002727s)
+[2017.07.25-09.26.07:438][667]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.26.07:447][667]LogInit: FAudioDevice initialized.
+[2017.07.25-09.26.07:476][667]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.26.07:478][667]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.26.07
+[2017.07.25-09.26.07:479][667]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.26.07:479][667]LogScript:Warning: Accessed None trying to read property gamemode
+	TriggerBoxGoal_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap:PersistentLevel.TriggerBoxGoal_Blueprint
+	Function /Game/VirtualRealityBP/Blueprints/TriggerBoxGoal_Blueprint.TriggerBoxGoal_Blueprint_C:ExecuteUbergraph_TriggerBoxGoal_Blueprint:007E
+[2017.07.25-09.26.07:479][667]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.26.07:479][667]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.26.07:479][667]LogScript:Warning: Accessed None trying to read property gamemode
+	TriggerBoxGoal_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap:PersistentLevel.TriggerBoxGoal_Blueprint
+	Function /Game/VirtualRealityBP/Blueprints/TriggerBoxGoal_Blueprint.TriggerBoxGoal_Blueprint_C:ExecuteUbergraph_TriggerBoxGoal_Blueprint:007E
+[2017.07.25-09.26.07:479][667]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.26.07:479][667]LogWorld: Bringing up level for play took: 0.001839
+[2017.07.25-09.26.07:482][667]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap -0.127
+[2017.07.25-09.26.07:759][695]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.26.07:759][695]LogScript:Warning: Accessed None trying to read property gamemode
+	TriggerBoxGoal_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap:PersistentLevel.TriggerBoxGoal_Blueprint
+	Function /Game/VirtualRealityBP/Blueprints/TriggerBoxGoal_Blueprint.TriggerBoxGoal_Blueprint_C:ExecuteUbergraph_TriggerBoxGoal_Blueprint:007E
+[2017.07.25-09.26.07:759][695]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.26.17:004][509]LogSlate: Took 0.002633 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.07.25-09.26.34:221][573]BlueprintLog: New page: Compile TriggerBoxGoal_Blueprint
+[2017.07.25-09.26.34:617][578]LogSavePackage: Save=46.81ms
+[2017.07.25-09.26.34:617][578]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit/Saved/TriggerBoxGoal_BlueprintBB0794874F65E4A2764689B4BC9E7A22.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/TriggerBoxGoal_Blueprint.uasset'
+[2017.07.25-09.26.34:619][578]LogSavePackage:Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/TriggerBoxGoal_Blueprint.uasset
+[2017.07.25-09.26.35:802][659]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.26.35:814][659]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.26.35:814][659]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:26:35 PM)
+[2017.07.25-09.26.35:815][659]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.26.35:816][659]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001881s)
+[2017.07.25-09.26.35:817][659]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.26.35:817][659]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2017.07.25-09.26.35:817][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002644s)
+[2017.07.25-09.26.35:842][659]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.26.35:850][659]LogInit: FAudioDevice initialized.
+[2017.07.25-09.26.35:882][659]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.26.35:885][659]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.26.35
+[2017.07.25-09.26.35:885][659]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.26.35:885][659]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.26.35:885][659]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.26.35:885][659]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.26.35:885][659]LogWorld: Bringing up level for play took: 0.001891
+[2017.07.25-09.26.35:888][659]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap 0.28
+[2017.07.25-09.26.36:146][681]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.26.36:146][681]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.26.42:919][251]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.26.42:932][251]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.26.42:932][251]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:26:42 PM)
+[2017.07.25-09.26.42:932][251]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.26.42:934][251]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001926s)
+[2017.07.25-09.26.42:934][251]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.26.42:935][251]LogPlayLevel: PIE: World Init took: (0.000613s)
+[2017.07.25-09.26.42:935][251]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002713s)
+[2017.07.25-09.26.42:960][251]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.26.42:968][251]LogInit: FAudioDevice initialized.
+[2017.07.25-09.26.43:003][251]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.26.43:006][251]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.26.43
+[2017.07.25-09.26.43:006][251]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.26.43:006][251]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.26.43:006][251]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.26.43:006][251]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.26.43:006][251]LogWorld: Bringing up level for play took: 0.001912
+[2017.07.25-09.26.43:009][251]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap -0.599
+[2017.07.25-09.26.43:258][269]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.26.43:259][269]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.26.52:005][892]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.26.52:017][892]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.26.52:018][892]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:26:52 PM)
+[2017.07.25-09.26.52:018][892]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.26.52:019][892]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001917s)
+[2017.07.25-09.26.52:020][892]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.26.52:020][892]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2017.07.25-09.26.52:020][892]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002702s)
+[2017.07.25-09.26.52:047][892]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.26.52:055][892]LogInit: FAudioDevice initialized.
+[2017.07.25-09.26.52:091][892]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.26.52:093][892]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.26.52
+[2017.07.25-09.26.52:093][892]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.26.52:094][892]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.26.52:094][892]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.26.52:094][892]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.26.52:094][892]LogWorld: Bringing up level for play took: 0.001924
+[2017.07.25-09.26.52:097][892]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap 0.488
+[2017.07.25-09.26.52:345][910]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.26.52:345][910]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.27.10:932][263]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.25-09.27.19:999][914]LogSavePackage: Save=34.93ms
+[2017.07.25-09.27.19:999][914]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit/Saved/PrototypeMap_Auto1307B19AC457741733B56CE9C2C2B9066.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Maps/PrototypeMap_Auto1.umap'
+[2017.07.25-09.27.20:000][914]LogSavePackage:Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Maps/PrototypeMap_Auto1.umap
+[2017.07.25-09.27.20:001][914]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/PrototypeMap' took 0.058
+[2017.07.25-09.27.20:001][914]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.058
+[2017.07.25-09.29.34:259][158]BlueprintLog: New page: Compile PuckActor_BP
+[2017.07.25-09.29.34:676][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Blueprints/PuckActor_BP" FILE="../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset" SILENT=true
+[2017.07.25-09.29.34:696][162]LogSavePackage: Save=14.68ms
+[2017.07.25-09.29.34:696][162]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit/Saved/PuckActor_BPD2C6F4404E7CB3D0AE337C8102AAECD5.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset'
+[2017.07.25-09.29.34:697][162]LogSavePackage:Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset
+[2017.07.25-09.29.39:798][669]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.29.39:811][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.29.39:811][669]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:29:39 PM)
+[2017.07.25-09.29.39:811][669]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.29.39:813][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001913s)
+[2017.07.25-09.29.39:814][669]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.29.39:814][669]LogPlayLevel: PIE: World Init took: (0.000613s)
+[2017.07.25-09.29.39:814][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002710s)
+[2017.07.25-09.29.39:841][669]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.29.39:849][669]LogInit: FAudioDevice initialized.
+[2017.07.25-09.29.39:879][669]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.29.39:881][669]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.29.39
+[2017.07.25-09.29.39:882][669]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.29.39:882][669]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.29.39:882][669]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.29.39:882][669]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.29.39:882][669]LogWorld: Bringing up level for play took: 0.001835
+[2017.07.25-09.29.39:885][669]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap 0.276
+[2017.07.25-09.29.40:128][697]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.29.40:129][697]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.30.19:426][718]BlueprintLog: New page: Compile PuckActor_BP
+[2017.07.25-09.30.20:106][742]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Blueprints/PuckActor_BP" FILE="../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset" SILENT=true
+[2017.07.25-09.30.20:125][742]LogSavePackage: Save=15.65ms
+[2017.07.25-09.30.20:125][742]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit/Saved/PuckActor_BPAC9E85D7404BE5DD87C85BABCF2B4AAF.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset'
+[2017.07.25-09.30.20:127][742]LogSavePackage:Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset
+[2017.07.25-09.30.21:805][874]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.30.21:817][874]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.30.21:818][874]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:30:21 PM)
+[2017.07.25-09.30.21:818][874]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.30.21:820][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001963s)
+[2017.07.25-09.30.21:820][874]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.30.21:820][874]LogPlayLevel: PIE: World Init took: (0.000610s)
+[2017.07.25-09.30.21:820][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002764s)
+[2017.07.25-09.30.21:848][874]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.30.21:856][874]LogInit: FAudioDevice initialized.
+[2017.07.25-09.30.21:885][874]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.30.21:888][874]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.30.21
+[2017.07.25-09.30.21:888][874]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.30.21:888][874]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.30.21:888][874]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.30.21:888][874]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.30.21:888][874]LogWorld: Bringing up level for play took: 0.001930
+[2017.07.25-09.30.21:891][874]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap 0.282
+[2017.07.25-09.30.22:149][899]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.30.22:149][899]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.30.22:158][900]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.30.22:158][900]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.30.30:331][646]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.30.30:344][646]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.30.30:344][646]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:30:30 PM)
+[2017.07.25-09.30.30:344][646]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.30.30:346][646]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001987s)
+[2017.07.25-09.30.30:347][646]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.30.30:347][646]LogPlayLevel: PIE: World Init took: (0.000573s)
+[2017.07.25-09.30.30:347][646]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002750s)
+[2017.07.25-09.30.30:372][646]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.30.30:380][646]LogInit: FAudioDevice initialized.
+[2017.07.25-09.30.30:416][646]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.30.30:418][646]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.30.30
+[2017.07.25-09.30.30:419][646]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.30.30:419][646]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.30.30:419][646]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.30.30:419][646]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.30.30:419][646]LogWorld: Bringing up level for play took: 0.001902
+[2017.07.25-09.30.30:422][646]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap 0.813
+[2017.07.25-09.30.30:668][664]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.30.30:668][664]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.30.30:681][665]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.30.30:681][665]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.30.53:679][451]BlueprintLog: New page: Compile PuckActor_BP
+[2017.07.25-09.30.54:581][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Blueprints/PuckActor_BP" FILE="../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset" SILENT=true
+[2017.07.25-09.30.54:601][512]LogSavePackage: Save=15.75ms
+[2017.07.25-09.30.54:601][512]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit/Saved/PuckActor_BPA8B838574655D84E038731A87D47169D.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset'
+[2017.07.25-09.30.54:602][512]LogSavePackage:Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset
+[2017.07.25-09.30.56:252][640]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.30.56:265][640]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.30.56:265][640]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:30:56 PM)
+[2017.07.25-09.30.56:265][640]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.30.56:267][640]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001960s)
+[2017.07.25-09.30.56:268][640]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.30.56:268][640]LogPlayLevel: PIE: World Init took: (0.000566s)
+[2017.07.25-09.30.56:268][640]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002720s)
+[2017.07.25-09.30.56:296][640]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.30.56:304][640]LogInit: FAudioDevice initialized.
+[2017.07.25-09.30.56:335][640]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.30.56:339][640]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.30.56:339][640]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.30.56:339][640]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.30.56
+[2017.07.25-09.30.56:340][640]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.30.56:340][640]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.30.56:340][640]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.30.56:340][640]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.30.56:340][640]LogWorld: Bringing up level for play took: 0.003713
+[2017.07.25-09.30.56:343][640]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap 0.734
+[2017.07.25-09.30.56:590][658]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.30.56:590][658]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.30.56:603][659]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.30.56:603][659]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.31.00:917][918]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.31.00:930][918]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.31.00:930][918]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:31:00 PM)
+[2017.07.25-09.31.00:930][918]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.31.00:932][918]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001965s)
+[2017.07.25-09.31.00:933][918]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.31.00:933][918]LogPlayLevel: PIE: World Init took: (0.000561s)
+[2017.07.25-09.31.00:933][918]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002720s)
+[2017.07.25-09.31.00:959][918]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.31.00:967][918]LogInit: FAudioDevice initialized.
+[2017.07.25-09.31.01:004][918]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.31.01:006][918]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.31.01:006][918]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.31.01:006][918]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.31.01
+[2017.07.25-09.31.01:006][918]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.31.01:006][918]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.31.01:006][918]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.31.01:007][918]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.31.01:007][918]LogWorld: Bringing up level for play took: 0.002028
+[2017.07.25-09.31.01:009][918]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap -0.599
+[2017.07.25-09.31.01:261][940]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.31.01:261][940]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.31.01:261][940]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.31.01:261][940]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.31.10:159][669]LogEditorViewport: Clicking on Actor (LMB): PuckActor_BP_C (PuckActor_BP)
+[2017.07.25-09.31.12:202][835]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.31.12:215][835]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.31.12:216][835]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:31:12 PM)
+[2017.07.25-09.31.12:216][835]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.31.12:217][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001990s)
+[2017.07.25-09.31.12:218][835]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.31.12:218][835]LogPlayLevel: PIE: World Init took: (0.000612s)
+[2017.07.25-09.31.12:218][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002799s)
+[2017.07.25-09.31.12:247][835]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.31.12:255][835]LogInit: FAudioDevice initialized.
+[2017.07.25-09.31.12:284][835]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.31.12:286][835]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.31.12:286][835]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.31.12:286][835]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.31.12
+[2017.07.25-09.31.12:287][835]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.31.12:287][835]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.31.12:287][835]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.31.12:287][835]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.31.12:287][835]LogWorld: Bringing up level for play took: 0.001998
+[2017.07.25-09.31.12:290][835]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap 0.681
+[2017.07.25-09.31.12:534][856]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.31.12:534][856]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.31.12:544][857]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.31.12:545][857]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.32.21:941][158]BlueprintLog: New page: Compile PuckActor_BP
+[2017.07.25-09.32.49:103][497]BlueprintLog: New page: Compile PuckActor_BP
+[2017.07.25-09.32.49:578][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Blueprints/PuckActor_BP" FILE="../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset" SILENT=true
+[2017.07.25-09.32.49:597][522]LogSavePackage: Save=15.85ms
+[2017.07.25-09.32.49:597][522]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit/Saved/PuckActor_BPBF71E54147B8973DD8CBB2AA12B0BFEA.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset'
+[2017.07.25-09.32.49:599][522]LogSavePackage:Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset
+[2017.07.25-09.32.50:670][603]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.32.50:683][603]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.32.50:683][603]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:32:50 PM)
+[2017.07.25-09.32.50:683][603]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.32.50:685][603]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001975s)
+[2017.07.25-09.32.50:686][603]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.32.50:686][603]LogPlayLevel: PIE: World Init took: (0.000632s)
+[2017.07.25-09.32.50:686][603]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002787s)
+[2017.07.25-09.32.50:712][603]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.32.50:720][603]LogInit: FAudioDevice initialized.
+[2017.07.25-09.32.50:751][603]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.32.50:753][603]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.StaticMesh puck) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.32.50:753][603]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.StaticMesh puck) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.32.50:753][603]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.32.50:753][603]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.32.50:754][603]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.32.50
+[2017.07.25-09.32.50:754][603]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.32.50:754][603]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.32.50:754][603]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.32.50:754][603]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.32.50:754][603]LogWorld: Bringing up level for play took: 0.002043
+[2017.07.25-09.32.50:757][603]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap -0.852
+[2017.07.25-09.32.51:016][628]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.32.51:016][628]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.32.51:025][629]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.32.51:025][629]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.32.53:797][901]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.32.53:810][901]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.32.53:810][901]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:32:53 PM)
+[2017.07.25-09.32.53:810][901]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.32.53:812][901]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001944s)
+[2017.07.25-09.32.53:812][901]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.32.53:812][901]LogPlayLevel: PIE: World Init took: (0.000555s)
+[2017.07.25-09.32.53:813][901]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002678s)
+[2017.07.25-09.32.53:839][901]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.32.53:847][901]LogInit: FAudioDevice initialized.
+[2017.07.25-09.32.53:878][901]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.32.53:881][901]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.StaticMesh puck) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.32.53:881][901]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.StaticMesh puck) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.32.53:881][901]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.32.53:881][901]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.32.53:881][901]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.32.53
+[2017.07.25-09.32.53:881][901]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.32.53:881][901]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.32.53:881][901]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.32.53:881][901]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.32.53:882][901]LogWorld: Bringing up level for play took: 0.002077
+[2017.07.25-09.32.53:884][901]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap 0.276
+[2017.07.25-09.32.54:137][926]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.32.54:138][926]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.32.54:147][927]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.32.54:147][927]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.33.01:633][544]BlueprintLog: New page: Compile PuckActor_BP
+[2017.07.25-09.33.03:266][657]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.33.03:279][657]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.33.03:279][657]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:33:03 PM)
+[2017.07.25-09.33.03:279][657]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.33.03:281][657]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001932s)
+[2017.07.25-09.33.03:282][657]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.33.03:282][657]LogPlayLevel: PIE: World Init took: (0.000577s)
+[2017.07.25-09.33.03:282][657]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002689s)
+[2017.07.25-09.33.03:309][657]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.33.03:316][657]LogInit: FAudioDevice initialized.
+[2017.07.25-09.33.03:351][657]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.33.03:353][657]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.33.03:353][657]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.33.03:353][657]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.33.03
+[2017.07.25-09.33.03:353][657]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.33.03:353][657]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.33.03:353][657]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.33.03:353][657]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.33.03:354][657]LogWorld: Bringing up level for play took: 0.001949
+[2017.07.25-09.33.03:356][657]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap -0.253
+[2017.07.25-09.33.03:612][681]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.33.03:612][681]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.33.03:612][681]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.33.03:613][681]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.33.06:594][971]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.33.06:606][971]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.33.06:606][971]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:33:06 PM)
+[2017.07.25-09.33.06:606][971]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.33.06:608][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001927s)
+[2017.07.25-09.33.06:609][971]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.33.06:609][971]LogPlayLevel: PIE: World Init took: (0.000559s)
+[2017.07.25-09.33.06:609][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002667s)
+[2017.07.25-09.33.06:635][971]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.33.06:643][971]LogInit: FAudioDevice initialized.
+[2017.07.25-09.33.06:672][971]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.33.06:674][971]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.33.06:674][971]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.33.06:674][971]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.33.06
+[2017.07.25-09.33.06:675][971]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.33.06:675][971]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.33.06:675][971]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.33.06:675][971]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.33.06:675][971]LogWorld: Bringing up level for play took: 0.001932
+[2017.07.25-09.33.06:678][971]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap 1.069
+[2017.07.25-09.33.06:959][996]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.33.06:959][996]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.33.06:968][997]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.33.06:968][997]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.33.10:170][310]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.33.10:183][310]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.33.10:183][310]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:33:10 PM)
+[2017.07.25-09.33.10:183][310]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.33.10:185][310]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001978s)
+[2017.07.25-09.33.10:186][310]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.33.10:186][310]LogPlayLevel: PIE: World Init took: (0.000569s)
+[2017.07.25-09.33.10:186][310]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002738s)
+[2017.07.25-09.33.10:213][310]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.33.10:221][310]LogInit: FAudioDevice initialized.
+[2017.07.25-09.33.10:251][310]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.33.10:254][310]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.33.10:254][310]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.33.10:254][310]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.33.10
+[2017.07.25-09.33.10:254][310]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.33.10:254][310]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.33.10:254][310]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.33.10:254][310]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.33.10:254][310]LogWorld: Bringing up level for play took: 0.001940
+[2017.07.25-09.33.10:257][310]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap 0.649
+[2017.07.25-09.33.10:518][334]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.33.10:518][334]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.33.10:528][335]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.33.10:528][335]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.33.13:706][635]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.33.13:719][635]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.33.13:719][635]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:33:13 PM)
+[2017.07.25-09.33.13:719][635]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.33.13:721][635]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001939s)
+[2017.07.25-09.33.13:722][635]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.33.13:722][635]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2017.07.25-09.33.13:722][635]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002700s)
+[2017.07.25-09.33.13:749][635]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.33.13:757][635]LogInit: FAudioDevice initialized.
+[2017.07.25-09.33.13:788][635]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.33.13:791][635]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.33.13:791][635]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.33.13:791][635]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.33.13
+[2017.07.25-09.33.13:791][635]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.33.13:791][635]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.33.13:791][635]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.33.13:791][635]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.33.13:791][635]LogWorld: Bringing up level for play took: 0.001928
+[2017.07.25-09.33.13:794][635]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap 0.185
+[2017.07.25-09.33.14:043][659]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.33.14:043][659]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.33.14:053][660]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.33.14:053][660]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.33.14:911][748]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.33.14:911][748]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.33.18:132][ 39]LogEditorViewport: Clicking on Actor (LMB): 3D_Menu_C (3D_Menu)
+[2017.07.25-09.33.23:495][514]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.33.23:507][514]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.33.23:507][514]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:33:23 PM)
+[2017.07.25-09.33.23:507][514]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.33.23:509][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001965s)
+[2017.07.25-09.33.23:510][514]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.33.23:510][514]LogPlayLevel: PIE: World Init took: (0.000586s)
+[2017.07.25-09.33.23:510][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002742s)
+[2017.07.25-09.33.23:537][514]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.33.23:547][514]LogInit: FAudioDevice initialized.
+[2017.07.25-09.33.23:575][514]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.33.23:577][514]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.33.23:577][514]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.33.23:577][514]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.33.23
+[2017.07.25-09.33.23:578][514]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.33.23:578][514]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.33.23:578][514]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.33.23:578][514]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.33.23:578][514]LogWorld: Bringing up level for play took: 0.002036
+[2017.07.25-09.33.23:581][514]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap -0.028
+[2017.07.25-09.33.24:147][572]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.33.24:147][572]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.33.24:147][572]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.33.24:147][572]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.33.26:860][825]LogEditorViewport: Clicking on Actor (LMB): Goal_BP_C (Goal)
+[2017.07.25-09.33.39:756][112]LogSavePackage: Save=10.84ms
+[2017.07.25-09.33.39:756][112]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit/Saved/HockeyGoal09FCF869450DF49F45BBF79BFB4BC158.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/Assets/Hockeygoal/HockeyGoal.uasset'
+[2017.07.25-09.33.39:757][112]LogSavePackage:Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/Assets/Hockeygoal/HockeyGoal.uasset
+[2017.07.25-09.33.40:433][175]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.07.25-09.33.41:497][282]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.33.41:509][282]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.33.41:509][282]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:33:41 PM)
+[2017.07.25-09.33.41:509][282]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.33.41:511][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001986s)
+[2017.07.25-09.33.41:512][282]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.33.41:512][282]LogPlayLevel: PIE: World Init took: (0.000599s)
+[2017.07.25-09.33.41:512][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002765s)
+[2017.07.25-09.33.41:537][282]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.33.41:545][282]LogInit: FAudioDevice initialized.
+[2017.07.25-09.33.41:574][282]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.33.41:576][282]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.33.41:576][282]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.33.41:576][282]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.33.41
+[2017.07.25-09.33.41:577][282]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.33.41:577][282]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.33.41:577][282]LogWorld: Bringing up level for play took: 0.001877
+[2017.07.25-09.33.41:579][282]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap -0.029
+[2017.07.25-09.33.42:145][348]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.33.42:145][348]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.33.42:145][348]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.33.42:145][348]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.33.46:257][832]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.33.46:270][832]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.33.46:270][832]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:33:46 PM)
+[2017.07.25-09.33.46:270][832]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.33.46:272][832]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001942s)
+[2017.07.25-09.33.46:272][832]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.33.46:272][832]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2017.07.25-09.33.46:272][832]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002664s)
+[2017.07.25-09.33.46:297][832]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.33.46:305][832]LogInit: FAudioDevice initialized.
+[2017.07.25-09.33.46:337][832]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.33.46:339][832]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.33.46:339][832]PIE:Warning: Warning Invalid Simulate Options: Body (PuckActor_BP_818.Capsule) is set to simulate physics but Collision Enabled is incompatible
+[2017.07.25-09.33.46:339][832]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.33.46
+[2017.07.25-09.33.46:340][832]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.33.46:340][832]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.33.46:340][832]LogWorld: Bringing up level for play took: 0.001878
+[2017.07.25-09.33.46:342][832]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap 0.734
+[2017.07.25-09.33.46:922][898]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.33.46:922][898]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.33.46:923][898]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.33.46:923][898]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.34.50:289][491]LogEditorViewport: Clicking on Actor (LMB): 3D_Menu_C (3D_Menu)
+[2017.07.25-09.35.49:731][324]BlueprintLog: New page: Compile PuckActor_BP
+[2017.07.25-09.35.50:214][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Blueprints/PuckActor_BP" FILE="../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset" SILENT=true
+[2017.07.25-09.35.50:234][334]LogSavePackage: Save=15.18ms
+[2017.07.25-09.35.50:234][334]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit/Saved/PuckActor_BP369F80B34B5B95E8BB85F8B93F1C28A4.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset'
+[2017.07.25-09.35.50:235][334]LogSavePackage:Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset
+[2017.07.25-09.35.52:183][541]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.35.52:201][541]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.35.52:201][541]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:35:52 PM)
+[2017.07.25-09.35.52:201][541]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.35.52:203][541]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001957s)
+[2017.07.25-09.35.52:204][541]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.35.52:204][541]LogPlayLevel: PIE: World Init took: (0.000586s)
+[2017.07.25-09.35.52:204][541]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002731s)
+[2017.07.25-09.35.52:231][541]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.35.52:239][541]LogInit: FAudioDevice initialized.
+[2017.07.25-09.35.52:273][541]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.35.52:275][541]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.35.52
+[2017.07.25-09.35.52:275][541]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.35.52:275][541]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.35.52:275][541]LogWorld: Bringing up level for play took: 0.001801
+[2017.07.25-09.35.52:278][541]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap 0.669
+[2017.07.25-09.35.52:861][607]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.35.52:861][607]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.36.12:926][  3]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.36.12:941][  3]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.36.12:941][  3]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:36:12 PM)
+[2017.07.25-09.36.12:941][  3]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.36.12:943][  3]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002296s)
+[2017.07.25-09.36.12:944][  3]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.36.12:944][  3]LogPlayLevel: PIE: World Init took: (0.000593s)
+[2017.07.25-09.36.12:944][  3]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.003096s)
+[2017.07.25-09.36.12:972][  3]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.36.12:980][  3]LogInit: FAudioDevice initialized.
+[2017.07.25-09.36.13:015][  3]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.36.13:018][  3]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.36.13
+[2017.07.25-09.36.13:018][  3]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.36.13:018][  3]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.36.13:018][  3]LogWorld: Bringing up level for play took: 0.001827
+[2017.07.25-09.36.13:021][  3]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap -0.587
+[2017.07.25-09.36.13:581][ 69]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.36.13:581][ 69]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.36.18:820][544]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.36.18:835][544]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.36.18:835][544]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:36:18 PM)
+[2017.07.25-09.36.18:835][544]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.36.18:837][544]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001995s)
+[2017.07.25-09.36.18:838][544]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.36.18:838][544]LogPlayLevel: PIE: World Init took: (0.000628s)
+[2017.07.25-09.36.18:838][544]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002809s)
+[2017.07.25-09.36.18:867][544]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.36.18:874][544]LogInit: FAudioDevice initialized.
+[2017.07.25-09.36.18:907][544]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.36.18:909][544]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.36.18
+[2017.07.25-09.36.18:909][544]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.36.18:909][544]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.36.18:909][544]LogWorld: Bringing up level for play took: 0.001755
+[2017.07.25-09.36.18:912][544]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap -0.697
+[2017.07.25-09.36.19:480][584]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.36.19:480][584]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.36.24:693][944]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.36.24:707][944]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.36.24:707][944]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:36:24 PM)
+[2017.07.25-09.36.24:707][944]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.36.24:709][944]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001947s)
+[2017.07.25-09.36.24:710][944]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.36.24:710][944]LogPlayLevel: PIE: World Init took: (0.000568s)
+[2017.07.25-09.36.24:710][944]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002704s)
+[2017.07.25-09.36.24:737][944]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.36.24:745][944]LogInit: FAudioDevice initialized.
+[2017.07.25-09.36.24:779][944]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.36.24:782][944]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.36.24
+[2017.07.25-09.36.24:782][944]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.36.24:782][944]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.36.24:782][944]LogWorld: Bringing up level for play took: 0.001760
+[2017.07.25-09.36.24:785][944]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap -0.824
+[2017.07.25-09.36.25:354][984]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.36.25:355][984]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.36.38:179][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Blueprints/PuckActor_BP" FILE="../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset" SILENT=true
+[2017.07.25-09.36.38:191][921]LogSavePackage: Save=7.48ms
+[2017.07.25-09.36.38:191][921]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit/Saved/PuckActor_BP0DBA3F9246C2D122C1511D98D912315E.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset'
+[2017.07.25-09.36.38:191][921]LogSavePackage:Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset
+[2017.07.25-09.36.50:888][ 21]LogSavePackage: Save=47.72ms
+[2017.07.25-09.36.50:888][ 21]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit/Saved/TriggerBoxGoal_BlueprintDD1E4D604FC6375E9C6BD1861D41D391.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/TriggerBoxGoal_Blueprint.uasset'
+[2017.07.25-09.36.50:889][ 21]LogSavePackage:Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/TriggerBoxGoal_Blueprint.uasset
+[2017.07.25-09.36.52:089][108]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.36.52:104][108]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.36.52:104][108]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:36:52 PM)
+[2017.07.25-09.36.52:105][108]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.36.52:107][108]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001891s)
+[2017.07.25-09.36.52:107][108]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.36.52:107][108]LogPlayLevel: PIE: World Init took: (0.000593s)
+[2017.07.25-09.36.52:107][108]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002673s)
+[2017.07.25-09.36.52:135][108]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.36.52:143][108]LogInit: FAudioDevice initialized.
+[2017.07.25-09.36.52:174][108]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.36.52:177][108]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.36.52
+[2017.07.25-09.36.52:177][108]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.36.52:177][108]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.36.52:177][108]LogWorld: Bringing up level for play took: 0.001779
+[2017.07.25-09.36.52:180][108]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap 0.571
+[2017.07.25-09.36.52:745][160]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.36.52:745][160]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.37.56:316][952]BlueprintLog: New page: Compile TriggerBoxGoal_Blueprint
+[2017.07.25-09.37.56:873][981]LogSavePackage: Save=47.64ms
+[2017.07.25-09.37.56:873][981]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit/Saved/TriggerBoxGoal_BlueprintEAFC68FE4E4842643B790492B5D6B6EC.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/TriggerBoxGoal_Blueprint.uasset'
+[2017.07.25-09.37.56:875][981]LogSavePackage:Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/TriggerBoxGoal_Blueprint.uasset
+[2017.07.25-09.37.57:982][ 65]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.37.57:996][ 65]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.37.57:996][ 65]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:37:57 PM)
+[2017.07.25-09.37.57:996][ 65]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.37.57:998][ 65]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001940s)
+[2017.07.25-09.37.57:999][ 65]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.37.57:999][ 65]LogPlayLevel: PIE: World Init took: (0.000649s)
+[2017.07.25-09.37.57:999][ 65]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002765s)
+[2017.07.25-09.37.58:027][ 65]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.37.58:035][ 65]LogInit: FAudioDevice initialized.
+[2017.07.25-09.37.58:064][ 65]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.37.58:066][ 65]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.37.58
+[2017.07.25-09.37.58:066][ 65]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.37.58:066][ 65]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.37.58:067][ 65]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property puck from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Print String in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property puck
+[2017.07.25-09.37.58:067][ 65]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] Hello
+[2017.07.25-09.37.58:067][ 65]LogWorld: Bringing up level for play took: 0.001850
+[2017.07.25-09.37.58:069][ 65]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap 0.461
+[2017.07.25-09.37.58:643][123]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.37.58:643][123]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.37.58:643][123]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property puck from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Print String in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property puck
+[2017.07.25-09.37.58:643][123]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] Hello
+[2017.07.25-09.38.03:715][626]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.38.03:730][626]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.38.03:730][626]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:38:03 PM)
+[2017.07.25-09.38.03:730][626]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.38.03:732][626]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001941s)
+[2017.07.25-09.38.03:733][626]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.38.03:733][626]LogPlayLevel: PIE: World Init took: (0.000566s)
+[2017.07.25-09.38.03:733][626]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002691s)
+[2017.07.25-09.38.03:761][626]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.38.03:769][626]LogInit: FAudioDevice initialized.
+[2017.07.25-09.38.03:801][626]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.38.03:803][626]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.38.03
+[2017.07.25-09.38.03:803][626]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.38.03:803][626]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.38.03:803][626]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property puck from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Print String in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property puck
+[2017.07.25-09.38.03:803][626]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] Hello
+[2017.07.25-09.38.03:804][626]LogWorld: Bringing up level for play took: 0.001945
+[2017.07.25-09.38.03:806][626]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap 0.198
+[2017.07.25-09.38.04:393][681]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.38.04:393][681]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.38.04:393][681]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property puck from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Print String in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property puck
+[2017.07.25-09.38.04:393][681]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] Hello
+[2017.07.25-09.38.10:339][130]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.38.10:354][130]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.38.10:354][130]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:38:10 PM)
+[2017.07.25-09.38.10:354][130]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.38.10:356][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001946s)
+[2017.07.25-09.38.10:356][130]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.38.10:356][130]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2017.07.25-09.38.10:357][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002703s)
+[2017.07.25-09.38.10:383][130]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.38.10:392][130]LogInit: FAudioDevice initialized.
+[2017.07.25-09.38.10:427][130]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.38.10:430][130]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.38.10
+[2017.07.25-09.38.10:430][130]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.38.10:430][130]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.38.10:430][130]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property puck from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Print String in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property puck
+[2017.07.25-09.38.10:430][130]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] Hello
+[2017.07.25-09.38.10:430][130]LogWorld: Bringing up level for play took: 0.001886
+[2017.07.25-09.38.10:433][130]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap 0.824
+[2017.07.25-09.38.10:998][175]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.38.10:998][175]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.38.10:998][175]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property puck from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Print String in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property puck
+[2017.07.25-09.38.10:998][175]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] Hello
+[2017.07.25-09.38.42:032][564]LogSavePackage: Save=34.14ms
+[2017.07.25-09.38.42:032][564]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit/Saved/PrototypeMap_Auto2B797963A43C1D028632A6F87191CE514.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Maps/PrototypeMap_Auto2.umap'
+[2017.07.25-09.38.42:033][564]LogSavePackage:Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Maps/PrototypeMap_Auto2.umap
+[2017.07.25-09.38.42:034][564]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/PrototypeMap' took 0.059
+[2017.07.25-09.38.42:034][564]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.059
+[2017.07.25-09.40.18:513][511]BlueprintLog: New page: Compile PuckActor_BP
+[2017.07.25-09.40.19:011][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Blueprints/PuckActor_BP" FILE="../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset" SILENT=true
+[2017.07.25-09.40.19:032][523]LogSavePackage: Save=15.61ms
+[2017.07.25-09.40.19:032][523]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit/Saved/PuckActor_BP360A5AB54F5612FFC3746A864981F40F.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset'
+[2017.07.25-09.40.19:033][523]LogSavePackage:Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset
+[2017.07.25-09.40.20:226][614]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.40.20:241][614]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.40.20:241][614]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:40:20 PM)
+[2017.07.25-09.40.20:241][614]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.40.20:243][614]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001910s)
+[2017.07.25-09.40.20:244][614]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.40.20:244][614]LogPlayLevel: PIE: World Init took: (0.000632s)
+[2017.07.25-09.40.20:244][614]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002726s)
+[2017.07.25-09.40.20:272][614]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.40.20:280][614]LogInit: FAudioDevice initialized.
+[2017.07.25-09.40.20:315][614]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.40.20:318][614]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.40.20
+[2017.07.25-09.40.20:318][614]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.40.20:318][614]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.40.20:318][614]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property puck from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Print String in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property puck
+[2017.07.25-09.40.20:318][614]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] Hello
+[2017.07.25-09.40.20:318][614]LogWorld: Bringing up level for play took: 0.001911
+[2017.07.25-09.40.20:321][614]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap 0.712
+[2017.07.25-09.40.20:883][674]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.40.20:883][674]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.40.20:883][674]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property puck from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Print String in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property puck
+[2017.07.25-09.40.20:883][674]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] Hello
+[2017.07.25-09.41.48:347][622]BlueprintLog: New page: Compile PuckActor_BP
+[2017.07.25-09.41.48:982][644]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Blueprints/PuckActor_BP" FILE="../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset" SILENT=true
+[2017.07.25-09.41.49:003][644]LogSavePackage: Save=16.24ms
+[2017.07.25-09.41.49:003][644]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit/Saved/PuckActor_BPECC1AF5048238143C98FBC852E11064E.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset'
+[2017.07.25-09.41.49:004][644]LogSavePackage:Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset
+[2017.07.25-09.41.50:098][725]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.41.50:114][725]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.41.50:114][725]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:41:50 PM)
+[2017.07.25-09.41.50:114][725]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.41.50:116][725]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002032s)
+[2017.07.25-09.41.50:117][725]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.41.50:117][725]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2017.07.25-09.41.50:117][725]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002854s)
+[2017.07.25-09.41.50:145][725]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.41.50:153][725]LogInit: FAudioDevice initialized.
+[2017.07.25-09.41.50:185][725]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.41.50:187][725]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.41.50
+[2017.07.25-09.41.50:188][725]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.41.50:188][725]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.41.50:188][725]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property puck from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Print String in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property puck
+[2017.07.25-09.41.50:188][725]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] Hello
+[2017.07.25-09.41.50:188][725]LogWorld: Bringing up level for play took: 0.001891
+[2017.07.25-09.41.50:191][725]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap 0.582
+[2017.07.25-09.41.59:101][485]BlueprintLog: New page: Compile PuckActor_BP
+[2017.07.25-09.41.59:561][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Blueprints/PuckActor_BP" FILE="../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset" SILENT=true
+[2017.07.25-09.41.59:581][510]LogSavePackage: Save=16.82ms
+[2017.07.25-09.41.59:581][510]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit/Saved/PuckActor_BP26E5B3B04FC0FDE76922BE955FF3FE15.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset'
+[2017.07.25-09.41.59:583][510]LogSavePackage:Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset
+[2017.07.25-09.42.00:828][603]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.42.00:843][603]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.42.00:843][603]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:42:00 PM)
+[2017.07.25-09.42.00:843][603]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.42.00:845][603]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001942s)
+[2017.07.25-09.42.00:846][603]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.42.00:846][603]LogPlayLevel: PIE: World Init took: (0.000573s)
+[2017.07.25-09.42.00:846][603]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002701s)
+[2017.07.25-09.42.00:874][603]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.42.00:882][603]LogInit: FAudioDevice initialized.
+[2017.07.25-09.42.00:909][603]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.42.00:912][603]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.42.00
+[2017.07.25-09.42.00:912][603]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.42.00:912][603]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.42.00:912][603]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property puck from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Print String in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property puck
+[2017.07.25-09.42.00:912][603]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] Hello
+[2017.07.25-09.42.00:912][603]LogWorld: Bringing up level for play took: 0.001906
+[2017.07.25-09.42.00:915][603]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap -0.693
+[2017.07.25-09.42.59:392][502]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.07.25-09.42.59:464][502]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.07.25-09.42.59:950][502]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BlueprintComponentNodeSpawner_150' or package '/Engine/Transient'.
+[2017.07.25-09.42.59:950][502]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'PuckActorComponent' or package '/Game/VirtualRealityBP/Blueprints/PuckActor_BP'.
+[2017.07.25-09.42.59:950][502]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_PuckActorComponent_C_0' or package '/Engine/Transient'.
+[2017.07.25-09.42.59:950][502]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_PuckActorComponent_C_1' or package '/Engine/Transient'.
+[2017.07.25-09.42.59:950][502]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_PuckActorComponent_C_155' or package '/Engine/Transient'.
+[2017.07.25-09.42.59:950][502]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_PuckActorComponent_C_154' or package '/Engine/Transient'.
+[2017.07.25-09.43.18:516][407]BlueprintLog: New page: Compile PuckActor_BP
+[2017.07.25-09.43.18:993][418]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Blueprints/PuckActor_BP" FILE="../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset" SILENT=true
+[2017.07.25-09.43.19:013][418]LogSavePackage: Save=16.12ms
+[2017.07.25-09.43.19:013][418]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit/Saved/PuckActor_BPF4B78817455C04AD53968FA81E53A4A6.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset'
+[2017.07.25-09.43.19:014][418]LogSavePackage:Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset
+[2017.07.25-09.43.20:579][548]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.43.20:593][548]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.43.20:593][548]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:43:20 PM)
+[2017.07.25-09.43.20:594][548]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.43.20:596][548]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001935s)
+[2017.07.25-09.43.20:596][548]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.43.20:596][548]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2017.07.25-09.43.20:596][548]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002690s)
+[2017.07.25-09.43.20:624][548]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.43.20:632][548]LogInit: FAudioDevice initialized.
+[2017.07.25-09.43.20:662][548]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.43.20:665][548]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.43.20
+[2017.07.25-09.43.20:665][548]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.43.20:665][548]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.43.20:665][548]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property puck from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Print String in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property puck
+[2017.07.25-09.43.20:665][548]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] Hello
+[2017.07.25-09.43.20:665][548]LogWorld: Bringing up level for play took: 0.001790
+[2017.07.25-09.43.20:668][548]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap 1.059
+[2017.07.25-09.43.31:774][377]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMesh_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.07.25-09.43.31:774][377]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'puck' or package '/Game/VirtualRealityBP/Blueprints/TriggerBoxGoal_Blueprint'.
+[2017.07.25-09.43.31:774][377]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'puck' or package '/Engine/Transient'.
+[2017.07.25-09.43.31:774][377]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_PuckActor_BP_C_2' or package '/Engine/Transient'.
+[2017.07.25-09.43.31:774][377]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.07.25-09.43.31:774][377]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.07.25-09.43.31:774][377]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_PuckActor_BP_C_3' or package '/Engine/Transient'.
+[2017.07.25-09.43.31:775][377]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.07.25-09.43.31:775][377]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMesh' or package '/Engine/Transient'.
+[2017.07.25-09.43.31:775][377]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_PuckActor_BP_C_161' or package '/Engine/Transient'.
+[2017.07.25-09.43.31:775][377]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_PuckActor_BP_C_160' or package '/Engine/Transient'.
+[2017.07.25-09.44.24:520][406]BlueprintLog: New page: Compile PuckActor_BP
+[2017.07.25-09.44.25:102][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Blueprints/PuckActor_BP" FILE="../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset" SILENT=true
+[2017.07.25-09.44.25:118][430]LogSavePackage: Save=14.89ms
+[2017.07.25-09.44.25:118][430]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit/Saved/PuckActor_BPCC70AD2E466D72DC98C1DCB6206A4AA7.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset'
+[2017.07.25-09.44.25:119][430]LogSavePackage:Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset
+[2017.07.25-09.44.41:133][165]LogSavePackage: Save=36.07ms
+[2017.07.25-09.44.41:133][165]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit/Saved/PrototypeMap12C776FB4CA49BD13D328482BA539CC9.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/PrototypeMap.umap'
+[2017.07.25-09.44.41:134][165]LogSavePackage:Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/PrototypeMap.umap
+[2017.07.25-09.44.43:029][387]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.44.43:044][387]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.44.43:044][387]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:44:43 PM)
+[2017.07.25-09.44.43:044][387]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.44.43:046][387]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001916s)
+[2017.07.25-09.44.43:046][387]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.44.43:046][387]LogPlayLevel: PIE: World Init took: (0.000578s)
+[2017.07.25-09.44.43:046][387]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002677s)
+[2017.07.25-09.44.43:073][387]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.44.43:081][387]LogInit: FAudioDevice initialized.
+[2017.07.25-09.44.43:109][387]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.44.43:112][387]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.44.43
+[2017.07.25-09.44.43:112][387]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.44.43:112][387]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.44.43:112][387]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property puck from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Print String in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property puck
+[2017.07.25-09.44.43:112][387]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] Hello
+[2017.07.25-09.44.43:112][387]LogWorld: Bringing up level for play took: 0.001861
+[2017.07.25-09.44.43:115][387]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap -0.494
+[2017.07.25-09.44.52:721][311]BlueprintLog: New page: Compile PuckActor_BP
+[2017.07.25-09.44.53:820][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Blueprints/PuckActor_BP" FILE="../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset" SILENT=true
+[2017.07.25-09.44.53:839][390]LogSavePackage: Save=15.11ms
+[2017.07.25-09.44.53:839][390]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit/Saved/PuckActor_BP6B89A810447D4BF3617976A420C2E05B.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset'
+[2017.07.25-09.44.53:841][390]LogSavePackage:Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset
+[2017.07.25-09.44.55:686][536]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.44.55:699][536]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.44.55:699][536]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:44:55 PM)
+[2017.07.25-09.44.55:699][536]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.44.55:701][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001931s)
+[2017.07.25-09.44.55:702][536]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.44.55:702][536]LogPlayLevel: PIE: World Init took: (0.000559s)
+[2017.07.25-09.44.55:702][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002680s)
+[2017.07.25-09.44.55:728][536]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.44.55:736][536]LogInit: FAudioDevice initialized.
+[2017.07.25-09.44.55:766][536]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.44.55:769][536]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.44.55
+[2017.07.25-09.44.55:769][536]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.44.55:769][536]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.44.55:769][536]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property puck from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Print String in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property puck
+[2017.07.25-09.44.55:769][536]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] Hello
+[2017.07.25-09.44.55:769][536]LogWorld: Bringing up level for play took: 0.001871
+[2017.07.25-09.44.55:772][536]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap 0.164
+[2017.07.25-09.44.56:159][574]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.44.56:159][574]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.44.56:159][574]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property puck from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Print String in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property puck
+[2017.07.25-09.44.56:159][574]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] Hello
+[2017.07.25-09.45.12:371][ 28]BlueprintLog: New page: Compile PuckActor_BP
+[2017.07.25-09.45.12:794][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Blueprints/PuckActor_BP" FILE="../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset" SILENT=true
+[2017.07.25-09.45.12:813][ 49]LogSavePackage: Save=14.88ms
+[2017.07.25-09.45.12:813][ 49]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit/Saved/PuckActor_BPBDE0F2CA4B1D8A1298FEC7924FC5C562.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset'
+[2017.07.25-09.45.12:814][ 49]LogSavePackage:Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/PuckActor_BP.uasset
+[2017.07.25-09.45.14:882][254]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.25-09.45.14:895][254]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.45.14:895][254]PIE: New page: PIE session: PrototypeMap (Jul 25, 2017, 1:45:14 PM)
+[2017.07.25-09.45.14:896][254]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap
+[2017.07.25-09.45.14:898][254]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001951s)
+[2017.07.25-09.45.14:898][254]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.07.25-09.45.14:898][254]LogPlayLevel: PIE: World Init took: (0.000572s)
+[2017.07.25-09.45.14:898][254]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/PrototypeMap.PrototypeMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap (0.002702s)
+[2017.07.25-09.45.14:925][254]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.25-09.45.14:933][254]LogInit: FAudioDevice initialized.
+[2017.07.25-09.45.14:964][254]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.07.25-09.45.14:966][254]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2017.07.25-11.45.14
+[2017.07.25-09.45.14:967][254]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.45.14:967][254]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.45.14:967][254]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property puck from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Print String in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property puck
+[2017.07.25-09.45.14:967][254]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] Hello
+[2017.07.25-09.45.14:967][254]LogWorld: Bringing up level for play took: 0.001910
+[2017.07.25-09.45.14:970][254]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_PrototypeMap -0.639
+[2017.07.25-09.45.15:365][297]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] begin overlap
+[2017.07.25-09.45.15:365][297]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property gamemode from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Call Player Score Event Dispatcher in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property gamemode
+[2017.07.25-09.45.15:366][297]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property puck from function: 'ExecuteUbergraph_TriggerBoxGoal_Blueprint' from node: Print String in graph: EventGraph in object: TriggerBoxGoal_Blueprint with description: Accessed None trying to read property puck
+[2017.07.25-09.45.15:366][297]LogBlueprintUserMessages: [TriggerBoxGoal_Blueprint] Hello
+[2017.07.25-09.45.20:458][855]LogWindows: Windows GetLastError: Der Vorgang wurde erfolgreich beendet. (0)
+[2017.07.25-09.45.20:971][855]LogCrashTracker: 
+
+
+[2017.07.25-09.45.20:971][855]LogCrashTracker: 
+
+
+[2017.07.25-09.45.20:971][855]LogWindows:Error: === Critical error: ===
+[2017.07.25-09.45.20:971][855]LogWindows:Error: 
+[2017.07.25-09.45.20:971][855]LogWindows:Error: Assertion failed: Class != NULL [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\PropertyEditor\Private\UserInterface\PropertyEditor\SPropertyEditorAsset.cpp] [Line: 989] 
+[2017.07.25-09.45.20:971][855]LogWindows:Error: Property (ObjectProperty /Game/VirtualRealityBP/Blueprints/TriggerBoxGoal_Blueprint.TriggerBoxGoal_Blueprint_C:puck) is not an object or interface class
+[2017.07.25-09.45.20:971][855]LogWindows:Error: 
+[2017.07.25-09.45.20:971][855]LogWindows:Error: 
+[2017.07.25-09.45.20:971][855]LogWindows:Error: KERNELBASE.dll!0x00000000AECB3C58
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-Core.dll!0x000000007B99AF9E
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-Core.dll!0x000000007B7B243B
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-Core.dll!0x000000007B7407E9
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000007493D2BE
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000007490EBF8
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x00000000746B70CB
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000007471B576
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x00000000747173EC
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x00000000746B8B2F
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x00000000747A5BD5
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000007477E967
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000007477E783
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x0000000074850445
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x00000000746B5A94
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x00000000747539AF
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x0000000074892115
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x0000000074811360
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x0000000074812684
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x0000000074866A0E
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000007486503A
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000007486D1F3
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000007486F528
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x00000000748A6917
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-Slate.dll!0x000000007AF6D765
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x00000000748C623B
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C518F
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C4003
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C563A
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C4148
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C394C
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C563A
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C4148
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-Slate.dll!0x000000007AEB8D37
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C563A
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C4148
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:971][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C394C
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-Slate.dll!0x000000007AEB8A59
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C563A
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C4148
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C394C
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C394C
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-Slate.dll!0x000000007AEB8A59
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C4003
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C563A
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C4148
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C394C
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C563A
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-Slate.dll!0x000000007AF3677D
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C4003
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C394C
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C563A
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C4148
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C394C
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C394C
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-Slate.dll!0x000000007AEB8A59
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C4003
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C563A
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C4148
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C394C
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C563A
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-Slate.dll!0x000000007AF3677D
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C4003
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C394C
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C563A
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C4148
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C563A
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C4148
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C4003
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C394C
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C41EA
+[2017.07.25-09.45.20:972][855]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000007B2C51E2
+[2017.07.25-09.45.20:972][855]LogWindows:Error: 
+[2017.07.25-09.45.20:983][855]LogExit: Executing StaticShutdownAfterError
+[2017.07.25-09.45.20:990][855]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.07.25-09.45.20:990][855]Log file closed, 07/25/17 11:45:20
