@@ -1,0 +1,1043 @@
+﻿Log file open, 09/01/17 11:10:34
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: DSHockeyGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1310009840) SRandInit(-1310009840).
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.323253
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.01-09.10.35:422][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.01-09.10.35:422][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.01-09.10.35:461][  0]LogInit: Computer: PC1011604140
+[2017.09.01-09.10.35:461][  0]LogInit: User: LocalAdmin
+[2017.09.01-09.10.35:461][  0]LogInit: CPU Page size=4096, Cores=6
+[2017.09.01-09.10.35:461][  0]LogInit: High frequency timer resolution =3.220788 MHz
+[2017.09.01-09.10.35:462][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.09.01-09.10.35:462][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.01-09.10.35:462][  0]LogMemory: Process Physical Memory: 279.41 MB used, 279.41 MB peak
+[2017.09.01-09.10.35:462][  0]LogMemory: Process Virtual Memory: 282.89 MB used, 282.89 MB peak
+[2017.09.01-09.10.35:462][  0]LogMemory: Physical Memory: 2595.85 MB used,  13699.09 MB free, 16294.94 MB total
+[2017.09.01-09.10.35:462][  0]LogMemory: Virtual Memory: 683.29 MB used,  13699.09 MB free, 134217728.00 MB total
+[2017.09.01-09.10.35:920][  0]LogInit: Using OS detected language (de-DE).
+[2017.09.01-09.10.35:920][  0]LogInit: Using OS detected locale (de-DE).
+[2017.09.01-09.10.35:932][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the language.
+[2017.09.01-09.10.35:933][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the locale.
+[2017.09.01-09.10.36:934][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.01-09.10.36:974][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980 Ti' (Feature Level 11_0)
+[2017.09.01-09.10.36:974][  0]LogD3D11RHI:       6102/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.01-09.10.36:976][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.01-09.10.36:976][  0]LogD3D11RHI:       0/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.01-09.10.36:976][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.01-09.10.36:980][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.01-09.10.36:980][  0]LogD3D11RHI:     GPU DeviceId: 0x17c8 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.01-09.10.36:980][  0]LogWindows: EnumDisplayDevices:
+[2017.09.01-09.10.36:980][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980 Ti' (P:1 D:1)
+[2017.09.01-09.10.36:980][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2017.09.01-09.10.36:980][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2017.09.01-09.10.36:981][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2017.09.01-09.10.36:981][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.01-09.10.36:981][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980 Ti
+[2017.09.01-09.10.36:981][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.09.01-09.10.36:981][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.09.01-09.10.36:981][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.01-09.10.37:005][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.01-09.10.37:028][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.01-09.10.37:081][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../MA Daniel Schmidl/Masterarbeit 4.17/Intermediate/Shaders/WorkingDirectory/740/).
+[2017.09.01-09.10.37:081][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/LocalAdmin/AppData/Local/Temp/UnrealShaderWorkingDir/639193754CD3A9F8DE88349DD5C1C853/'.
+[2017.09.01-09.10.37:082][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.01-09.10.39:045][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.01-09.10.39:109][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.01-09.10.39:150][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.01-09.10.39:188][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.01-09.10.39:231][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.01-09.10.39:270][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.01-09.10.39:308][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.01-09.10.39:347][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.01-09.10.39:379][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.01-09.10.39:419][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.01-09.10.39:458][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.01-09.10.39:496][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.01-09.10.39:533][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.01-09.10.39:571][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.01-09.10.39:609][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.01-09.10.39:684][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.01-09.10.39:684][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.01-09.10.39:711][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.01-09.10.39:848][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.01-09.10.39:874][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.01-09.10.39:914][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.01-09.10.39:951][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.01-09.10.39:989][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.01-09.10.40:030][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.01-09.10.40:030][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.01-09.10.41:166][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.01-09.10.41:515][  0]LogDerivedDataCache: Loaded boot cache 0.35s 93MB C:/Users/LocalAdmin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.01-09.10.41:515][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/LocalAdmin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.01-09.10.41:515][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../MA Daniel Schmidl/Masterarbeit 4.17/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.01-09.10.41:515][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.01-09.10.41:515][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../MA Daniel Schmidl/Masterarbeit 4.17/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.01-09.10.41:515][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.01-09.10.41:545][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.01-09.10.41:559][  0]LogDerivedDataCache: Using Local data cache path C:/Users/LocalAdmin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.01-09.10.41:572][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.01-09.10.41:573][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.01-09.10.41:577][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.01-09.10.41:577][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.01-09.10.46:686][  0]LogAssetRegistry: FAssetRegistry took 0.0272 seconds to start up
+[2017.09.01-09.10.46:914][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.01-09.10.47:210][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.01-09.10.47:679][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.01-09.10.47:749][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.01-09.10.47:749][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.01-09.10.47:749][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.01-09.10.47:749][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.01-09.10.47:749][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.01-09.10.48:298][  0]LogNetVersion: DSHockeyGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4108346606)
+[2017.09.01-09.10.48:538][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.021153 seconds
+[2017.09.01-09.10.48:543][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.01-09.10.48:543][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.09.01-09.10.48:543][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.01-09.10.48:582][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.01-09.10.52:727][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.01-09.10.52:787][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.01-09.10.53:503][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.01-09.10.53:916][  0]SourceControl: Source control is disabled
+[2017.09.01-09.10.53:916][  0]SourceControl: Source control is disabled
+[2017.09.01-09.10.53:950][  0]SourceControl: Source control is disabled
+[2017.09.01-09.10.53:983][  0]SourceControl: Source control is disabled
+[2017.09.01-09.10.54:406][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.01-09.10.54:585][  0]LogOcInput: OculusInput pre-init called
+[2017.09.01-09.10.54:786][  0]LogEngine: Initializing Engine...
+[2017.09.01-09.10.57:368][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-F79729DE
+[2017.09.01-09.10.57:698][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.01-09.10.57:698][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.01-09.10.57:856][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.01-09.10.57:887][  0]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.10.58:058][  0]LogInit: FAudioDevice initialized.
+[2017.09.01-09.10.58:177][  0]LogDerivedDataCache: Saved boot cache 0.12s 93MB C:/Users/LocalAdmin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.01-09.10.58:191][  0]LogInit: Texture streaming: Enabled
+[2017.09.01-09.10.58:268][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.01-09.10.58:268][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={9A4B88B6-4AA6-870F-B7BC-B1A57AFA2E45}
+[2017.09.01-09.10.58:432][  0]LogInit: Transaction tracking system initialized
+[2017.09.01-09.10.58:701][  0]BlueprintLog: New page: Editor Load
+[2017.09.01-09.10.59:452][  0]LocalizationService: Localization service is disabled
+[2017.09.01-09.10.59:930][  0]LogConsoleResponse: Display: 
+[2017.09.01-09.11.00:111][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.01-09.11.00:111][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.01-09.11.00:112][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.01-09.11.00:810][  0]LogFileCache: Scanning file cache for directory 'D:/MA Daniel Schmidl/Masterarbeit 4.17/Content/' took 0.01s
+[2017.09.01-09.11.00:842][  0]SourceControl: Source control is disabled
+[2017.09.01-09.11.00:842][  0]Cmd: MAP LOAD FILE="../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Maps/PrototypeMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.01-09.11.00:843][  0]LightingResults: New page: Lighting Build
+[2017.09.01-09.11.00:871][  0]MapCheck: New page: Map Check
+[2017.09.01-09.11.00:872][  0]LightingResults: New page: Lighting Build
+[2017.09.01-09.11.01:082][  0]LogBlueprint: Warning: [Compiler BP_MotionController] ProjectPointToNavigation_DEPRECATED  is deprecated; This version of ProjectPointToNavigation is deprecated. Please use the new version
+[2017.09.01-09.11.01:100][  0]LogBlueprint: Warning: [Compiler BP_MotionController] [0030.32] Compile of BP_MotionController successful, but with 1 Warning(s) [in 39 ms] (/Game/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController)
+[2017.09.01-09.11.01:543][  0]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.09.01-09.11.01:557][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.01-09.11.01:577][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.01-09.11.01:630][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.991ms to complete.
+[2017.09.01-09.11.01:630][  0]LogFileHelpers: Loading map 'PrototypeMap' took 0.788
+[2017.09.01-09.11.01:687][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.01-09.11.01:764][  0]LogCollectionManager: Loaded 0 collections in 0.000943 seconds
+[2017.09.01-09.11.01:828][  0]LogFileCache: Scanning file cache for directory 'D:/MA Daniel Schmidl/Masterarbeit 4.17/Saved/Collections/' took 0.01s
+[2017.09.01-09.11.01:828][  0]LogFileCache: Scanning file cache for directory 'D:/MA Daniel Schmidl/Masterarbeit 4.17/Content/Developers/LocalAdmin/Collections/' took 0.01s
+[2017.09.01-09.11.01:828][  0]LogFileCache: Scanning file cache for directory 'D:/MA Daniel Schmidl/Masterarbeit 4.17/Content/Collections/' took 0.01s
+[2017.09.01-09.11.01:828][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.09.01-09.11.01:837][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2386 classes and 500 folders.
+[2017.09.01-09.11.01:880][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.09.01-09.11.01:972][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.09.01-09.11.02:002][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.09.01-09.11.02:027][  0]LogSlate: Took 0.000994 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.01-09.11.02:030][  0]LogSlate: Took 0.000906 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.01-09.11.02:036][  0]LogSlate: Took 0.000831 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.01-09.11.02:135][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 26 NumSamples 1 (Frame:1).
+[2017.09.01-09.11.02:281][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.09.01-09.11.02:281][  0]LogLoad: (Engine Initialization) Total time: 31.50 seconds
+[2017.09.01-09.11.02:281][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.01-09.11.02:281][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.01-09.11.02:312][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.01-09.11.02:374][  1]LogAssetRegistry: Asset discovery search completed in 15.7108 seconds
+[2017.09.01-09.11.02:376][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.01-09.11.02:376][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000047 seconds (updated 0 objects)
+[2017.09.01-09.11.03:304][108]LogSlate: Took 0.001080 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.01-09.11.06:516][443]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.01-09.11.06:828][443]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
+[2017.09.01-09.11.07:850][443]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2017.09.01-09.11.07:852][443]LogMaterial: Missing cached shader map for material Ice, compiling. 
+[2017.09.01-09.11.07:935][443]LogMaterial: Missing cached shader map for material Ice, compiling. 
+[2017.09.01-09.11.07:947][443]LogMaterial: Missing cached shader map for material Ice, compiling. 
+[2017.09.01-09.11.07:982][443]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.01-09.11.09:185][443]LogSlate: Took 0.000993 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.01-09.11.09:328][444]MaterialEditorStats: Base pass shader: 126 instructions
+[2017.09.01-09.11.09:328][444]MaterialEditorStats: Vertex shader: 85 instructions
+[2017.09.01-09.11.09:328][444]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.01-09.11.12:198][656]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.01-09.11.12:256][656]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.01-09.11.12:321][656]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.01-09.11.15:966][ 79]LogStaticMesh: Building static mesh Arena_01_Circle...
+[2017.09.01-09.11.16:041][ 79]LogStaticMesh: Built static mesh [0.08s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Circle.Arena_01_Circle
+[2017.09.01-09.11.16:049][ 79]LogStaticMesh: Building static mesh Arena_01_Cube...
+[2017.09.01-09.11.20:638][ 79]LogStaticMesh: Built static mesh [4.59s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube.Arena_01_Cube
+[2017.09.01-09.11.20:781][ 79]LogStaticMesh: Building static mesh Arena_01_Cube_006...
+[2017.09.01-09.11.20:784][ 79]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.01-09.11.22:030][ 79]LogStaticMesh: Built static mesh [1.25s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_006.Arena_01_Cube_006
+[2017.09.01-09.11.22:088][ 79]LogStaticMesh: Building static mesh Arena_01_Cube_007...
+[2017.09.01-09.11.23:229][ 79]LogStaticMesh: Built static mesh [1.14s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_007.Arena_01_Cube_007
+[2017.09.01-09.11.23:285][ 79]LogMaterial: Missing cached shader map for material DarkGray, compiling. 
+[2017.09.01-09.11.23:304][ 79]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.09.01-09.11.30:255][722]LogSlate: Took 0.002433 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.01-09.11.31:290][821]LogRenderer: Reallocating scene render targets to support 1208x712 Format 26 NumSamples 1 (Frame:1).
+[2017.09.01-09.13.42:983][555]LogStaticMesh: Building static mesh Arena_01_Cube_001...
+[2017.09.01-09.13.44:320][555]LogStaticMesh: Built static mesh [1.34s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_001.Arena_01_Cube_001
+[2017.09.01-09.14.06:752][534]LogStaticMesh: Building static mesh Arena_01_Cube_012...
+[2017.09.01-09.14.07:759][534]LogStaticMesh: Built static mesh [1.01s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_012.Arena_01_Cube_012
+[2017.09.01-09.14.20:958][701]LogStaticMesh: Building static mesh Arena_01_Cube_016...
+[2017.09.01-09.14.23:036][701]LogStaticMesh: Built static mesh [2.08s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_016.Arena_01_Cube_016
+[2017.09.01-09.14.31:253][424]LogStaticMesh: Building static mesh Arena_01_Cube_020...
+[2017.09.01-09.14.31:306][424]LogStaticMesh: Built static mesh [0.05s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_020.Arena_01_Cube_020
+[2017.09.01-09.14.39:648][176]LogStaticMesh: Building static mesh Arena_01_Cube_021...
+[2017.09.01-09.14.43:382][176]LogStaticMesh: Built static mesh [3.73s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_021.Arena_01_Cube_021
+[2017.09.01-09.14.52:815][ 39]LogStaticMesh: Building static mesh Arena_01_Cube_022...
+[2017.09.01-09.14.56:622][ 39]LogStaticMesh: Built static mesh [3.81s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_022.Arena_01_Cube_022
+[2017.09.01-09.15.04:921][781]LogStaticMesh: Building static mesh Arena_01_Cube_025...
+[2017.09.01-09.15.06:792][781]LogStaticMesh: Built static mesh [1.87s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_025.Arena_01_Cube_025
+[2017.09.01-09.15.32:081][ 61]LogStaticMesh: Building static mesh Arena_01_Cube_026...
+[2017.09.01-09.15.32:391][ 61]LogStaticMesh: Built static mesh [0.31s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_026.Arena_01_Cube_026
+[2017.09.01-09.15.41:874][907]LogStaticMesh: Building static mesh Arena_01_Cube_027...
+[2017.09.01-09.15.43:004][907]LogStaticMesh: Built static mesh [1.13s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_027.Arena_01_Cube_027
+[2017.09.01-09.15.53:912][869]LogMaterial: Missing cached shader map for material Gra, compiling. 
+[2017.09.01-09.15.53:926][869]LogStaticMesh: Building static mesh Arena_01_Cube_028...
+[2017.09.01-09.15.53:972][869]LogStaticMesh: Built static mesh [0.05s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_028.Arena_01_Cube_028
+[2017.09.01-09.16.03:931][730]LogStaticMesh: Building static mesh Arena_01_Cube_031...
+[2017.09.01-09.16.03:967][730]LogStaticMesh: Built static mesh [0.04s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_031.Arena_01_Cube_031
+[2017.09.01-09.16.12:531][491]LogMaterial: Missing cached shader map for material Glas, compiling. 
+[2017.09.01-09.16.12:544][491]LogStaticMesh: Building static mesh Arena_01_Cube_032...
+[2017.09.01-09.16.12:600][491]LogStaticMesh: Built static mesh [0.06s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_032.Arena_01_Cube_032
+[2017.09.01-09.16.19:152][ 58]LogStaticMesh: Building static mesh Arena_01_Cube_033...
+[2017.09.01-09.16.19:167][ 58]LogStaticMesh: Built static mesh [0.02s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_033.Arena_01_Cube_033
+[2017.09.01-09.16.32:169][211]LogStaticMesh: Building static mesh Arena_01_Cube_035...
+[2017.09.01-09.16.45:041][211]LogStaticMesh: Built static mesh [12.87s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_035.Arena_01_Cube_035
+[2017.09.01-09.16.47:796][428]BlueprintLog: New page: Compile DonauArena_BP
+[2017.09.01-09.16.48:624][462]LogSavePackage: Save=37.67ms
+[2017.09.01-09.16.48:624][462]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/DonauArena_BP09B97ADA4A6A9367CCBFFBA00BD52991.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/DonauArena_BP.uasset'
+[2017.09.01-09.16.48:626][462]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/DonauArena_BP.uasset
+[2017.09.01-09.17.02:017][663]LogStaticMesh: Building static mesh Arena_01_Cube_038...
+[2017.09.01-09.17.03:073][663]LogStaticMesh: Built static mesh [1.06s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_038.Arena_01_Cube_038
+[2017.09.01-09.17.24:921][660]LogStaticMesh: Building static mesh Arena_01_HockeyField_Playarea_Limitation...
+[2017.09.01-09.17.25:104][660]LogStaticMesh: Built static mesh [0.18s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_HockeyField_Playarea_Limitation.Arena_01_HockeyField_Playarea_Limitation
+[2017.09.01-09.17.34:174][473]LogStaticMesh: Building static mesh Arena_01_Plane...
+[2017.09.01-09.17.34:179][473]LogStaticMesh: Built static mesh [0.00s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane.Arena_01_Plane
+[2017.09.01-09.17.52:683][ 37]LogStaticMesh: Building static mesh Arena_01_Plane_001...
+[2017.09.01-09.17.52:695][ 37]LogStaticMesh: Built static mesh [0.01s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_001.Arena_01_Plane_001
+[2017.09.01-09.17.59:681][668]LogStaticMesh: Building static mesh Arena_01_Plane_004...
+[2017.09.01-09.17.59:702][668]LogStaticMesh: Built static mesh [0.02s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_004.Arena_01_Plane_004
+[2017.09.01-09.18.05:581][198]LogStaticMesh: Building static mesh Arena_01_Plane_005...
+[2017.09.01-09.18.05:661][198]LogStaticMesh: Built static mesh [0.08s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_005.Arena_01_Plane_005
+[2017.09.01-09.18.16:279][170]LogStaticMesh: Building static mesh Arena_01_Plane_006...
+[2017.09.01-09.18.16:327][170]LogStaticMesh: Built static mesh [0.05s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_006.Arena_01_Plane_006
+[2017.09.01-09.18.22:699][738]LogStaticMesh: Building static mesh Arena_01_Plane_008...
+[2017.09.01-09.18.22:704][738]LogStaticMesh: Built static mesh [0.00s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_008.Arena_01_Plane_008
+[2017.09.01-09.18.29:362][335]LogStaticMesh: Building static mesh Arena_01_Plane_009...
+[2017.09.01-09.18.29:370][335]LogStaticMesh: Built static mesh [0.01s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_009.Arena_01_Plane_009
+[2017.09.01-09.18.29:374][335]LogMaterial: Missing cached shader map for material Ice, compiling. 
+[2017.09.01-09.18.36:045][912]LogStaticMesh: Building static mesh Arena_01_Plane_010...
+[2017.09.01-09.18.36:389][912]LogStaticMesh: Built static mesh [0.34s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_010.Arena_01_Plane_010
+[2017.09.01-09.18.43:311][531]LogStaticMesh: Building static mesh Arena_01_Plane_014...
+[2017.09.01-09.18.43:322][531]LogStaticMesh: Built static mesh [0.01s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_014.Arena_01_Plane_014
+[2017.09.01-09.18.55:767][640]LogStaticMesh: Building static mesh Arena_01_Plane_015...
+[2017.09.01-09.18.55:806][640]LogStaticMesh: Built static mesh [0.04s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_015.Arena_01_Plane_015
+[2017.09.01-09.19.03:584][337]LogStaticMesh: Building static mesh Arena_01_Plane_016...
+[2017.09.01-09.19.04:070][337]LogStaticMesh: Built static mesh [0.49s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_016.Arena_01_Plane_016
+[2017.09.01-09.19.51:293][559]BlueprintLog: New page: Compile DonauArena_BP
+[2017.09.01-09.19.52:110][591]LogSavePackage: Save=47.88ms
+[2017.09.01-09.19.52:110][591]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/DonauArena_BP8D3A185D4C420F95CE04438378D9B81A.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/DonauArena_BP.uasset'
+[2017.09.01-09.19.52:111][591]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/DonauArena_BP.uasset
+[2017.09.01-09.22.43:479][437]LogEditorActor: Deleted Actor: Field_BP_C
+[2017.09.01-09.22.43:500][437]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2017.09.01-09.22.48:247][  5]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.01-09.23.12:110][538]Cmd: TRANSACTION UNDO
+[2017.09.01-09.23.12:110][538]LogEditorTransaction: Undo Move Actors
+[2017.09.01-09.23.12:738][604]Cmd: TRANSACTION UNDO
+[2017.09.01-09.23.12:738][604]LogEditorTransaction: Undo Move Actors
+[2017.09.01-09.23.13:480][691]Cmd: TRANSACTION UNDO
+[2017.09.01-09.23.13:480][691]LogEditorTransaction: Undo Create Actors
+[2017.09.01-09.23.14:118][766]Cmd: TRANSACTION UNDO
+[2017.09.01-09.23.14:118][766]LogEditorTransaction: Undo Delete selection
+[2017.09.01-09.23.15:918][978]Cmd: TRANSACTION UNDO
+[2017.09.01-09.23.15:918][978]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.01-09.23.23:479][867]Cmd: MAP LOAD FILE="../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Maps/EVR_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.01-09.23.23:487][867]LightingResults: New page: Lighting Build
+[2017.09.01-09.23.23:489][867]LoadErrors: New page: Loading map: EVR_Map.umap
+[2017.09.01-09.23.23:489][867]MapCheck: New page: Map Check
+[2017.09.01-09.23.23:489][867]LightingResults: New page: Lighting Build
+[2017.09.01-09.23.23:540][867]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.23.23:548][867]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.01-09.23.23:593][867]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.01-09.23.23:659][867]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 64.779ms to complete.
+[2017.09.01-09.23.23:659][867]LogFileHelpers: Loading map 'EVR_Map' took 0.181
+[2017.09.01-09.23.28:025][377]LogEditorViewport: Clicking on Actor (LMB): Field_BP_C (Field)
+[2017.09.01-09.23.28:865][474]Cmd: DELETE
+[2017.09.01-09.23.28:865][474]Cmd: ACTOR DELETE
+[2017.09.01-09.23.28:869][474]LogEditorActor: Deleted Actor: Field_BP_C
+[2017.09.01-09.23.28:889][474]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2017.09.01-09.23.55:858][594]LogEditorViewport: Clicking on Actor (LMB): DonauArena_BP_C (DonauArena_BP)
+[2017.09.01-09.24.09:981][212]LogEditorViewport: Clicking on Actor (context menu): DonauArena_BP_C (DonauArena_BP)
+[2017.09.01-09.24.10:576][277]LogEditorViewport: Clicking on Actor (LMB): DonauArena_BP_C (DonauArena_BP)
+[2017.09.01-09.24.16:662][978]LogEditorViewport: Clicking on Actor (LMB): DonauArena_BP_C (DonauArena_BP)
+[2017.09.01-09.24.23:139][721]LogEditorViewport: Clicking on Actor (LMB): DonauArena_BP_C (DonauArena_BP)
+[2017.09.01-09.25.09:987][233]LogEditorViewport: Clicking on Actor (LMB): Goal_BP_C (Goal)
+[2017.09.01-09.25.23:577][779]LogEditorViewport: Clicking on Actor (LMB): DonauArena_BP_C (DonauArena_BP)
+[2017.09.01-09.25.24:537][890]LogEditorViewport: Clicking on Actor (LMB): Goal_BP_C (Goal)
+[2017.09.01-09.25.43:034][ 47]LogEditorViewport: Clicking on Actor (LMB): DonauArena_BP_C (DonauArena_BP)
+[2017.09.01-09.25.43:628][114]LogEditorViewport: Clicking on Actor (LMB): EVR_TriggerBoxGoal_Blueprint_C (EVR_TriggerBoxGoal_Blueprint)
+[2017.09.01-09.25.58:944][880]LogEditorViewport: Clicking on Actor (LMB): EVR_TriggerBoxNoGoal_BP_Blueprint_C (EVR_TriggerBoxNoGoal_BP_Blueprint)
+[2017.09.01-09.26.21:482][523]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (MotionControllerPawn)
+[2017.09.01-09.26.27:449][201]LogEditorViewport: Clicking on Actor (LMB): DonauArena_BP_C (DonauArena_BP)
+[2017.09.01-09.26.28:014][261]LogEditorViewport: Clicking on Actor (LMB): Puck_BP_C (Puck_BP)
+[2017.09.01-09.26.37:206][302]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.26.37:514][302]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.26.37:514][302]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:26:37 PM)
+[2017.09.01-09.26.37:514][302]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.26.37:517][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002928s)
+[2017.09.01-09.26.37:518][302]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.26.37:518][302]LogPlayLevel: PIE: World Init took: (0.000645s)
+[2017.09.01-09.26.37:518][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.003809s)
+[2017.09.01-09.26.37:571][302]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.26.37:580][302]LogInit: FAudioDevice initialized.
+[2017.09.01-09.26.37:619][302]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.26.37:624][302]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.26.37
+[2017.09.01-09.26.37:625][302]LogWorld: Bringing up level for play took: 0.004076
+[2017.09.01-09.26.37:626][302]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.26.37:655][302]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.09.01-09.26.37:656][302]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map -0.053
+[2017.09.01-09.26.37:682][303]LogRenderer: Reallocating scene render targets to support 1692x804 Format 26 NumSamples 1 (Frame:1).
+[2017.09.01-09.26.42:006][820]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
+[2017.09.01-09.26.44:046][ 65]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
+[2017.09.01-09.26.56:092][456]LogEditorViewport: Clicking on Actor (LMB): EVR_3D_Menu_C (EVR_3D_Menu)
+[2017.09.01-09.27.05:125][458]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.27.05:140][458]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.27.05:140][458]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:27:05 PM)
+[2017.09.01-09.27.05:140][458]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.27.05:143][458]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002926s)
+[2017.09.01-09.27.05:144][458]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.27.05:144][458]LogPlayLevel: PIE: World Init took: (0.000605s)
+[2017.09.01-09.27.05:144][458]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.003748s)
+[2017.09.01-09.27.05:184][458]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.27.05:192][458]LogInit: FAudioDevice initialized.
+[2017.09.01-09.27.05:221][458]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.27.05:224][458]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.27.05
+[2017.09.01-09.27.05:224][458]LogWorld: Bringing up level for play took: 0.003046
+[2017.09.01-09.27.05:225][458]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.27.05:225][458]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map -0.484
+[2017.09.01-09.27.12:652][301]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (MotionControllerPawn)
+[2017.09.01-09.27.26:947][967]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.27.26:962][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.27.26:962][967]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:27:26 PM)
+[2017.09.01-09.27.26:962][967]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.27.26:965][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002731s)
+[2017.09.01-09.27.26:965][967]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.27.26:965][967]LogPlayLevel: PIE: World Init took: (0.000597s)
+[2017.09.01-09.27.26:966][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.003557s)
+[2017.09.01-09.27.27:030][967]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.27.27:038][967]LogInit: FAudioDevice initialized.
+[2017.09.01-09.27.27:069][967]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.27.27:072][967]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.27.27
+[2017.09.01-09.27.27:072][967]LogWorld: Bringing up level for play took: 0.003183
+[2017.09.01-09.27.27:073][967]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.27.27:073][967]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map -0.636
+[2017.09.01-09.27.35:866][964]LogEditorViewport: Clicking on Actor (LMB): Goal_BP_C (Goal)
+[2017.09.01-09.27.51:905][855]LogEditorViewport: Clicking on Actor (LMB): DonauArena_BP_C (DonauArena_BP)
+[2017.09.01-09.27.53:010][983]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (MotionControllerPawn)
+[2017.09.01-09.28.04:803][269]LogEditorViewport: Clicking on Actor (LMB): Puck_BP_C (Puck_BP)
+[2017.09.01-09.28.07:222][548]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.28.07:236][548]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.28.07:237][548]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:28:07 PM)
+[2017.09.01-09.28.07:237][548]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.28.07:240][548]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002816s)
+[2017.09.01-09.28.07:240][548]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.28.07:240][548]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2017.09.01-09.28.07:240][548]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.003712s)
+[2017.09.01-09.28.07:279][548]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.28.07:287][548]LogInit: FAudioDevice initialized.
+[2017.09.01-09.28.07:319][548]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.28.07:322][548]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.28.07
+[2017.09.01-09.28.07:322][548]LogWorld: Bringing up level for play took: 0.003048
+[2017.09.01-09.28.07:323][548]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.28.07:323][548]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map -0.386
+[2017.09.01-09.28.11:560][ 55]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
+[2017.09.01-09.28.20:275][ 60]LogEditorViewport: Clicking on Actor (LMB): DonauArena_BP_C (DonauArena_BP)
+[2017.09.01-09.28.21:253][173]LogEditorViewport: Clicking on Actor (LMB): DonauArena_BP_C (DonauArena_BP)
+[2017.09.01-09.28.21:832][240]LogEditorViewport: Clicking on Actor (LMB): DonauArena_BP_C (DonauArena_BP)
+[2017.09.01-09.28.24:492][548]LogEditorViewport: Clicking on Actor (context menu): DonauArena_BP_C (DonauArena_BP)
+[2017.09.01-09.28.26:320][758]LogEditorViewport: Clicking on Actor (LMB): EVR_TriggerBoxNoGoal_BP_Blueprint_C (EVR_TriggerBoxNoGoal_BP_Blueprint)
+[2017.09.01-09.28.47:757][594]LogRenderer: Reallocating scene render targets to support 1692x924 Format 26 NumSamples 1 (Frame:1).
+[2017.09.01-09.28.57:301][435]LogSavePackage: Save=10.44ms
+[2017.09.01-09.28.57:301][435]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Arena_01_CircleB10D695C4530F0F088A2628C512B4889.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Circle.uasset'
+[2017.09.01-09.28.57:302][435]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Circle.uasset
+[2017.09.01-09.32.52:219][488]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.32.52:234][488]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.32.52:234][488]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:32:52 PM)
+[2017.09.01-09.32.52:234][488]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.32.52:237][488]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002892s)
+[2017.09.01-09.32.52:237][488]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.32.52:237][488]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2017.09.01-09.32.52:238][488]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.003811s)
+[2017.09.01-09.32.52:278][488]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.32.52:287][488]LogInit: FAudioDevice initialized.
+[2017.09.01-09.32.52:316][488]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.32.52:319][488]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.32.52
+[2017.09.01-09.32.52:319][488]LogWorld: Bringing up level for play took: 0.003181
+[2017.09.01-09.32.52:320][488]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.32.52:320][488]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 0.611
+[2017.09.01-09.32.56:705][ 13]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
+[2017.09.01-09.33.10:675][430]LogSavePackage: Save=13.31ms
+[2017.09.01-09.33.10:675][430]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Arena_01_Cube1EE275244E1E36263E501983B7A28D69.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube.uasset'
+[2017.09.01-09.33.10:677][430]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube.uasset
+[2017.09.01-09.33.18:416][137]LogSavePackage: Save=10.98ms
+[2017.09.01-09.33.18:416][137]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Arena_01_HockeyField_Playarea_LimitationB91D9E4E4EE2135587FC96BC1FF6CD87.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_HockeyField_Playarea_Limitation.uasset'
+[2017.09.01-09.33.18:418][137]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_HockeyField_Playarea_Limitation.uasset
+[2017.09.01-09.33.20:378][335]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.33.20:393][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.33.20:393][335]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:33:20 PM)
+[2017.09.01-09.33.20:393][335]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.33.20:396][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002829s)
+[2017.09.01-09.33.20:396][335]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.33.20:396][335]LogPlayLevel: PIE: World Init took: (0.000662s)
+[2017.09.01-09.33.20:396][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.003711s)
+[2017.09.01-09.33.20:434][335]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.33.20:442][335]LogInit: FAudioDevice initialized.
+[2017.09.01-09.33.20:474][335]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.33.20:478][335]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.33.20
+[2017.09.01-09.33.20:478][335]LogWorld: Bringing up level for play took: 0.003059
+[2017.09.01-09.33.20:478][335]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.33.20:479][335]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 0.77
+[2017.09.01-09.34.06:275][455]LogSavePackage: Save=66.79ms
+[2017.09.01-09.34.06:275][455]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/EVR_Map_Auto13CA9C73E4D87B4D3C83A589A03F15A93.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Autosaves/Game/VirtualRealityBP/Maps/EVR_Map_Auto1.umap'
+[2017.09.01-09.34.06:276][455]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Autosaves/Game/VirtualRealityBP/Maps/EVR_Map_Auto1.umap
+[2017.09.01-09.34.06:277][455]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/EVR_Map' took 0.094
+[2017.09.01-09.34.06:277][455]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.094
+[2017.09.01-09.34.25:438][542]LogSavePackage: Save=10.03ms
+[2017.09.01-09.34.25:438][542]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Arena_01_Plane_001D5001064483B8FDA55F02FAC63690E2B.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_001.uasset'
+[2017.09.01-09.34.25:439][542]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_001.uasset
+[2017.09.01-09.34.30:181][961]LogSavePackage: Save=11.97ms
+[2017.09.01-09.34.30:181][961]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Arena_01_Plane_004A0FA9FDC479AB6C1CB31B6B279414681.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_004.uasset'
+[2017.09.01-09.34.30:183][961]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_004.uasset
+[2017.09.01-09.34.35:243][401]LogSavePackage: Save=10.26ms
+[2017.09.01-09.34.35:243][401]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Arena_01_Plane_00525BBAC534CFBF3532C381EBFA80D5936.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_005.uasset'
+[2017.09.01-09.34.35:245][401]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_005.uasset
+[2017.09.01-09.34.40:281][849]LogSavePackage: Save=11.98ms
+[2017.09.01-09.34.40:281][849]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Arena_01_Plane_0066015A5814BB4C9ECB5226CBE9473C667.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_006.uasset'
+[2017.09.01-09.34.40:282][849]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_006.uasset
+[2017.09.01-09.34.44:078][180]LogSavePackage: Save=10.28ms
+[2017.09.01-09.34.44:078][180]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Arena_01_Plane_00850DB27AB42372BECF292219587050094.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_008.uasset'
+[2017.09.01-09.34.44:079][180]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_008.uasset
+[2017.09.01-09.34.53:453][  1]LogSavePackage: Save=10.77ms
+[2017.09.01-09.34.53:453][  1]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Arena_01_Plane_010B50636AC4BD370026DB8D99C2C2277C3.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_010.uasset'
+[2017.09.01-09.34.53:454][  1]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_010.uasset
+[2017.09.01-09.34.58:017][403]LogSavePackage: Save=10.26ms
+[2017.09.01-09.34.58:017][403]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Arena_01_Plane_014422E255A4ADDF55FF28476A93E9F1F04.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_014.uasset'
+[2017.09.01-09.34.58:019][403]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_014.uasset
+[2017.09.01-09.35.02:347][782]LogSavePackage: Save=10.56ms
+[2017.09.01-09.35.02:347][782]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Arena_01_Plane_0155B398BFF4025F9B3BE4009AB50C9E30B.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_015.uasset'
+[2017.09.01-09.35.02:349][782]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_015.uasset
+[2017.09.01-09.35.07:218][205]LogSavePackage: Save=11.03ms
+[2017.09.01-09.35.07:218][205]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Arena_01_Plane_0162EF503B14814028BB41D0EBC0F28E1D5.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_016.uasset'
+[2017.09.01-09.35.07:220][205]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_016.uasset
+[2017.09.01-09.35.13:508][782]LogSavePackage: Save=11.70ms
+[2017.09.01-09.35.13:509][782]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Arena_01_Cube_032D177E1E14A7F968A1440E4A0E0047B9B.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_032.uasset'
+[2017.09.01-09.35.13:510][782]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_032.uasset
+[2017.09.01-09.35.18:266][199]LogSavePackage: Save=10.12ms
+[2017.09.01-09.35.18:266][199]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Arena_01_Cube_0319718F82D4A8AF27FCAA338B7A278E190.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_031.uasset'
+[2017.09.01-09.35.18:267][199]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_031.uasset
+[2017.09.01-09.35.22:599][574]LogSavePackage: Save=10.16ms
+[2017.09.01-09.35.22:599][574]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Arena_01_Cube_0287AA66AF341DBDDC32FF37F88728C0817.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_028.uasset'
+[2017.09.01-09.35.22:600][574]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_028.uasset
+[2017.09.01-09.35.27:749][ 24]LogSavePackage: Save=11.73ms
+[2017.09.01-09.35.27:749][ 24]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Arena_01_Cube_0279C0AEFED472BE822B84BC682C1DAAFC3.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_027.uasset'
+[2017.09.01-09.35.27:751][ 24]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_027.uasset
+[2017.09.01-09.35.34:837][642]LogSavePackage: Save=11.74ms
+[2017.09.01-09.35.34:837][642]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Arena_01_Cube_02637FB9D13494769E4696EED90C979D564.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_026.uasset'
+[2017.09.01-09.35.34:839][642]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_026.uasset
+[2017.09.01-09.35.40:744][176]LogSavePackage: Save=12.43ms
+[2017.09.01-09.35.40:744][176]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Arena_01_Cube_025A7B2D62D472302753FDBC697DFAB7003.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_025.uasset'
+[2017.09.01-09.35.40:746][176]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_025.uasset
+[2017.09.01-09.35.45:068][543]LogSavePackage: Save=13.19ms
+[2017.09.01-09.35.45:068][543]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Arena_01_Cube_022C844DA6B4599B607C5701A85C26E7840.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_022.uasset'
+[2017.09.01-09.35.45:070][543]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_022.uasset
+[2017.09.01-09.35.49:694][930]LogSavePackage: Save=13.26ms
+[2017.09.01-09.35.49:694][930]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Arena_01_Cube_021A095504445513279F9CFAA9FDC456007.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_021.uasset'
+[2017.09.01-09.35.49:696][930]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_021.uasset
+[2017.09.01-09.35.53:828][286]LogSavePackage: Save=11.11ms
+[2017.09.01-09.35.53:828][286]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Arena_01_Cube_02005CF93844282F56862CAD59776A0C3C3.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_020.uasset'
+[2017.09.01-09.35.53:830][286]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_020.uasset
+[2017.09.01-09.35.58:137][653]LogSavePackage: Save=11.93ms
+[2017.09.01-09.35.58:137][653]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Arena_01_Cube_0162EB772BE40F7EEB514F414AF367BDE31.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_016.uasset'
+[2017.09.01-09.35.58:139][653]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_016.uasset
+[2017.09.01-09.36.02:904][ 38]LogSavePackage: Save=14.44ms
+[2017.09.01-09.36.02:904][ 38]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Arena_01_Cube_01267DC25BC40373A82EE95469BAD4DE270.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_012.uasset'
+[2017.09.01-09.36.02:906][ 38]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_012.uasset
+[2017.09.01-09.36.06:905][368]LogSavePackage: Save=12.44ms
+[2017.09.01-09.36.06:905][368]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Arena_01_Cube_00724E6907F4A05B281F3244994ED3443CA.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_007.uasset'
+[2017.09.01-09.36.06:907][368]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_007.uasset
+[2017.09.01-09.36.12:266][826]LogSavePackage: Save=13.81ms
+[2017.09.01-09.36.12:266][826]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Arena_01_Cube_0065288842D4414019686FCFABE75C67B11.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_006.uasset'
+[2017.09.01-09.36.12:267][826]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_006.uasset
+[2017.09.01-09.36.17:692][294]LogSavePackage: Save=12.30ms
+[2017.09.01-09.36.17:692][294]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Arena_01_Cube_001414A199D4115D058742235BA14AF8001.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_001.uasset'
+[2017.09.01-09.36.17:693][294]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_001.uasset
+[2017.09.01-09.36.24:381][932]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.36.24:396][932]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.36.24:396][932]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:36:24 PM)
+[2017.09.01-09.36.24:396][932]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.36.24:399][932]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002794s)
+[2017.09.01-09.36.24:400][932]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.36.24:400][932]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2017.09.01-09.36.24:400][932]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.003839s)
+[2017.09.01-09.36.24:454][932]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.36.24:463][932]LogInit: FAudioDevice initialized.
+[2017.09.01-09.36.24:495][932]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.36.24:498][932]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.36.24
+[2017.09.01-09.36.24:499][932]LogWorld: Bringing up level for play took: 0.002831
+[2017.09.01-09.36.24:499][932]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.36.24:500][932]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 0.791
+[2017.09.01-09.36.40:246][755]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.36.40:261][755]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.36.40:261][755]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:36:40 PM)
+[2017.09.01-09.36.40:261][755]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.36.40:264][755]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002829s)
+[2017.09.01-09.36.40:265][755]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.36.40:265][755]LogPlayLevel: PIE: World Init took: (0.000639s)
+[2017.09.01-09.36.40:265][755]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.003690s)
+[2017.09.01-09.36.40:301][755]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.36.40:309][755]LogInit: FAudioDevice initialized.
+[2017.09.01-09.36.40:336][755]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.36.40:339][755]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.36.40
+[2017.09.01-09.36.40:340][755]LogWorld: Bringing up level for play took: 0.002751
+[2017.09.01-09.36.40:340][755]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.36.40:341][755]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 0.632
+[2017.09.01-09.36.57:051][655]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.36.57:065][655]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.36.57:065][655]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:36:57 PM)
+[2017.09.01-09.36.57:065][655]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.36.57:068][655]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002796s)
+[2017.09.01-09.36.57:069][655]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.36.57:069][655]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2017.09.01-09.36.57:069][655]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.003630s)
+[2017.09.01-09.36.57:105][655]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.36.57:114][655]LogInit: FAudioDevice initialized.
+[2017.09.01-09.36.57:147][655]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.36.57:150][655]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.36.57
+[2017.09.01-09.36.57:150][655]LogWorld: Bringing up level for play took: 0.002697
+[2017.09.01-09.36.57:151][655]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.36.57:151][655]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map -0.558
+[2017.09.01-09.37.01:460][158]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.37.01:475][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.37.01:475][158]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:37:01 PM)
+[2017.09.01-09.37.01:475][158]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.37.01:478][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002767s)
+[2017.09.01-09.37.01:479][158]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.37.01:479][158]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2017.09.01-09.37.01:479][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.003601s)
+[2017.09.01-09.37.01:517][158]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.37.01:525][158]LogInit: FAudioDevice initialized.
+[2017.09.01-09.37.01:554][158]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.37.01:558][158]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.37.01
+[2017.09.01-09.37.01:558][158]LogWorld: Bringing up level for play took: 0.002792
+[2017.09.01-09.37.01:558][158]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.37.01:559][158]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map -0.15
+[2017.09.01-09.37.18:915][187]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume_Floor)
+[2017.09.01-09.37.25:823][  7]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.37.25:838][  7]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.37.25:838][  7]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:37:25 PM)
+[2017.09.01-09.37.25:839][  7]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.37.25:841][  7]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002798s)
+[2017.09.01-09.37.25:842][  7]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.37.25:842][  7]LogPlayLevel: PIE: World Init took: (0.000643s)
+[2017.09.01-09.37.25:842][  7]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.003654s)
+[2017.09.01-09.37.25:878][  7]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.37.25:886][  7]LogInit: FAudioDevice initialized.
+[2017.09.01-09.37.25:916][  7]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.37.25:920][  7]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.37.25
+[2017.09.01-09.37.25:920][  7]LogWorld: Bringing up level for play took: 0.003036
+[2017.09.01-09.37.25:920][  7]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.37.25:921][  7]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 0.212
+[2017.09.01-09.37.33:705][922]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.37.33:719][922]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.37.33:719][922]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:37:33 PM)
+[2017.09.01-09.37.33:719][922]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.37.33:722][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002820s)
+[2017.09.01-09.37.33:723][922]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.37.33:723][922]LogPlayLevel: PIE: World Init took: (0.000616s)
+[2017.09.01-09.37.33:723][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.003652s)
+[2017.09.01-09.37.33:760][922]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.37.33:768][922]LogInit: FAudioDevice initialized.
+[2017.09.01-09.37.33:800][922]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.37.33:803][922]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.37.33
+[2017.09.01-09.37.33:804][922]LogWorld: Bringing up level for play took: 0.002807
+[2017.09.01-09.37.33:804][922]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.37.33:805][922]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 0.096
+[2017.09.01-09.37.38:876][517]LogEditorViewport: Clicking on Actor (LMB): DonauArena_BP_C (DonauArena_BP)
+[2017.09.01-09.37.46:568][401]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.37.46:583][401]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.37.46:583][401]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:37:46 PM)
+[2017.09.01-09.37.46:583][401]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.37.46:586][401]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002848s)
+[2017.09.01-09.37.46:587][401]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.37.46:587][401]LogPlayLevel: PIE: World Init took: (0.000613s)
+[2017.09.01-09.37.46:587][401]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.003674s)
+[2017.09.01-09.37.46:622][401]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.37.46:631][401]LogInit: FAudioDevice initialized.
+[2017.09.01-09.37.46:659][401]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.37.46:662][401]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.37.46
+[2017.09.01-09.37.46:662][401]LogWorld: Bringing up level for play took: 0.002728
+[2017.09.01-09.37.46:663][401]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.37.46:663][401]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 0.954
+[2017.09.01-09.37.56:116][504]LogEditorViewport: Clicking on Actor (LMB): DonauArena_BP_C (DonauArena_BP)
+[2017.09.01-09.38.00:437][  2]LogEditorViewport: Clicking on Actor (LMB): DonauArena_BP_C (DonauArena_BP)
+[2017.09.01-09.38.01:176][ 80]LogEditorViewport: Clicking on Actor (LMB): DonauArena_BP_C (DonauArena_BP)
+[2017.09.01-09.38.02:664][240]LogEditorViewport: Clicking on Actor (LMB): DonauArena_BP_C (DonauArena_BP)
+[2017.09.01-09.39.39:503][815]LogEditorViewport: Clicking on Actor (context menu): DonauArena_BP_C (DonauArena_BP)
+[2017.09.01-09.39.54:027][456]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.39.54:042][456]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.39.54:042][456]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:39:54 PM)
+[2017.09.01-09.39.54:042][456]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.39.54:045][456]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003000s)
+[2017.09.01-09.39.54:046][456]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.39.54:046][456]LogPlayLevel: PIE: World Init took: (0.000677s)
+[2017.09.01-09.39.54:046][456]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.003915s)
+[2017.09.01-09.39.54:083][456]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.39.54:092][456]LogInit: FAudioDevice initialized.
+[2017.09.01-09.39.54:125][456]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.39.54:128][456]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.39.54
+[2017.09.01-09.39.54:129][456]LogWorld: Bringing up level for play took: 0.002799
+[2017.09.01-09.39.54:129][456]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.39.54:130][456]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 0.421
+[2017.09.01-09.40.01:218][255]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.09.01-09.40.12:062][543]Cmd: DELETE
+[2017.09.01-09.40.12:062][543]Cmd: ACTOR DELETE
+[2017.09.01-09.40.12:062][543]LogEditorActor: Deleted Actor: DirectionalLight
+[2017.09.01-09.40.12:082][543]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2017.09.01-09.40.14:288][804]LogEditorActor: Deleted Actor: DirectionalLight
+[2017.09.01-09.40.14:308][804]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2017.09.01-09.40.27:083][318]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.40.27:098][318]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.40.27:098][318]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:40:27 PM)
+[2017.09.01-09.40.27:098][318]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.40.27:101][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002760s)
+[2017.09.01-09.40.27:102][318]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.40.27:102][318]LogPlayLevel: PIE: World Init took: (0.000666s)
+[2017.09.01-09.40.27:102][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.003646s)
+[2017.09.01-09.40.27:139][318]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.40.27:148][318]LogInit: FAudioDevice initialized.
+[2017.09.01-09.40.27:178][318]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.40.27:181][318]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.40.27
+[2017.09.01-09.40.27:181][318]LogWorld: Bringing up level for play took: 0.002751
+[2017.09.01-09.40.27:182][318]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.40.27:182][318]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map -0.527
+[2017.09.01-09.40.34:652][172]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2017.09.01-09.40.38:867][667]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.40.38:883][667]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.40.38:883][667]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:40:38 PM)
+[2017.09.01-09.40.38:883][667]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.40.38:886][667]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002808s)
+[2017.09.01-09.40.38:886][667]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.40.38:886][667]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2017.09.01-09.40.38:886][667]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.003641s)
+[2017.09.01-09.40.38:922][667]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.40.38:930][667]LogInit: FAudioDevice initialized.
+[2017.09.01-09.40.38:958][667]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.40.38:961][667]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.40.38
+[2017.09.01-09.40.38:961][667]LogWorld: Bringing up level for play took: 0.002697
+[2017.09.01-09.40.38:961][667]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.40.38:962][667]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map -0.747
+[2017.09.01-09.40.43:500][198]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2017.09.01-09.40.45:762][465]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.40.45:777][465]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.40.45:777][465]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:40:45 PM)
+[2017.09.01-09.40.45:777][465]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.40.45:780][465]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002773s)
+[2017.09.01-09.40.45:780][465]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.40.45:780][465]LogPlayLevel: PIE: World Init took: (0.000614s)
+[2017.09.01-09.40.45:780][465]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.003604s)
+[2017.09.01-09.40.45:817][465]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.40.45:825][465]LogInit: FAudioDevice initialized.
+[2017.09.01-09.40.45:855][465]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.40.45:858][465]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.40.45
+[2017.09.01-09.40.45:858][465]LogWorld: Bringing up level for play took: 0.002847
+[2017.09.01-09.40.45:858][465]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.40.45:859][465]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 0.15
+[2017.09.01-09.40.48:593][780]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2017.09.01-09.40.54:275][455]Cmd: DELETE
+[2017.09.01-09.40.54:275][455]Cmd: ACTOR DELETE
+[2017.09.01-09.40.54:275][455]LogEditorActor: Deleted Actor: SpotLight
+[2017.09.01-09.40.54:295][455]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2017.09.01-09.41.01:211][260]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.41.01:226][260]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.41.01:226][260]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:41:01 PM)
+[2017.09.01-09.41.01:226][260]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.41.01:229][260]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002801s)
+[2017.09.01-09.41.01:229][260]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.41.01:229][260]LogPlayLevel: PIE: World Init took: (0.000611s)
+[2017.09.01-09.41.01:230][260]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.003630s)
+[2017.09.01-09.41.01:266][260]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.41.01:274][260]LogInit: FAudioDevice initialized.
+[2017.09.01-09.41.01:307][260]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.41.01:310][260]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.41.01
+[2017.09.01-09.41.01:310][260]LogWorld: Bringing up level for play took: 0.002920
+[2017.09.01-09.41.01:311][260]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.41.01:311][260]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map -0.398
+[2017.09.01-09.41.05:004][690]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.09.01-09.41.05:147][705]Cmd: DELETE
+[2017.09.01-09.41.05:147][705]Cmd: ACTOR DELETE
+[2017.09.01-09.41.05:147][705]LogEditorActor: Deleted Actor: SkyLight
+[2017.09.01-09.41.05:168][705]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2017.09.01-09.41.14:231][755]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.09.01-09.41.53:810][454]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.41.53:824][454]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.41.53:825][454]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:41:53 PM)
+[2017.09.01-09.41.53:825][454]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.41.53:827][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002850s)
+[2017.09.01-09.41.53:828][454]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.41.53:828][454]LogPlayLevel: PIE: World Init took: (0.000611s)
+[2017.09.01-09.41.53:828][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.003681s)
+[2017.09.01-09.41.53:866][454]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.41.53:874][454]LogInit: FAudioDevice initialized.
+[2017.09.01-09.41.53:903][454]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.41.53:906][454]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.41.53
+[2017.09.01-09.41.53:906][454]LogWorld: Bringing up level for play took: 0.002879
+[2017.09.01-09.41.53:907][454]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.41.53:907][454]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 0.198
+[2017.09.01-09.42.03:002][500]LogEditorViewport: Clicking on Actor (LMB): Puck_BP_C (Puck_BP)
+[2017.09.01-09.42.13:153][699]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.42.13:168][699]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.42.13:168][699]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:42:13 PM)
+[2017.09.01-09.42.13:168][699]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.42.13:171][699]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002865s)
+[2017.09.01-09.42.13:172][699]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.42.13:172][699]LogPlayLevel: PIE: World Init took: (0.000594s)
+[2017.09.01-09.42.13:172][699]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.003677s)
+[2017.09.01-09.42.13:208][699]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.42.13:216][699]LogInit: FAudioDevice initialized.
+[2017.09.01-09.42.13:245][699]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.42.13:248][699]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.42.13
+[2017.09.01-09.42.13:248][699]LogWorld: Bringing up level for play took: 0.002805
+[2017.09.01-09.42.13:249][699]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.42.13:249][699]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map -0.46
+[2017.09.01-09.42.47:061][218]LogMaterial: Missing cached shader map for material M_ColorGrid_LowSpec, compiling. 
+[2017.09.01-09.42.55:998][  2]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2017.09.01-09.44.44:976][909]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.44.44:991][909]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.44.44:991][909]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:44:44 PM)
+[2017.09.01-09.44.44:991][909]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.44.44:994][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003123s)
+[2017.09.01-09.44.44:995][909]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.44.44:995][909]LogPlayLevel: PIE: World Init took: (0.000685s)
+[2017.09.01-09.44.44:995][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.004045s)
+[2017.09.01-09.44.45:034][909]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.44.45:042][909]LogInit: FAudioDevice initialized.
+[2017.09.01-09.44.45:071][909]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.44.45:074][909]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.44.45
+[2017.09.01-09.44.45:074][909]LogWorld: Bringing up level for play took: 0.002852
+[2017.09.01-09.44.45:075][909]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.44.45:075][909]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map -0.634
+[2017.09.01-09.44.48:786][351]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] Hello
+[2017.09.01-09.44.48:786][351]LogScript: Warning: Accessed None trying to read property Puck
+	EVR_TriggerBoxNoGoal_BP_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map:PersistentLevel.EVR_TriggerBoxNoGoal_BP_Blueprint_5
+	Function /Game/VirtualRealityBP/Blueprints/Level_EVR/EVR_TriggerBoxNoGoal_BP_Blueprint.EVR_TriggerBoxNoGoal_BP_Blueprint_C:ExecuteUbergraph_EVR_TriggerBoxNoGoal_BP_Blueprint:00FD
+[2017.09.01-09.44.48:786][351]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Puck from function: 'ExecuteUbergraph_EVR_TriggerBoxNoGoal_BP_Blueprint' from node: Teleport in graph: EventGraph in object: EVR_TriggerBoxNoGoal_BP_Blueprint with description: Accessed None trying to read property Puck
+[2017.09.01-09.44.54:485][988]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (MotionControllerPawn)
+[2017.09.01-09.44.58:764][470]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.44.58:779][470]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.44.58:779][470]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:44:58 PM)
+[2017.09.01-09.44.58:779][470]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.44.58:782][470]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002985s)
+[2017.09.01-09.44.58:782][470]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.44.58:782][470]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2017.09.01-09.44.58:783][470]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.003826s)
+[2017.09.01-09.44.58:843][470]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.44.58:851][470]LogInit: FAudioDevice initialized.
+[2017.09.01-09.44.58:881][470]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.44.58:884][470]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.44.58
+[2017.09.01-09.44.58:885][470]LogWorld: Bringing up level for play took: 0.002806
+[2017.09.01-09.44.58:885][470]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.44.58:886][470]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map -0.824
+[2017.09.01-09.45.10:605][825]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (MotionControllerPawn)
+[2017.09.01-09.45.23:612][367]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.45.23:627][367]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.45.23:627][367]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:45:23 PM)
+[2017.09.01-09.45.23:627][367]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.45.23:630][367]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002948s)
+[2017.09.01-09.45.23:631][367]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.45.23:631][367]LogPlayLevel: PIE: World Init took: (0.000717s)
+[2017.09.01-09.45.23:631][367]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.003887s)
+[2017.09.01-09.45.23:693][367]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.45.23:701][367]LogInit: FAudioDevice initialized.
+[2017.09.01-09.45.23:732][367]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.45.23:735][367]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.45.23
+[2017.09.01-09.45.23:735][367]LogWorld: Bringing up level for play took: 0.002810
+[2017.09.01-09.45.23:736][367]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.45.23:736][367]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 0.027
+[2017.09.01-09.46.22:610][213]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.46.22:625][213]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.46.22:625][213]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:46:22 PM)
+[2017.09.01-09.46.22:625][213]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.46.22:628][213]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003048s)
+[2017.09.01-09.46.22:629][213]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.46.22:629][213]LogPlayLevel: PIE: World Init took: (0.000727s)
+[2017.09.01-09.46.22:629][213]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.003996s)
+[2017.09.01-09.46.22:667][213]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.46.22:675][213]LogInit: FAudioDevice initialized.
+[2017.09.01-09.46.22:709][213]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.46.22:713][213]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.46.22
+[2017.09.01-09.46.22:713][213]LogWorld: Bringing up level for play took: 0.002928
+[2017.09.01-09.46.22:713][213]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.46.22:714][213]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 1.004
+[2017.09.01-09.46.28:364][876]LogEditorViewport: Clicking on Actor (LMB): DonauArena_BP_C (DonauArena_BP)
+[2017.09.01-09.46.56:927][490]LogSavePackage: Save=12.02ms
+[2017.09.01-09.46.56:927][490]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Arena_01_HockeyField_Playarea_LimitationDD885CFA49775C29FA6D4283CDAB1E86.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_HockeyField_Playarea_Limitation.uasset'
+[2017.09.01-09.46.56:929][490]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Content/VirtualRealityBP/Blueprints/DonauArena/Arena_01_HockeyField_Playarea_Limitation.uasset
+[2017.09.01-09.46.58:365][642]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.46.58:380][642]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.46.58:380][642]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:46:58 PM)
+[2017.09.01-09.46.58:380][642]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.46.58:383][642]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003103s)
+[2017.09.01-09.46.58:384][642]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.46.58:384][642]LogPlayLevel: PIE: World Init took: (0.000636s)
+[2017.09.01-09.46.58:384][642]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.003960s)
+[2017.09.01-09.46.58:422][642]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.46.58:430][642]LogInit: FAudioDevice initialized.
+[2017.09.01-09.46.58:459][642]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.46.58:462][642]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.46.58
+[2017.09.01-09.46.58:463][642]LogWorld: Bringing up level for play took: 0.002912
+[2017.09.01-09.46.58:463][642]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.46.58:464][642]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 0.755
+[2017.09.01-09.47.40:776][681]LogSavePackage: Save=71.71ms
+[2017.09.01-09.47.40:776][681]LogSavePackage: Moving '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/EVR_Map_Auto20C3FF4D64D634A4331952B8844D5BE99.tmp' to '../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Autosaves/Game/VirtualRealityBP/Maps/EVR_Map_Auto2.umap'
+[2017.09.01-09.47.40:777][681]LogSavePackage: Display: Finished SavePackage ../../../../MA Daniel Schmidl/Masterarbeit 4.17/Saved/Autosaves/Game/VirtualRealityBP/Maps/EVR_Map_Auto2.umap
+[2017.09.01-09.47.40:778][681]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/EVR_Map' took 0.099
+[2017.09.01-09.47.40:778][681]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.099
+[2017.09.01-09.49.34:529][288]LogEditorViewport: Clicking on Actor (LMB): DonauArena_BP_C (DonauArena_BP)
+[2017.09.01-09.49.35:071][350]LogEditorViewport: Clicking on Actor (LMB): Goal_BP_C (Goal)
+[2017.09.01-09.49.44:003][350]LogEditorViewport: Clicking on Actor (LMB): DonauArena_BP_C (DonauArena_BP)
+[2017.09.01-09.49.44:652][423]LogEditorViewport: Clicking on Actor (LMB): DonauArena_BP_C (DonauArena_BP)
+[2017.09.01-09.49.45:605][534]LogEditorViewport: Clicking on Actor (LMB): EVR_TriggerBoxGoal_Blueprint_C (EVR_TriggerBoxGoal_Blueprint)
+[2017.09.01-09.50.06:653][941]LogEditorViewport: Clicking on Actor (LMB): EVR_3D_Menu_C (EVR_3D_Menu)
+[2017.09.01-09.50.14:519][862]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.50.14:534][862]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.50.14:534][862]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:50:14 PM)
+[2017.09.01-09.50.14:535][862]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.50.14:538][862]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003034s)
+[2017.09.01-09.50.14:538][862]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.50.14:538][862]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2017.09.01-09.50.14:539][862]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.004027s)
+[2017.09.01-09.50.14:577][862]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.50.14:585][862]LogInit: FAudioDevice initialized.
+[2017.09.01-09.50.14:617][862]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.50.14:621][862]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.50.14
+[2017.09.01-09.50.14:621][862]LogWorld: Bringing up level for play took: 0.002936
+[2017.09.01-09.50.14:621][862]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.50.14:622][862]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 0.913
+[2017.09.01-09.50.41:276][ 31]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.50.41:276][ 31]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:50:41 PM)
+[2017.09.01-09.50.41:276][ 31]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.50.41:279][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003054s)
+[2017.09.01-09.50.41:280][ 31]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.50.41:280][ 31]LogPlayLevel: PIE: World Init took: (0.000624s)
+[2017.09.01-09.50.41:280][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.003904s)
+[2017.09.01-09.50.41:317][ 31]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.50.41:325][ 31]LogInit: FAudioDevice initialized.
+[2017.09.01-09.50.41:402][ 31]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.50.41:405][ 31]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.50.41
+[2017.09.01-09.50.41:405][ 31]LogWorld: Bringing up level for play took: 0.003007
+[2017.09.01-09.50.41:406][ 31]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.50.41:410][ 31]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map -0.299
+[2017.09.01-09.50.41:472][ 32]LogRenderer: Reallocating scene render targets to support 3024x1680 Format 26 NumSamples 1 (Frame:1).
+[2017.09.01-09.50.45:017][266]LogTemp: Repeating last play command: VR Preview
+[2017.09.01-09.50.45:032][266]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.50.45:032][266]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:50:45 PM)
+[2017.09.01-09.50.45:032][266]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.50.45:035][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003007s)
+[2017.09.01-09.50.45:036][266]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.50.45:036][266]LogPlayLevel: PIE: World Init took: (0.000688s)
+[2017.09.01-09.50.45:036][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.003929s)
+[2017.09.01-09.50.45:073][266]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.50.45:081][266]LogInit: FAudioDevice initialized.
+[2017.09.01-09.50.45:159][266]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.50.45:162][266]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.50.45
+[2017.09.01-09.50.45:162][266]LogWorld: Bringing up level for play took: 0.002904
+[2017.09.01-09.50.45:163][266]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.50.45:168][266]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map -0.541
+[2017.09.01-09.53.09:336][179]LogSteamVRController: Tracker device 3 is being assigned unreal hand: Special 1, for player 0
+[2017.09.01-09.53.22:558][706]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.53.22:558][706]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:53:22 PM)
+[2017.09.01-09.53.22:558][706]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.53.22:561][706]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003062s)
+[2017.09.01-09.53.22:561][706]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.53.22:562][706]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2017.09.01-09.53.22:562][706]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.004016s)
+[2017.09.01-09.53.22:600][706]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.53.22:609][706]LogInit: FAudioDevice initialized.
+[2017.09.01-09.53.22:679][706]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.53.22:682][706]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.53.22
+[2017.09.01-09.53.22:682][706]LogWorld: Bringing up level for play took: 0.002914
+[2017.09.01-09.53.22:683][706]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.53.22:687][706]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 0.978
+[2017.09.01-09.53.26:668][335]LogTemp: Repeating last play command: VR Preview
+[2017.09.01-09.53.26:683][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.53.26:683][335]PIE: New page: PIE session: EVR_Map (Sep 1, 2017, 1:53:26 PM)
+[2017.09.01-09.53.26:683][335]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.09.01-09.53.26:686][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003095s)
+[2017.09.01-09.53.26:687][335]LogAIModule: Creating AISystem for world EVR_Map
+[2017.09.01-09.53.26:687][335]LogPlayLevel: PIE: World Init took: (0.000609s)
+[2017.09.01-09.53.26:687][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.003933s)
+[2017.09.01-09.53.26:725][335]LogInit: XAudio2 using 'Lautsprecher (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.53.26:733][335]LogInit: FAudioDevice initialized.
+[2017.09.01-09.53.26:806][335]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.09.01-09.53.26:809][335]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.09.01-11.53.26
+[2017.09.01-09.53.26:809][335]LogWorld: Bringing up level for play took: 0.002874
+[2017.09.01-09.53.26:809][335]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.09.01-09.53.26:817][335]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 1.108
+[2017.09.01-09.54.24:187][870]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{f0143a61-be07-4a39-8876-93013f41837b} was removed. Shutting down audio device.
+[2017.09.01-09.54.24:187][870]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{f0143a61-be07-4a39-8876-93013f41837b} was removed. Shutting down audio device.
+[2017.09.01-09.55.06:232][264]LogWindows: Windows GetLastError: Der Vorgang wurde erfolgreich beendet. (0)
+[2017.09.01-09.55.10:272][264]LogWindows: Error: === Critical error: ===
+[2017.09.01-09.55.10:272][264]LogWindows: Error: 
+[2017.09.01-09.55.10:272][264]LogWindows: Error: Assertion failed: VROverlay [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Plugins\Runtime\Steam\SteamVR\Source\SteamVR\Private\SteamVRStereoLayers.cpp] [Line: 311] 
+[2017.09.01-09.55.10:272][264]LogWindows: Error: 
+[2017.09.01-09.55.10:272][264]LogWindows: Error: 
+[2017.09.01-09.55.10:272][264]LogWindows: Error: 
+[2017.09.01-09.55.10:272][264]LogWindows: Error: KERNELBASE.dll!0x000000008AAE3C58
+[2017.09.01-09.55.10:272][264]LogWindows: Error: UE4Editor-Core.dll!0x00000000665114B4
+[2017.09.01-09.55.10:272][264]LogWindows: Error: UE4Editor-Core.dll!0x00000000662FAD5B
+[2017.09.01-09.55.10:272][264]LogWindows: Error: UE4Editor-Core.dll!0x0000000066290179
+[2017.09.01-09.55.10:272][264]LogWindows: Error: UE4Editor-SteamVR.dll!0x0000000055DA68A2
+[2017.09.01-09.55.10:272][264]LogWindows: Error: UE4Editor-Engine.dll!0x0000000067D15067
+[2017.09.01-09.55.10:272][264]LogWindows: Error: UE4Editor-Engine.dll!0x0000000067B792E4
+[2017.09.01-09.55.10:272][264]LogWindows: Error: UE4Editor-Engine.dll!0x0000000067BAE9B5
+[2017.09.01-09.55.10:272][264]LogWindows: Error: UE4Editor-Engine.dll!0x00000000687BAB9B
+[2017.09.01-09.55.10:272][264]LogWindows: Error: UE4Editor-Engine.dll!0x00000000687C163B
+[2017.09.01-09.55.10:272][264]LogWindows: Error: UE4Editor-Core.dll!0x00000000661624F5
+[2017.09.01-09.55.10:272][264]LogWindows: Error: UE4Editor-Core.dll!0x0000000066162ADA
+[2017.09.01-09.55.10:272][264]LogWindows: Error: UE4Editor-Core.dll!0x00000000661829CE
+[2017.09.01-09.55.10:272][264]LogWindows: Error: UE4Editor-Engine.dll!0x00000000687DDD22
+[2017.09.01-09.55.10:272][264]LogWindows: Error: UE4Editor-Engine.dll!0x00000000687E32B2
+[2017.09.01-09.55.10:272][264]LogWindows: Error: UE4Editor-Engine.dll!0x00000000680E21D4
+[2017.09.01-09.55.10:272][264]LogWindows: Error: UE4Editor-Engine.dll!0x00000000680EAEB6
+[2017.09.01-09.55.10:272][264]LogWindows: Error: UE4Editor-UnrealEd.dll!0x000000006342C942
+[2017.09.01-09.55.10:272][264]LogWindows: Error: UE4Editor-UnrealEd.dll!0x0000000063CBCEE6
+[2017.09.01-09.55.10:272][264]LogWindows: Error: UE4Editor.exe!0x000000006A39534A
+[2017.09.01-09.55.10:272][264]LogWindows: Error: UE4Editor.exe!0x000000006A3A3970
+[2017.09.01-09.55.10:272][264]LogWindows: Error: UE4Editor.exe!0x000000006A3A39EA
+[2017.09.01-09.55.10:272][264]LogWindows: Error: UE4Editor.exe!0x000000006A3B02D9
+[2017.09.01-09.55.10:272][264]LogWindows: Error: UE4Editor.exe!0x000000006A3B1C47
+[2017.09.01-09.55.10:272][264]LogWindows: Error: KERNEL32.DLL!0x000000008B3E8364
+[2017.09.01-09.55.10:272][264]LogWindows: Error: ntdll.dll!0x000000008DCA70D1
+[2017.09.01-09.55.10:272][264]LogWindows: Error: ntdll.dll!0x000000008DCA70D1
+[2017.09.01-09.55.10:272][264]LogWindows: Error: 
+[2017.09.01-09.55.10:281][264]LogExit: Executing StaticShutdownAfterError
+[2017.09.01-09.55.10:292][264]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.09.01-09.55.10:293][264]Log file closed, 09/01/17 11:55:10
