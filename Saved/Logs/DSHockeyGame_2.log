@@ -1,12 +1,12 @@
-﻿Log file open, 09/01/17 11:02:02
+﻿Log file open, 09/19/17 12:35:51
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: DSHockeyGame
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-249526132) SRandInit(-249526132).
+LogInit: Display: RandInit(-623983770) SRandInit(-623983769).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.109175
+LogStats: Stats thread started at 0.119476
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -103,164 +103,72 @@ LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
-LogInit: Command line:  
+LogInit: Command line:  /Temp/Autosaves/Game/VirtualRealityBP/Maps/UEDPCEVR_Map_2 -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -featureleveles2 -faketouches -windowed 
 LogInit: Base directory: D:/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.09.01-09.02.03:353][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.01-09.02.03:353][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.09.01-09.02.03:366][  0]LogInit: Computer: LAPTOP-ELQTR10M
-[2017.09.01-09.02.03:366][  0]LogInit: User: danie
-[2017.09.01-09.02.03:366][  0]LogInit: CPU Page size=4096, Cores=2
-[2017.09.01-09.02.03:366][  0]LogInit: High frequency timer resolution =2.531249 MHz
-[2017.09.01-09.02.03:366][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.09.01-09.02.03:366][  0]LogMemory: Platform Memory Stats for Windows
-[2017.09.01-09.02.03:366][  0]LogMemory: Process Physical Memory: 277.87 MB used, 277.87 MB peak
-[2017.09.01-09.02.03:366][  0]LogMemory: Process Virtual Memory: 276.21 MB used, 276.21 MB peak
-[2017.09.01-09.02.03:366][  0]LogMemory: Physical Memory: 4595.23 MB used,  3510.68 MB free, 8105.91 MB total
-[2017.09.01-09.02.03:366][  0]LogMemory: Virtual Memory: 667.77 MB used,  3510.68 MB free, 134217728.00 MB total
-[2017.09.01-09.02.03:543][  0]LogInit: Using OS detected language (de-DE).
-[2017.09.01-09.02.03:543][  0]LogInit: Using OS detected locale (de-DE).
-[2017.09.01-09.02.03:546][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the language.
-[2017.09.01-09.02.03:546][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the locale.
-[2017.09.01-09.02.04:336][  0]LogD3D11RHI: D3D11 adapters:
-[2017.09.01-09.02.05:060][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
-[2017.09.01-09.02.05:061][  0]LogD3D11RHI:       4065/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.09.01-09.02.05:067][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
-[2017.09.01-09.02.05:067][  0]LogD3D11RHI:       128/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.09.01-09.02.05:068][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.09.01-09.02.05:068][  0]LogD3D11RHI:       0/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.09.01-09.02.05:068][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.09.01-09.02.05:073][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.09.01-09.02.05:074][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
-[2017.09.01-09.02.05:074][  0]LogWindows: EnumDisplayDevices:
-[2017.09.01-09.02.05:074][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
-[2017.09.01-09.02.05:074][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
-[2017.09.01-09.02.05:074][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
-[2017.09.01-09.02.05:074][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.09.01-09.02.05:074][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
-[2017.09.01-09.02.05:074][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.09.01-09.02.05:074][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.09.01-09.02.05:074][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.09.01-09.02.05:957][  0]LogD3D11RHI: Async texture creation enabled
-[2017.09.01-09.02.06:005][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.09.01-09.02.06:005][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../Github/Masterarbeit/Intermediate/Shaders/WorkingDirectory/14832/).
-[2017.09.01-09.02.06:006][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/danie/AppData/Local/Temp/UnrealShaderWorkingDir/852C19E2434BD7C6BA842B97D12A3ECF/'.
-[2017.09.01-09.02.06:006][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.09.01-09.02.07:188][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.09.01-09.02.07:250][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.09.01-09.02.07:315][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.09.01-09.02.07:371][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.09.01-09.02.07:421][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.09.01-09.02.07:472][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.09.01-09.02.07:523][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.09.01-09.02.07:583][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.09.01-09.02.07:644][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.09.01-09.02.07:719][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.09.01-09.02.07:803][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.09.01-09.02.07:888][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.09.01-09.02.07:941][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.09.01-09.02.08:014][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.09.01-09.02.08:101][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.09.01-09.02.08:246][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.09.01-09.02.08:246][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.09.01-09.02.08:284][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.09.01-09.02.08:381][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.09.01-09.02.08:423][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.09.01-09.02.08:485][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.09.01-09.02.08:562][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.09.01-09.02.08:626][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.09.01-09.02.08:673][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.09.01-09.02.08:673][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.09.01-09.02.09:144][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.09.01-09.02.09:255][  0]LogDerivedDataCache: Loaded boot cache 0.11s 97MB C:/Users/danie/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.09.01-09.02.09:255][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/danie/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.09.01-09.02.09:255][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Github/Masterarbeit/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.09.01-09.02.09:255][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.09.01-09.02.09:255][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Github/Masterarbeit/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.09.01-09.02.09:255][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.09.01-09.02.09:283][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.09.01-09.02.09:295][  0]LogDerivedDataCache: Using Local data cache path C:/Users/danie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.09.01-09.02.09:309][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.09.01-09.02.09:309][  0]LogSlate: Using Freetype 2.6.0
-[2017.09.01-09.02.09:310][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.01-09.02.09:310][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.01-09.02.11:291][  0]LogAssetRegistry: FAssetRegistry took 0.0310 seconds to start up
-[2017.09.01-09.02.13:918][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.01-09.02.17:529][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.09.01-09.02.17:665][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.09.01-09.02.17:685][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.09.01-09.02.17:685][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.09.01-09.02.17:685][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.09.01-09.02.17:685][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.09.01-09.02.17:944][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.09.01-09.02.21:437][  0]LogNetVersion: DSHockeyGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4108346606)
-[2017.09.01-09.02.22:990][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../Github/Masterarbeit/Intermediate/AssetRegistryCache/866581fd.bin
-[2017.09.01-09.02.23:016][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.112184 seconds
-[2017.09.01-09.02.23:034][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.09.01-09.02.23:035][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2017.09.01-09.02.23:035][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.09.01-09.02.23:122][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.09.01-09.02.46:775][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.09.01-09.02.46:884][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.09.01-09.02.48:570][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.09.01-09.02.49:622][  0]SourceControl: Source control is disabled
-[2017.09.01-09.02.49:622][  0]SourceControl: Source control is disabled
-[2017.09.01-09.02.49:716][  0]SourceControl: Source control is disabled
-[2017.09.01-09.02.49:799][  0]SourceControl: Source control is disabled
-[2017.09.01-09.02.51:056][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.09.01-09.02.51:443][  0]LogOcInput: OculusInput pre-init called
-[2017.09.01-09.02.52:575][  0]LogEngine: Initializing Engine...
-[2017.09.01-09.02.52:620][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.09.01-09.02.53:661][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.09.01-09.02.53:662][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.09.01-09.02.54:838][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.09.01-09.02.55:364][  0]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.01-09.02.55:985][  0]LogInit: FAudioDevice initialized.
-[2017.09.01-09.02.56:061][  0]LogDerivedDataCache: Error: Could not save memory cache C:/Users/danie/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.09.01-09.02.56:077][  0]LogInit: Texture streaming: Enabled
-[2017.09.01-09.02.56:368][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.09.01-09.02.58:444][  0]LogInit: Transaction tracking system initialized
-[2017.09.01-09.02.59:467][  0]BlueprintLog: New page: Editor Load
-[2017.09.01-09.03.02:350][  0]LocalizationService: Localization service is disabled
-[2017.09.01-09.03.04:781][  0]LogConsoleResponse: Display: 
-[2017.09.01-09.03.09:651][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Masterarbeit/Content/' took 0.03s
-[2017.09.01-09.03.09:651][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.09.01-09.03.09:652][  0]LogCook: Display: Mobile HDR setting 1
-[2017.09.01-09.03.09:714][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.09.01-09.03.12:598][  0]SourceControl: Source control is disabled
-[2017.09.01-09.03.12:699][  0]Cmd: MAP LOAD FILE="../../../../Github/Masterarbeit/Content/VirtualRealityBP/Maps/PrototypeMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.01-09.03.12:834][  0]LightingResults: New page: Lighting Build
-[2017.09.01-09.03.13:596][  0]MapCheck: New page: Map Check
-[2017.09.01-09.03.13:596][  0]LightingResults: New page: Lighting Build
-[2017.09.01-09.03.18:486][  0]LogBlueprint: Warning: [Compiler BP_MotionController] ProjectPointToNavigation_DEPRECATED  is deprecated; This version of ProjectPointToNavigation is deprecated. Please use the new version
-[2017.09.01-09.03.18:606][  0]LogBlueprint: Warning: [Compiler BP_MotionController] [0076.53] Compile of BP_MotionController successful, but with 1 Warning(s) [in 282 ms] (/Game/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController)
-[2017.09.01-09.03.21:629][  0]LogAIModule: Creating AISystem for world PrototypeMap
-[2017.09.01-09.03.23:084][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.01-09.03.23:709][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.01-09.03.23:800][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 87.149ms to complete.
-[2017.09.01-09.03.23:828][  0]LogFileHelpers: Loading map 'PrototypeMap' took 11.181
-[2017.09.01-09.03.30:185][  0]LogCollectionManager: Loaded 0 collections in 0.001291 seconds
-[2017.09.01-09.03.31:137][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Masterarbeit/Saved/Collections/' took 0.01s
-[2017.09.01-09.03.31:137][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Masterarbeit/Content/Developers/danie/Collections/' took 0.01s
-[2017.09.01-09.03.31:137][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Masterarbeit/Content/Collections/' took 0.01s
-[2017.09.01-09.03.31:137][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2017.09.01-09.03.31:301][  0]LogContentBrowser: Native class hierarchy populated in 0.1290 seconds. Added 2386 classes and 500 folders.
-[2017.09.01-09.03.31:720][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2017.09.01-09.03.34:261][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2017.09.01-09.03.34:626][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
-[2017.09.01-09.03.39:345][  0]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.01-09.03.39:379][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.09.01-09.03.39:473][  0]LogSlate: Took 0.013662 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.09.01-09.03.40:399][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 26 NumSamples 1 (Frame:1).
-[2017.09.01-09.03.45:669][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
-[2017.09.01-09.03.45:669][  0]LogLoad: (Engine Initialization) Total time: 103.59 seconds
-[2017.09.01-09.03.45:669][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.09.01-09.03.45:670][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.09.01-09.03.45:670][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.09.01-09.03.46:542][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.09.01-09.03.47:913][  2]LogSlate: Took 0.086627 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.01-09.03.48:395][  4]LogAssetRegistry: Asset discovery search completed in 97.1258 seconds
-[2017.09.01-09.03.48:399][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.09.01-09.03.48:399][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000119 seconds (updated 0 objects)
+[2017.09.19-10.35.52:274][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.19-10.35.52:274][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.19-10.35.52:278][  0]LogInit: Computer: LAPTOP-ELQTR10M
+[2017.09.19-10.35.52:278][  0]LogInit: User: danie
+[2017.09.19-10.35.52:278][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.09.19-10.35.52:278][  0]LogInit: High frequency timer resolution =2.531249 MHz
+[2017.09.19-10.35.52:278][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.09.19-10.35.52:278][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.19-10.35.52:278][  0]LogMemory: Process Physical Memory: 278.05 MB used, 278.05 MB peak
+[2017.09.19-10.35.52:278][  0]LogMemory: Process Virtual Memory: 273.88 MB used, 273.88 MB peak
+[2017.09.19-10.35.52:279][  0]LogMemory: Physical Memory: 5399.39 MB used,  2706.51 MB free, 8105.91 MB total
+[2017.09.19-10.35.52:279][  0]LogMemory: Virtual Memory: 665.71 MB used,  2706.51 MB free, 134217728.00 MB total
+[2017.09.19-10.35.52:456][  0]LogInit: Using OS detected language (de-DE).
+[2017.09.19-10.35.52:456][  0]LogInit: Using OS detected locale (de-DE).
+[2017.09.19-10.35.52:461][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the language.
+[2017.09.19-10.35.52:461][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the locale.
+[2017.09.19-10.35.53:172][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.19-10.35.53:225][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2017.09.19-10.35.53:225][  0]LogD3D11RHI:       4065/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.19-10.35.53:231][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2017.09.19-10.35.53:231][  0]LogD3D11RHI:       128/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.09.19-10.35.53:233][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.19-10.35.53:233][  0]LogD3D11RHI:       0/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.19-10.35.53:233][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.19-10.35.53:238][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.19-10.35.53:238][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2017.09.19-10.35.53:238][  0]LogWindows: EnumDisplayDevices:
+[2017.09.19-10.35.53:238][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:0 D:1)
+[2017.09.19-10.35.53:239][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2017.09.19-10.35.53:239][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.09.19-10.35.53:239][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.09.19-10.35.53:239][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2017.09.19-10.35.53:239][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.09.19-10.35.53:239][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.09.19-10.35.53:239][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.19-10.35.53:256][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.19-10.35.53:273][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.09.19-10.35.53:274][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../Github/Masterarbeit/Intermediate/Shaders/WorkingDirectory/18044/).
+[2017.09.19-10.35.53:274][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/danie/AppData/Local/Temp/UnrealShaderWorkingDir/B64695704301F853BFF612BDAD1576F7/'.
+[2017.09.19-10.35.53:274][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.19-10.35.54:196][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.19-10.35.54:234][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.19-10.35.54:271][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.19-10.35.54:308][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.19-10.35.54:308][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.19-10.35.54:642][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.19-10.35.54:749][  0]LogDerivedDataCache: Loaded boot cache 0.11s 93MB C:/Users/danie/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.19-10.35.54:749][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/danie/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.19-10.35.54:749][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Github/Masterarbeit/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.19-10.35.54:749][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.19-10.35.54:749][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Github/Masterarbeit/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.19-10.35.54:749][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.19-10.35.54:775][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.19-10.35.54:788][  0]LogDerivedDataCache: Using Local data cache path C:/Users/danie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.19-10.35.54:789][  0]LogMaterial: Verifying Global Shaders for PCD3D_ES2
+[2017.09.19-10.35.54:790][  0]LogShaderCompilers: Instanced stereo rendering is not supported for the PCD3D_ES2 shader platform.
+[2017.09.19-10.35.55:508][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.19-10.35.55:508][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.19-10.35.55:508][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.19-10.35.56:501][  0]LogAssetRegistry: FAssetRegistry took 0.0087 seconds to start up
+[2017.09.19-10.35.56:542][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.010931 seconds
+[2017.09.19-10.35.56:710][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.19-10.35.56:923][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2017.09.19-10.35.56:990][  0]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
