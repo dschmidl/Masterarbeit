@@ -1,4 +1,4 @@
-﻿Log file open, 11/10/17 13:52:21
+﻿Log file open, 11/17/17 13:25:08
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: DSHockeyGame
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1861966495) SRandInit(1861966495).
+LogInit: Display: RandInit(572435171) SRandInit(572435171).
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.252186
+LogStats: Stats thread started at 0.250981
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -115,959 +115,700 @@ LogInit: Base directory: D:/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.11.10-12.52.22:350][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.10-12.52.22:350][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.11.10-12.52.22:367][  0]LogInit: Computer: PC1011604132
-[2017.11.10-12.52.22:367][  0]LogInit: User: LocalAdmin
-[2017.11.10-12.52.22:367][  0]LogInit: CPU Page size=4096, Cores=6
-[2017.11.10-12.52.22:367][  0]LogInit: High frequency timer resolution =3.220794 MHz
-[2017.11.10-12.52.22:367][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.11.10-12.52.22:367][  0]LogMemory: Platform Memory Stats for Windows
-[2017.11.10-12.52.22:367][  0]LogMemory: Process Physical Memory: 283.39 MB used, 283.39 MB peak
-[2017.11.10-12.52.22:367][  0]LogMemory: Process Virtual Memory: 286.31 MB used, 286.31 MB peak
-[2017.11.10-12.52.22:367][  0]LogMemory: Physical Memory: 2373.86 MB used,  13921.18 MB free, 16295.03 MB total
-[2017.11.10-12.52.22:367][  0]LogMemory: Virtual Memory: 712.69 MB used,  13921.18 MB free, 134217728.00 MB total
-[2017.11.10-12.52.22:596][  0]LogInit: Using OS detected language (de-DE).
-[2017.11.10-12.52.22:596][  0]LogInit: Using OS detected locale (de-DE).
-[2017.11.10-12.52.22:606][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the language.
-[2017.11.10-12.52.22:606][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the locale.
-[2017.11.10-12.52.23:439][  0]LogD3D11RHI: D3D11 adapters:
-[2017.11.10-12.52.23:479][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980 Ti' (Feature Level 11_0)
-[2017.11.10-12.52.23:480][  0]LogD3D11RHI:       6103/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.11.10-12.52.23:481][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.11.10-12.52.23:481][  0]LogD3D11RHI:       0/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.11.10-12.52.23:481][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.11.10-12.52.23:484][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.11.10-12.52.23:484][  0]LogD3D11RHI:     GPU DeviceId: 0x17c8 (for the marketing name, search the web for "GPU Device Id")
-[2017.11.10-12.52.23:484][  0]LogWindows: EnumDisplayDevices:
-[2017.11.10-12.52.23:484][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980 Ti' (P:1 D:1)
-[2017.11.10-12.52.23:484][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
-[2017.11.10-12.52.23:484][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
-[2017.11.10-12.52.23:484][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
-[2017.11.10-12.52.23:485][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.11.10-12.52.23:485][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980 Ti
-[2017.11.10-12.52.23:485][  0]LogD3D11RHI:   Driver Version: 385.69 (internal:22.21.13.8569, unified:385.69)
-[2017.11.10-12.52.23:485][  0]LogD3D11RHI:      Driver Date: 9-16-2017
-[2017.11.10-12.52.23:485][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.11.10-12.52.23:512][  0]LogD3D11RHI: Async texture creation enabled
-[2017.11.10-12.52.23:531][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.11.10-12.52.23:582][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (../../../../Daniel Schmidl/Masterarbeit/Intermediate/Shaders/WorkingDirectory/5068/).
-[2017.11.10-12.52.23:582][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/LocalAdmin/AppData/Local/Temp/UnrealShaderWorkingDir/C2C7BACE460979860AA262B9DFC12216/'.
-[2017.11.10-12.52.23:583][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.11.10-12.52.24:754][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.11.10-12.52.24:790][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.11.10-12.52.24:826][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.11.10-12.52.24:863][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.11.10-12.52.24:902][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.11.10-12.52.24:939][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.11.10-12.52.24:975][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.11.10-12.52.25:012][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.11.10-12.52.25:042][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.11.10-12.52.25:081][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.11.10-12.52.25:117][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.11.10-12.52.25:152][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.11.10-12.52.25:188][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.11.10-12.52.25:223][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.11.10-12.52.25:259][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.11.10-12.52.25:331][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.11.10-12.52.25:331][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.11.10-12.52.25:357][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.11.10-12.52.25:448][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.11.10-12.52.25:469][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.11.10-12.52.25:505][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.11.10-12.52.25:540][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.11.10-12.52.25:576][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.11.10-12.52.25:615][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.11.10-12.52.25:615][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.11.10-12.52.26:156][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.11.10-12.52.26:432][  0]LogDerivedDataCache: Loaded boot cache 0.28s 93MB C:/Users/LocalAdmin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.10-12.52.26:433][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/LocalAdmin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.11.10-12.52.26:433][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Daniel Schmidl/Masterarbeit/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.11.10-12.52.26:433][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.11.10-12.52.26:433][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Daniel Schmidl/Masterarbeit/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.11.10-12.52.26:433][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.11.10-12.52.26:454][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.11.10-12.52.26:467][  0]LogDerivedDataCache: Using Local data cache path C:/Users/LocalAdmin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.11.10-12.52.26:479][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.11.10-12.52.26:480][  0]LogSlate: Using Freetype 2.6.0
-[2017.11.10-12.52.26:483][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.10-12.52.26:483][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.10-12.52.29:100][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
-[2017.11.10-12.52.29:219][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.10-12.52.29:625][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.11.10-12.52.29:652][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.11.10-12.52.29:652][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.11.10-12.52.29:652][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.11.10-12.52.29:652][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.11.10-12.52.29:652][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.11.10-12.52.29:662][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.11.10-12.52.30:115][  0]LogNetVersion: DSHockeyGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4108346606)
-[2017.11.10-12.52.30:296][  0]LogPackageLocalizationCache: Processed 6 localized package path(s) for 1 prioritized culture(s) in 0.016567 seconds
-[2017.11.10-12.52.30:300][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.11.10-12.52.30:300][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2017.11.10-12.52.30:300][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.11.10-12.52.30:335][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.11.10-12.52.33:166][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.11.10-12.52.33:195][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.11.10-12.52.33:719][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.11.10-12.52.34:013][  0]SourceControl: Source control is disabled
-[2017.11.10-12.52.34:013][  0]SourceControl: Source control is disabled
-[2017.11.10-12.52.34:044][  0]SourceControl: Source control is disabled
-[2017.11.10-12.52.34:074][  0]SourceControl: Source control is disabled
-[2017.11.10-12.52.34:460][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.11.10-12.52.34:615][  0]LogOcInput: OculusInput pre-init called
-[2017.11.10-12.52.34:799][  0]LogEngine: Initializing Engine...
-[2017.11.10-12.52.37:450][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-F79729DE
-[2017.11.10-12.52.37:680][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.11.10-12.52.37:680][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.11.10-12.52.37:774][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.11.10-12.52.37:808][  0]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.10-12.52.37:826][  0]LogInit: FAudioDevice initialized.
-[2017.11.10-12.52.37:909][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/LocalAdmin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.10-12.52.37:922][  0]LogInit: Texture streaming: Enabled
-[2017.11.10-12.52.37:996][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.11.10-12.52.38:149][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.11.10-12.52.38:190][  0]LogInit: Transaction tracking system initialized
-[2017.11.10-12.52.38:406][  0]BlueprintLog: New page: Editor Load
-[2017.11.10-12.52.39:006][  0]LocalizationService: Localization service is disabled
-[2017.11.10-12.52.39:563][  0]LogConsoleResponse: Display: 
-[2017.11.10-12.52.39:985][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.11.10-12.52.39:985][  0]LogCook: Display: Mobile HDR setting 1
-[2017.11.10-12.52.39:985][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.11.10-12.52.40:794][  0]LogFileCache: Scanning file cache for directory 'D:/Daniel Schmidl/Masterarbeit/Content/' took 0.01s
-[2017.11.10-12.52.40:794][  0]SourceControl: Source control is disabled
-[2017.11.10-12.52.40:795][  0]Cmd: MAP LOAD FILE="../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/PrototypeMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.10-12.52.40:796][  0]LightingResults: New page: Lighting Build
-[2017.11.10-12.52.40:832][  0]MapCheck: New page: Map Check
-[2017.11.10-12.52.40:832][  0]LightingResults: New page: Lighting Build
-[2017.11.10-12.52.41:067][  0]LogBlueprint: Warning: [Compiler BP_MotionController] ProjectPointToNavigation_DEPRECATED  is deprecated; This version of ProjectPointToNavigation is deprecated. Please use the new version
-[2017.11.10-12.52.41:086][  0]LogBlueprint: Warning: [Compiler BP_MotionController] [0021.79] Compile of BP_MotionController successful, but with 1 Warning(s) [in 50 ms] (/Game/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController)
-[2017.11.10-12.52.41:606][  0]LogAIModule: Creating AISystem for world PrototypeMap
-[2017.11.10-12.52.41:620][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.10-12.52.41:642][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.10-12.52.41:704][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.404ms to complete.
-[2017.11.10-12.52.41:704][  0]LogFileHelpers: Loading map 'PrototypeMap' took 0.910
-[2017.11.10-12.52.41:841][  0]LogCollectionManager: Loaded 0 collections in 0.001565 seconds
-[2017.11.10-12.52.41:907][  0]LogFileCache: Scanning file cache for directory 'D:/Daniel Schmidl/Masterarbeit/Saved/Collections/' took 0.01s
-[2017.11.10-12.52.41:907][  0]LogFileCache: Scanning file cache for directory 'D:/Daniel Schmidl/Masterarbeit/Content/Developers/LocalAdmin/Collections/' took 0.01s
-[2017.11.10-12.52.41:907][  0]LogFileCache: Scanning file cache for directory 'D:/Daniel Schmidl/Masterarbeit/Content/Collections/' took 0.01s
-[2017.11.10-12.52.41:907][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2017.11.10-12.52.41:916][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2392 classes and 503 folders.
-[2017.11.10-12.52.41:964][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2017.11.10-12.52.42:050][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.11.10-12.52.42:083][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2017.11.10-12.52.42:161][  0]LogSlate: Took 0.001092 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.10-12.52.42:164][  0]LogSlate: Took 0.001038 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.11.10-12.52.42:171][  0]LogSlate: Took 0.000996 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.11.10-12.52.42:275][  0]LogRenderer: Reallocating scene render targets to support 1672x804 Format 26 NumSamples 1 (Frame:1).
-[2017.11.10-12.52.42:461][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.11.10-12.52.42:461][  0]LogLoad: (Engine Initialization) Total time: 23.16 seconds
-[2017.11.10-12.52.42:461][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.11.10-12.52.42:462][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.11.10-12.52.42:508][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.11.10-12.52.42:590][  1]LogAssetRegistry: Asset discovery search completed in 13.5116 seconds
-[2017.11.10-12.52.42:592][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.11.10-12.52.42:592][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000080 seconds (updated 0 objects)
-[2017.11.10-12.52.47:188][538]LogSlate: Took 0.000870 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.10-12.52.48:198][655]Cmd: MAP LOAD FILE="../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/EVR_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.10-12.52.48:202][655]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.10-12.52.48:207][655]LightingResults: New page: Lighting Build
-[2017.11.10-12.52.48:208][655]LoadErrors: New page: Loading map: EVR_Map.umap
-[2017.11.10-12.52.48:210][655]MapCheck: New page: Map Check
-[2017.11.10-12.52.48:210][655]LightingResults: New page: Lighting Build
-[2017.11.10-12.52.49:096][655]LogAIModule: Creating AISystem for world EVR_Map
-[2017.11.10-12.52.49:186][655]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.10-12.52.49:236][655]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.10-12.52.49:306][655]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 70.366ms to complete.
-[2017.11.10-12.52.49:306][655]LogFileHelpers: Loading map 'EVR_Map' took 1.109
-[2017.11.10-12.53.45:450][329]LogTemp: Repeating last play command: VR Preview
-[2017.11.10-12.53.45:495][329]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.10-12.53.45:496][329]PIE: New page: PIE session: EVR_Map (Nov 10, 2017, 2:53:45 PM)
-[2017.11.10-12.53.45:496][329]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
-[2017.11.10-12.53.45:501][329]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005222s)
-[2017.11.10-12.53.45:502][329]LogAIModule: Creating AISystem for world EVR_Map
-[2017.11.10-12.53.45:502][329]LogPlayLevel: PIE: World Init took: (0.000710s)
-[2017.11.10-12.53.45:502][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.006211s)
-[2017.11.10-12.53.45:545][329]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.10-12.53.45:550][329]LogInit: FAudioDevice initialized.
-[2017.11.10-12.53.45:641][329]LogLoad: Game class is 'Prototype_Gamemode_C'
-[2017.11.10-12.53.45:648][329]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.11.10-13.53.45
-[2017.11.10-12.53.45:649][329]LogWorld: Bringing up level for play took: 0.004638
-[2017.11.10-12.53.45:651][329]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.10-12.53.45:679][329]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
-[2017.11.10-12.53.45:684][329]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 0.414
-[2017.11.10-12.53.45:745][330]LogRenderer: Reallocating scene render targets to support 3024x1680 Format 26 NumSamples 1 (Frame:1).
-[2017.11.10-12.53.51:918][664]LogTemp: Repeating last play command: VR Preview
-[2017.11.10-12.53.51:936][664]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.10-12.53.51:937][664]PIE: New page: PIE session: EVR_Map (Nov 10, 2017, 2:53:51 PM)
-[2017.11.10-12.53.51:937][664]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
-[2017.11.10-12.53.51:942][664]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005063s)
-[2017.11.10-12.53.51:942][664]LogAIModule: Creating AISystem for world EVR_Map
-[2017.11.10-12.53.51:943][664]LogPlayLevel: PIE: World Init took: (0.000669s)
-[2017.11.10-12.53.51:943][664]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.005978s)
-[2017.11.10-12.53.51:985][664]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.10-12.53.51:990][664]LogInit: FAudioDevice initialized.
-[2017.11.10-12.53.52:059][664]LogLoad: Game class is 'Prototype_Gamemode_C'
-[2017.11.10-12.53.52:063][664]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.11.10-13.53.52
-[2017.11.10-12.53.52:063][664]LogWorld: Bringing up level for play took: 0.003588
-[2017.11.10-12.53.52:064][664]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.10-12.53.52:067][664]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 0.798
-[2017.11.10-12.53.54:910][104]LogTemp: Repeating last play command: VR Preview
-[2017.11.10-12.53.54:928][104]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.10-12.53.54:928][104]PIE: New page: PIE session: EVR_Map (Nov 10, 2017, 2:53:54 PM)
-[2017.11.10-12.53.54:928][104]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
-[2017.11.10-12.53.54:933][104]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005070s)
-[2017.11.10-12.53.54:933][104]LogAIModule: Creating AISystem for world EVR_Map
-[2017.11.10-12.53.54:934][104]LogPlayLevel: PIE: World Init took: (0.000612s)
-[2017.11.10-12.53.54:934][104]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.005936s)
-[2017.11.10-12.53.54:976][104]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.10-12.53.54:981][104]LogInit: FAudioDevice initialized.
-[2017.11.10-12.53.55:052][104]LogLoad: Game class is 'Prototype_Gamemode_C'
-[2017.11.10-12.53.55:056][104]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.11.10-13.53.55
-[2017.11.10-12.53.55:056][104]LogWorld: Bringing up level for play took: 0.003442
-[2017.11.10-12.53.55:056][104]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.10-12.53.55:060][104]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map -0.209
-[2017.11.10-12.54.10:314][787]LogSteamVRController: Tracker device 3 is being assigned unreal hand: Special 1, for player 0
-[2017.11.10-12.54.22:370][510]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 113 classes and 0 folders.
-[2017.11.10-12.54.23:044][510]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.10-12.54.23:117][510]LogSlate: Took 0.001150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.11.10-12.54.23:400][511]LogSlate: Took 0.001106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.11.10-12.54.28:238][803]BlueprintLog: New page: Compile MotionControllerPawn
-[2017.11.10-12.54.29:425][848]LogTemp: Repeating last play command: VR Preview
-[2017.11.10-12.54.29:467][848]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.10-12.54.29:467][848]PIE: New page: PIE session: EVR_Map (Nov 10, 2017, 2:54:29 PM)
-[2017.11.10-12.54.29:467][848]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
-[2017.11.10-12.54.29:472][848]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005079s)
-[2017.11.10-12.54.29:473][848]LogAIModule: Creating AISystem for world EVR_Map
-[2017.11.10-12.54.29:473][848]LogPlayLevel: PIE: World Init took: (0.000643s)
-[2017.11.10-12.54.29:473][848]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.006012s)
-[2017.11.10-12.54.29:523][848]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.10-12.54.29:528][848]LogInit: FAudioDevice initialized.
-[2017.11.10-12.54.29:612][848]LogLoad: Game class is 'Prototype_Gamemode_C'
-[2017.11.10-12.54.29:616][848]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.11.10-13.54.29
-[2017.11.10-12.54.29:617][848]LogWorld: Bringing up level for play took: 0.003896
-[2017.11.10-12.54.29:617][848]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.10-12.54.29:624][848]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 0.355
-[2017.11.10-12.54.36:799][198]BlueprintLog: New page: Compile MotionControllerPawn
-[2017.11.10-12.54.37:682][223]LogTemp: Repeating last play command: VR Preview
-[2017.11.10-12.54.37:719][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.10-12.54.37:720][223]PIE: New page: PIE session: EVR_Map (Nov 10, 2017, 2:54:37 PM)
-[2017.11.10-12.54.37:720][223]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
-[2017.11.10-12.54.37:725][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005112s)
-[2017.11.10-12.54.37:725][223]LogAIModule: Creating AISystem for world EVR_Map
-[2017.11.10-12.54.37:725][223]LogPlayLevel: PIE: World Init took: (0.000631s)
-[2017.11.10-12.54.37:726][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.005999s)
-[2017.11.10-12.54.37:775][223]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.10-12.54.37:780][223]LogInit: FAudioDevice initialized.
-[2017.11.10-12.54.37:858][223]LogLoad: Game class is 'Prototype_Gamemode_C'
-[2017.11.10-12.54.37:861][223]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.11.10-13.54.37
-[2017.11.10-12.54.37:862][223]LogWorld: Bringing up level for play took: 0.003590
-[2017.11.10-12.54.37:862][223]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.10-12.54.37:869][223]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 0.599
-[2017.11.10-12.54.41:728][713]LogTemp: Repeating last play command: VR Preview
-[2017.11.10-12.54.41:747][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.10-12.54.41:747][713]PIE: New page: PIE session: EVR_Map (Nov 10, 2017, 2:54:41 PM)
-[2017.11.10-12.54.41:747][713]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
-[2017.11.10-12.54.41:752][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005228s)
-[2017.11.10-12.54.41:753][713]LogAIModule: Creating AISystem for world EVR_Map
-[2017.11.10-12.54.41:753][713]LogPlayLevel: PIE: World Init took: (0.000660s)
-[2017.11.10-12.54.41:753][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.006161s)
-[2017.11.10-12.54.41:802][713]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.10-12.54.41:808][713]LogInit: FAudioDevice initialized.
-[2017.11.10-12.54.41:918][713]LogLoad: Game class is 'Prototype_Gamemode_C'
-[2017.11.10-12.54.41:922][713]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.11.10-13.54.41
-[2017.11.10-12.54.41:923][713]LogWorld: Bringing up level for play took: 0.003485
-[2017.11.10-12.54.41:923][713]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.10-12.54.41:937][713]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 0.668
-[2017.11.10-12.54.56:917][383]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-12.55.20:349][432]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-12.57.04:992][116]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-12.57.41:697][759]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-12.58.01:844][650]LogTemp: Repeating last play command: VR Preview
-[2017.11.10-12.58.01:863][650]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.10-12.58.01:863][650]PIE: New page: PIE session: EVR_Map (Nov 10, 2017, 2:58:01 PM)
-[2017.11.10-12.58.01:863][650]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
-[2017.11.10-12.58.01:868][650]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005169s)
-[2017.11.10-12.58.01:869][650]LogAIModule: Creating AISystem for world EVR_Map
-[2017.11.10-12.58.01:869][650]LogPlayLevel: PIE: World Init took: (0.000714s)
-[2017.11.10-12.58.01:869][650]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.006161s)
-[2017.11.10-12.58.01:917][650]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.10-12.58.01:923][650]LogInit: FAudioDevice initialized.
-[2017.11.10-12.58.02:038][650]LogLoad: Game class is 'Prototype_Gamemode_C'
-[2017.11.10-12.58.02:042][650]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.11.10-13.58.02
-[2017.11.10-12.58.02:042][650]LogWorld: Bringing up level for play took: 0.003748
-[2017.11.10-12.58.02:043][650]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.10-12.58.02:057][650]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 0.788
-[2017.11.10-12.58.14:872][223]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-12.58.31:001][945]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-12.58.35:484][142]LogTemp: Repeating last play command: VR Preview
-[2017.11.10-12.58.35:501][142]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.10-12.58.35:501][142]PIE: New page: PIE session: EVR_Map (Nov 10, 2017, 2:58:35 PM)
-[2017.11.10-12.58.35:501][142]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
-[2017.11.10-12.58.35:507][142]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005076s)
-[2017.11.10-12.58.35:507][142]LogAIModule: Creating AISystem for world EVR_Map
-[2017.11.10-12.58.35:507][142]LogPlayLevel: PIE: World Init took: (0.000649s)
-[2017.11.10-12.58.35:507][142]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.005993s)
-[2017.11.10-12.58.35:556][142]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.10-12.58.35:561][142]LogInit: FAudioDevice initialized.
-[2017.11.10-12.58.35:673][142]LogLoad: Game class is 'Prototype_Gamemode_C'
-[2017.11.10-12.58.35:677][142]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.11.10-13.58.35
-[2017.11.10-12.58.35:677][142]LogWorld: Bringing up level for play took: 0.003503
-[2017.11.10-12.58.35:677][142]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.10-12.58.35:692][142]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 0.423
-[2017.11.10-12.58.53:018][917]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-12.59.04:056][411]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
-[2017.11.10-12.59.05:595][480]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-12.59.17:771][ 25]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-12.59.31:086][621]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
-[2017.11.10-12.59.32:336][677]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-13.00.04:483][116]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-13.00.20:145][817]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
-[2017.11.10-13.00.21:708][887]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-13.00.38:486][638]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
-[2017.11.10-13.00.39:424][680]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-13.02.41:452][138]LogEditorViewport: Clicking on Actor (LMB): Puck_BP_C (Puck_BP)
-[2017.11.10-13.03.25:633][404]BlueprintLog: New page: Compile EVR_TriggerBoxNoGoal_BP_Blueprint
-[2017.11.10-13.03.26:339][432]LogSavePackage: Save=54.62ms
-[2017.11.10-13.03.26:339][432]LogSavePackage: Moving '../../../../Daniel Schmidl/Masterarbeit/Saved/EVR_TriggerBoxNoGoal_BP_BlueprintFC0EAC3D40E97D78F4936898DEC2C8EB.tmp' to '../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_TriggerBoxNoGoal_BP_Blueprint.uasset'
-[2017.11.10-13.03.26:341][432]LogSavePackage: Display: Finished SavePackage ../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_TriggerBoxNoGoal_BP_Blueprint.uasset
-[2017.11.10-13.03.46:589][704]LogTemp: Repeating last play command: VR Preview
-[2017.11.10-13.03.46:618][704]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.10-13.03.46:618][704]PIE: New page: PIE session: EVR_Map (Nov 10, 2017, 3:03:46 PM)
-[2017.11.10-13.03.46:618][704]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
-[2017.11.10-13.03.46:623][704]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005103s)
-[2017.11.10-13.03.46:623][704]LogAIModule: Creating AISystem for world EVR_Map
-[2017.11.10-13.03.46:624][704]LogPlayLevel: PIE: World Init took: (0.000672s)
-[2017.11.10-13.03.46:624][704]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.006031s)
-[2017.11.10-13.03.46:673][704]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.10-13.03.46:679][704]LogInit: FAudioDevice initialized.
-[2017.11.10-13.03.46:762][704]LogLoad: Game class is 'Prototype_Gamemode_C'
-[2017.11.10-13.03.46:765][704]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.11.10-14.03.46
-[2017.11.10-13.03.46:766][704]LogWorld: Bringing up level for play took: 0.003501
-[2017.11.10-13.03.46:766][704]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.10-13.03.46:771][704]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map -0.498
-[2017.11.10-13.04.04:329][490]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-13.04.25:194][424]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
-[2017.11.10-13.04.26:780][495]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-13.04.44:831][303]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-13.05.02:033][ 73]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-13.05.20:866][916]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-13.05.40:995][817]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
-[2017.11.10-13.05.42:290][875]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-13.05.57:772][568]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
-[2017.11.10-13.05.59:537][647]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-13.06.14:013][295]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
-[2017.11.10-13.06.15:711][371]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-13.12.37:231][ 36]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.10-13.12.46:390][ 63]LogSavePackage: Save=112.23ms
-[2017.11.10-13.12.46:390][ 63]LogSavePackage: Moving '../../../../Daniel Schmidl/Masterarbeit/Saved/EVR_Map_Auto11B22B9344D00F7A04F47C0908C310329.tmp' to '../../../../Daniel Schmidl/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Maps/EVR_Map_Auto1.umap'
-[2017.11.10-13.12.46:391][ 63]LogSavePackage: Display: Finished SavePackage ../../../../Daniel Schmidl/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Maps/EVR_Map_Auto1.umap
-[2017.11.10-13.12.46:393][ 63]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/EVR_Map' took 0.153
-[2017.11.10-13.12.46:393][ 63]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.153
-[2017.11.10-13.12.46:394][ 63]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn] ([1] browsable assets)...
-[2017.11.10-13.12.46:416][ 63]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn]
-[2017.11.10-13.12.46:416][ 63]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn]
-[2017.11.10-13.12.46:616][ 63]LogSavePackage: Save=189.68ms
-[2017.11.10-13.12.46:617][ 63]LogSavePackage: Moving '../../../../Daniel Schmidl/Masterarbeit/Saved/MotionControllerPawn_Auto161F3E91E4D8B15F026DB23A1726BA035.tmp' to '../../../../Daniel Schmidl/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/MotionControllerPawn_Auto1.uasset'
-[2017.11.10-13.12.46:619][ 63]LogSavePackage: Display: Finished SavePackage ../../../../Daniel Schmidl/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/MotionControllerPawn_Auto1.uasset
-[2017.11.10-13.12.46:619][ 63]LogFileHelpers: Auto-saving content packages took 0.226
-[2017.11.10-13.13.40:889][524]LogSavePackage: Save=173.95ms
-[2017.11.10-13.13.40:889][524]LogSavePackage: Moving '../../../../Daniel Schmidl/Masterarbeit/Saved/MotionControllerPawnDBB425DE4220897EB0C060840AD61993.tmp' to '../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
-[2017.11.10-13.13.40:891][524]LogSavePackage: Display: Finished SavePackage ../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
-[2017.11.10-13.13.40:958][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Maps/EVR_Map" FILE="../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/EVR_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.11.10-13.13.41:102][524]LogSavePackage: Save=111.59ms
-[2017.11.10-13.13.41:102][524]LogSavePackage: Moving '../../../../Daniel Schmidl/Masterarbeit/Saved/EVR_Map9D93491E4F56B821D3277B9559332D8A.tmp' to '../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/EVR_Map.umap'
-[2017.11.10-13.13.41:104][524]LogSavePackage: Display: Finished SavePackage ../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/EVR_Map.umap
-[2017.11.10-13.13.41:131][524]LogFileHelpers: Saving map 'EVR_Map' took 0.239
-[2017.11.10-13.13.41:134][524]Cmd: MAP LOAD FILE="../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/EVR_Map_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.10-13.13.41:139][524]LightingResults: New page: Lighting Build
-[2017.11.10-13.13.41:140][524]LoadErrors: New page: Loading map: EVR_Map_2.umap
-[2017.11.10-13.13.41:141][524]MapCheck: New page: Map Check
-[2017.11.10-13.13.41:141][524]LightingResults: New page: Lighting Build
-[2017.11.10-13.13.41:289][524]LogAIModule: Creating AISystem for world EVR_Map_2
-[2017.11.10-13.13.41:402][524]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.10-13.13.41:458][524]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.10-13.13.41:528][524]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 69.206ms to complete.
-[2017.11.10-13.13.41:528][524]LogFileHelpers: Loading map 'EVR_Map_2' took 0.395
-[2017.11.10-13.13.43:180][716]LogTemp: Repeating last play command: VR Preview
-[2017.11.10-13.13.43:203][716]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.10-13.13.43:203][716]PIE: New page: PIE session: EVR_Map_2 (Nov 10, 2017, 3:13:43 PM)
-[2017.11.10-13.13.43:203][716]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2
-[2017.11.10-13.13.43:207][716]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003959s)
-[2017.11.10-13.13.43:208][716]LogAIModule: Creating AISystem for world EVR_Map_2
-[2017.11.10-13.13.43:208][716]LogPlayLevel: PIE: World Init took: (0.000652s)
-[2017.11.10-13.13.43:208][716]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map_2.EVR_Map_2 to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 (0.004872s)
-[2017.11.10-13.13.43:258][716]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.10-13.13.43:264][716]LogInit: FAudioDevice initialized.
-[2017.11.10-13.13.43:344][716]LogLoad: Game class is 'Prototype_Gamemode_C'
-[2017.11.10-13.13.43:348][716]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 up for play (max tick rate 0) at 2017.11.10-14.13.43
-[2017.11.10-13.13.43:348][716]LogWorld: Bringing up level for play took: 0.003450
-[2017.11.10-13.13.43:348][716]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.10-13.13.43:355][716]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2 0.086
-[2017.11.10-13.14.06:537][876]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (MotionControllerPawn)
-[2017.11.10-13.14.35:077][222]LogTemp: Repeating last play command: VR Preview
-[2017.11.10-13.14.35:097][222]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.10-13.14.35:097][222]PIE: New page: PIE session: EVR_Map_2 (Nov 10, 2017, 3:14:35 PM)
-[2017.11.10-13.14.35:097][222]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2
-[2017.11.10-13.14.35:101][222]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004014s)
-[2017.11.10-13.14.35:102][222]LogAIModule: Creating AISystem for world EVR_Map_2
-[2017.11.10-13.14.35:102][222]LogPlayLevel: PIE: World Init took: (0.000700s)
-[2017.11.10-13.14.35:102][222]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map_2.EVR_Map_2 to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 (0.004988s)
-[2017.11.10-13.14.35:181][222]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.10-13.14.35:187][222]LogInit: FAudioDevice initialized.
-[2017.11.10-13.14.35:273][222]LogLoad: Game class is 'Prototype_Gamemode_C'
-[2017.11.10-13.14.35:277][222]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 up for play (max tick rate 0) at 2017.11.10-14.14.35
-[2017.11.10-13.14.35:277][222]LogWorld: Bringing up level for play took: 0.003488
-[2017.11.10-13.14.35:277][222]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.10-13.14.35:283][222]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2 0.014
-[2017.11.10-13.14.47:122][ 18]LogEditorViewport: Clicking on Actor (LMB): Puck_BP_C (Puck_BP)
-[2017.11.10-13.14.50:612][413]LogTemp: Repeating last play command: VR Preview
-[2017.11.10-13.14.50:631][413]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.10-13.14.50:631][413]PIE: New page: PIE session: EVR_Map_2 (Nov 10, 2017, 3:14:50 PM)
-[2017.11.10-13.14.50:631][413]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2
-[2017.11.10-13.14.50:635][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003859s)
-[2017.11.10-13.14.50:636][413]LogAIModule: Creating AISystem for world EVR_Map_2
-[2017.11.10-13.14.50:636][413]LogPlayLevel: PIE: World Init took: (0.000658s)
-[2017.11.10-13.14.50:636][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map_2.EVR_Map_2 to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 (0.004770s)
-[2017.11.10-13.14.50:686][413]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.10-13.14.50:692][413]LogInit: FAudioDevice initialized.
-[2017.11.10-13.14.50:777][413]LogLoad: Game class is 'Prototype_Gamemode_C'
-[2017.11.10-13.14.50:781][413]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 up for play (max tick rate 0) at 2017.11.10-14.14.50
-[2017.11.10-13.14.50:782][413]LogWorld: Bringing up level for play took: 0.003737
-[2017.11.10-13.14.50:782][413]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.10-13.14.50:787][413]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2 -0.482
-[2017.11.10-13.15.15:026][405]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
-[2017.11.10-13.15.35:266][311]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
-[2017.11.10-13.16.34:379][763]BlueprintLog: New page: Compile EVR_TriggerBoxNoGoal_BP_Blueprint
-[2017.11.10-13.16.43:578][151]LogTemp: Repeating last play command: VR Preview
-[2017.11.10-13.16.43:599][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.10-13.16.43:599][151]PIE: New page: PIE session: EVR_Map_2 (Nov 10, 2017, 3:16:43 PM)
-[2017.11.10-13.16.43:599][151]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2
-[2017.11.10-13.16.43:603][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003958s)
-[2017.11.10-13.16.43:604][151]LogAIModule: Creating AISystem for world EVR_Map_2
-[2017.11.10-13.16.43:604][151]LogPlayLevel: PIE: World Init took: (0.000689s)
-[2017.11.10-13.16.43:604][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map_2.EVR_Map_2 to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 (0.004903s)
-[2017.11.10-13.16.43:655][151]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.10-13.16.43:661][151]LogInit: FAudioDevice initialized.
-[2017.11.10-13.16.43:752][151]LogLoad: Game class is 'Prototype_Gamemode_C'
-[2017.11.10-13.16.43:756][151]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 up for play (max tick rate 0) at 2017.11.10-14.16.43
-[2017.11.10-13.16.43:756][151]LogWorld: Bringing up level for play took: 0.003502
-[2017.11.10-13.16.43:757][151]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.10-13.16.43:766][151]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2 0.496
-[2017.11.10-13.17.00:785][913]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
-[2017.11.10-13.17.14:122][510]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
-[2017.11.10-13.17.44:460][ 18]LogEditorViewport: Clicking on Actor (LMB): DonauArena_BP_C (DonauArena_BP)
-[2017.11.10-13.17.46:917][209]LogEditorViewport: Clicking on Actor (LMB): Puck_BP_C (Puck_BP)
-[2017.11.10-13.18.01:911][331]BlueprintLog: New page: Compile EVR_TriggerBoxNoGoal_BP_Blueprint
-[2017.11.10-13.18.09:112][664]LogTemp: Repeating last play command: VR Preview
-[2017.11.10-13.18.09:133][664]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.10-13.18.09:133][664]PIE: New page: PIE session: EVR_Map_2 (Nov 10, 2017, 3:18:09 PM)
-[2017.11.10-13.18.09:133][664]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2
-[2017.11.10-13.18.09:137][664]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003865s)
-[2017.11.10-13.18.09:137][664]LogAIModule: Creating AISystem for world EVR_Map_2
-[2017.11.10-13.18.09:138][664]LogPlayLevel: PIE: World Init took: (0.000682s)
-[2017.11.10-13.18.09:138][664]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map_2.EVR_Map_2 to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 (0.004824s)
-[2017.11.10-13.18.09:189][664]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.10-13.18.09:195][664]LogInit: FAudioDevice initialized.
-[2017.11.10-13.18.09:284][664]LogLoad: Game class is 'Prototype_Gamemode_C'
-[2017.11.10-13.18.09:288][664]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 up for play (max tick rate 0) at 2017.11.10-14.18.09
-[2017.11.10-13.18.09:288][664]LogWorld: Bringing up level for play took: 0.003572
-[2017.11.10-13.18.09:288][664]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.10-13.18.09:296][664]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2 0.027
-[2017.11.10-13.18.27:118][461]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
-[2017.11.10-13.18.54:381][209]BlueprintLog: New page: Compile EVR_TriggerBoxNoGoal_BP_Blueprint
-[2017.11.10-13.18.59:661][416]LogTemp: Repeating last play command: VR Preview
-[2017.11.10-13.18.59:680][416]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.10-13.18.59:680][416]PIE: New page: PIE session: EVR_Map_2 (Nov 10, 2017, 3:18:59 PM)
-[2017.11.10-13.18.59:680][416]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2
-[2017.11.10-13.18.59:684][416]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003858s)
-[2017.11.10-13.18.59:685][416]LogAIModule: Creating AISystem for world EVR_Map_2
-[2017.11.10-13.18.59:685][416]LogPlayLevel: PIE: World Init took: (0.000673s)
-[2017.11.10-13.18.59:685][416]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map_2.EVR_Map_2 to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 (0.004798s)
-[2017.11.10-13.18.59:734][416]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.10-13.18.59:740][416]LogInit: FAudioDevice initialized.
-[2017.11.10-13.18.59:829][416]LogLoad: Game class is 'Prototype_Gamemode_C'
-[2017.11.10-13.18.59:833][416]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 up for play (max tick rate 0) at 2017.11.10-14.18.59
-[2017.11.10-13.18.59:833][416]LogWorld: Bringing up level for play took: 0.003618
-[2017.11.10-13.18.59:834][416]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.10-13.18.59:842][416]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2 0.573
-[2017.11.10-13.19.16:714][171]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
-[2017.11.10-13.19.31:548][835]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
-[2017.11.10-13.19.45:711][469]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
-[2017.11.10-13.19.59:677][ 94]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
-[2017.11.10-13.20.47:482][234]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
-[2017.11.10-13.28.51:499][564]LogSavePackage: Save=101.94ms
-[2017.11.10-13.28.51:499][564]LogSavePackage: Moving '../../../../Daniel Schmidl/Masterarbeit/Saved/EVR_Map_2_Auto26DEA698F4580D6972D744FB058897289.tmp' to '../../../../Daniel Schmidl/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Maps/EVR_Map_2_Auto2.umap'
-[2017.11.10-13.28.51:500][564]LogSavePackage: Display: Finished SavePackage ../../../../Daniel Schmidl/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Maps/EVR_Map_2_Auto2.umap
-[2017.11.10-13.28.51:502][564]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/EVR_Map_2' took 0.141
-[2017.11.10-13.28.51:502][564]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.141
-[2017.11.10-13.28.51:504][564]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_TriggerBoxNoGoal_BP_Blueprint] ([1] browsable assets)...
-[2017.11.10-13.28.51:505][564]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_TriggerBoxNoGoal_BP_Blueprint]
-[2017.11.10-13.28.51:570][564]LogSavePackage: Save=55.61ms
-[2017.11.10-13.28.51:570][564]LogSavePackage: Moving '../../../../Daniel Schmidl/Masterarbeit/Saved/EVR_TriggerBoxNoGoal_BP_Blueprint_Auto2B99D10D74E0A58F6160130ABB143D97A.tmp' to '../../../../Daniel Schmidl/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_TriggerBoxNoGoal_BP_Blueprint_Auto2.uasset'
-[2017.11.10-13.28.51:571][564]LogSavePackage: Display: Finished SavePackage ../../../../Daniel Schmidl/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_TriggerBoxNoGoal_BP_Blueprint_Auto2.uasset
-[2017.11.10-13.28.51:571][564]LogFileHelpers: Auto-saving content packages took 0.069
-[2017.11.10-13.33.08:021][586]LogSavePackage: Save=53.33ms
-[2017.11.10-13.33.08:021][586]LogSavePackage: Moving '../../../../Daniel Schmidl/Masterarbeit/Saved/EVR_TriggerBoxNoGoal_BP_Blueprint8C8E2CA84D2B33073FBAA6800DF06EEB.tmp' to '../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_TriggerBoxNoGoal_BP_Blueprint.uasset'
-[2017.11.10-13.33.08:023][586]LogSavePackage: Display: Finished SavePackage ../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_TriggerBoxNoGoal_BP_Blueprint.uasset
-[2017.11.10-13.33.08:226][586]LogSavePackage: Save=100.81ms
-[2017.11.10-13.33.08:226][586]LogSavePackage: Moving '../../../../Daniel Schmidl/Masterarbeit/Saved/EVR_Map_249B1AD4D414F8B17F88BC4986F65BFB7.tmp' to '../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/EVR_Map_2.umap'
-[2017.11.10-13.33.08:228][586]LogSavePackage: Display: Finished SavePackage ../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/EVR_Map_2.umap
-[2017.11.10-13.33.08:256][586]LogFileHelpers: Saving map 'EVR_Map_2' took 0.231
-[2017.11.10-13.33.08:259][586]Cmd: MAP LOAD FILE="../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/EVR_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.10-13.33.08:264][586]LightingResults: New page: Lighting Build
-[2017.11.10-13.33.08:265][586]LoadErrors: New page: Loading map: EVR_Map.umap
-[2017.11.10-13.33.08:266][586]MapCheck: New page: Map Check
-[2017.11.10-13.33.08:266][586]LightingResults: New page: Lighting Build
-[2017.11.10-13.33.08:316][586]LogAIModule: Creating AISystem for world EVR_Map
-[2017.11.10-13.33.08:452][586]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.10-13.33.08:508][586]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.10-13.33.08:578][586]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 68.867ms to complete.
-[2017.11.10-13.33.08:578][586]LogFileHelpers: Loading map 'EVR_Map' took 0.320
-[2017.11.10-13.33.11:290][905]LogTemp: Repeating last play command: VR Preview
-[2017.11.10-13.33.11:346][905]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.10-13.33.11:347][905]PIE: New page: PIE session: EVR_Map (Nov 10, 2017, 3:33:11 PM)
-[2017.11.10-13.33.11:347][905]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
-[2017.11.10-13.33.11:352][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005442s)
-[2017.11.10-13.33.11:353][905]LogAIModule: Creating AISystem for world EVR_Map
-[2017.11.10-13.33.11:353][905]LogPlayLevel: PIE: World Init took: (0.000669s)
-[2017.11.10-13.33.11:353][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.006376s)
-[2017.11.10-13.33.11:403][905]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.10-13.33.11:409][905]LogInit: FAudioDevice initialized.
-[2017.11.10-13.33.11:510][905]LogLoad: Game class is 'Prototype_Gamemode_C'
-[2017.11.10-13.33.11:513][905]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.11.10-14.33.11
-[2017.11.10-13.33.11:514][905]LogWorld: Bringing up level for play took: 0.003485
-[2017.11.10-13.33.11:514][905]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.10-13.33.11:523][905]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 0.253
-[2017.11.10-13.33.36:231][ 13]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
-[2017.11.10-13.33.37:259][ 59]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-13.34.03:113][309]LogTemp: Repeating last play command: VR Preview
-[2017.11.10-13.34.03:133][309]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.10-13.34.03:133][309]PIE: New page: PIE session: EVR_Map (Nov 10, 2017, 3:34:03 PM)
-[2017.11.10-13.34.03:133][309]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
-[2017.11.10-13.34.03:138][309]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005174s)
-[2017.11.10-13.34.03:139][309]LogAIModule: Creating AISystem for world EVR_Map
-[2017.11.10-13.34.03:139][309]LogPlayLevel: PIE: World Init took: (0.000641s)
-[2017.11.10-13.34.03:139][309]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.006073s)
-[2017.11.10-13.34.03:190][309]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.10-13.34.03:196][309]LogInit: FAudioDevice initialized.
-[2017.11.10-13.34.03:289][309]LogLoad: Game class is 'Prototype_Gamemode_C'
-[2017.11.10-13.34.03:293][309]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.11.10-14.34.03
-[2017.11.10-13.34.03:294][309]LogWorld: Bringing up level for play took: 0.003665
-[2017.11.10-13.34.03:294][309]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.10-13.34.03:303][309]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 0.034
-[2017.11.10-13.34.14:175][798]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
-[2017.11.10-13.34.15:561][860]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-13.34.49:662][ 16]BlueprintLog: New page: Compile EVR_TriggerBoxNoGoal_BP_Blueprint
-[2017.11.10-13.34.50:713][ 72]LogSavePackage: Save=55.23ms
-[2017.11.10-13.34.50:713][ 72]LogSavePackage: Moving '../../../../Daniel Schmidl/Masterarbeit/Saved/EVR_TriggerBoxNoGoal_BP_Blueprint50144FF647AF38C5162299ADA750E33F.tmp' to '../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_TriggerBoxNoGoal_BP_Blueprint.uasset'
-[2017.11.10-13.34.50:714][ 72]LogSavePackage: Display: Finished SavePackage ../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_TriggerBoxNoGoal_BP_Blueprint.uasset
-[2017.11.10-13.34.52:783][286]LogTemp: Repeating last play command: VR Preview
-[2017.11.10-13.34.52:811][286]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.10-13.34.52:811][286]PIE: New page: PIE session: EVR_Map (Nov 10, 2017, 3:34:52 PM)
-[2017.11.10-13.34.52:811][286]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
-[2017.11.10-13.34.52:817][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005350s)
-[2017.11.10-13.34.52:817][286]LogAIModule: Creating AISystem for world EVR_Map
-[2017.11.10-13.34.52:817][286]LogPlayLevel: PIE: World Init took: (0.000640s)
-[2017.11.10-13.34.52:817][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.006258s)
-[2017.11.10-13.34.52:867][286]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.10-13.34.52:873][286]LogInit: FAudioDevice initialized.
-[2017.11.10-13.34.52:955][286]LogLoad: Game class is 'Prototype_Gamemode_C'
-[2017.11.10-13.34.52:959][286]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.11.10-14.34.52
-[2017.11.10-13.34.52:959][286]LogWorld: Bringing up level for play took: 0.003544
-[2017.11.10-13.34.52:959][286]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.10-13.34.52:965][286]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map -0.304
-[2017.11.10-13.35.05:256][843]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-13.35.17:611][396]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-13.35.28:558][886]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
-[2017.11.10-13.35.30:143][957]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-13.35.43:101][537]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
-[2017.11.10-13.35.44:597][604]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-13.35.58:940][246]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-13.36.10:579][767]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
-[2017.11.10-13.36.12:120][836]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-13.36.23:000][323]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-13.36.32:696][757]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
-[2017.11.10-13.36.34:170][823]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-13.36.45:877][347]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
-[2017.11.10-13.36.47:217][407]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-13.36.56:824][837]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
-[2017.11.10-13.36.58:365][906]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-13.37.43:771][157]BlueprintLog: New page: Compile EVR_ScoreHUD
-[2017.11.10-13.37.43:913][157]PIE: UWidget::RemoveFromParent() called on '/Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2017.11.10-13.37.44:522][186]LogSavePackage: Save=108.39ms
-[2017.11.10-13.37.44:522][186]LogSavePackage: Moving '../../../../Daniel Schmidl/Masterarbeit/Saved/EVR_ScoreHUD748ED399437388C91998EFB36ADFB621.tmp' to '../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_ScoreHUD.uasset'
-[2017.11.10-13.37.44:524][186]LogSavePackage: Display: Finished SavePackage ../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_ScoreHUD.uasset
-[2017.11.10-13.37.49:498][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Maps/EVR_Map" FILE="../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/EVR_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.11.10-13.37.49:644][507]LogSavePackage: Save=110.44ms
-[2017.11.10-13.37.49:644][507]LogSavePackage: Moving '../../../../Daniel Schmidl/Masterarbeit/Saved/EVR_Map93497D31423DD1A8A0C391A24AA849F2.tmp' to '../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/EVR_Map.umap'
-[2017.11.10-13.37.49:645][507]LogSavePackage: Display: Finished SavePackage ../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/EVR_Map.umap
-[2017.11.10-13.52.41:231][965]BlueprintLog: New page: Compile EVR_ScoreHUD_3
-[2017.11.10-13.53.06:287][384]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/EVR_Map' took 0.024
-[2017.11.10-13.53.06:290][384]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Blueprints/Level_EVR_2/EVR_ScoreHUD_3] ([1] browsable assets)...
-[2017.11.10-13.53.06:290][384]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/Level_EVR_2/EVR_ScoreHUD_3]
-[2017.11.10-13.53.06:406][384]LogSavePackage: Save=105.30ms
-[2017.11.10-13.53.06:406][384]LogSavePackage: Moving '../../../../Daniel Schmidl/Masterarbeit/Saved/EVR_ScoreHUD_3_Auto36CA0A3364E38420B519F7FB5FC6DC00D.tmp' to '../../../../Daniel Schmidl/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/Level_EVR_2/EVR_ScoreHUD_3_Auto3.uasset'
-[2017.11.10-13.53.06:408][384]LogSavePackage: Display: Finished SavePackage ../../../../Daniel Schmidl/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/Level_EVR_2/EVR_ScoreHUD_3_Auto3.uasset
-[2017.11.10-13.53.06:408][384]LogFileHelpers: Auto-saving content packages took 0.120
-[2017.11.10-13.54.30:809][238]BlueprintLog: New page: Compile EVR_ScoreHUD
-[2017.11.10-13.54.31:502][261]LogSavePackage: Save=106.95ms
-[2017.11.10-13.54.31:502][261]LogSavePackage: Moving '../../../../Daniel Schmidl/Masterarbeit/Saved/EVR_ScoreHUD0207833E4E411A42463056AA0360F6EE.tmp' to '../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_ScoreHUD.uasset'
-[2017.11.10-13.54.31:504][261]LogSavePackage: Display: Finished SavePackage ../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_ScoreHUD.uasset
-[2017.11.10-13.54.35:754][701]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.10-13.54.35:754][701]PIE: New page: PIE session: EVR_Map (Nov 10, 2017, 3:54:35 PM)
-[2017.11.10-13.54.35:754][701]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
-[2017.11.10-13.54.35:759][701]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005212s)
-[2017.11.10-13.54.35:760][701]LogAIModule: Creating AISystem for world EVR_Map
-[2017.11.10-13.54.35:760][701]LogPlayLevel: PIE: World Init took: (0.000696s)
-[2017.11.10-13.54.35:760][701]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.006175s)
-[2017.11.10-13.54.35:812][701]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.10-13.54.35:818][701]LogInit: FAudioDevice initialized.
-[2017.11.10-13.54.35:853][701]LogLoad: Game class is 'Prototype_Gamemode_C'
-[2017.11.10-13.54.35:857][701]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.11.10-14.54.35
-[2017.11.10-13.54.35:857][701]LogWorld: Bringing up level for play took: 0.003884
-[2017.11.10-13.54.35:857][701]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.10-13.54.35:858][701]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 0.589
-[2017.11.10-13.55.02:857][506]BlueprintLog: New page: Compile EVR_ScoreHUD
-[2017.11.10-13.55.03:006][506]PIE: UWidget::RemoveFromParent() called on '/Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2017.11.10-13.55.07:679][941]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.10-13.55.07:679][941]PIE: New page: PIE session: EVR_Map (Nov 10, 2017, 3:55:07 PM)
-[2017.11.10-13.55.07:680][941]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
-[2017.11.10-13.55.07:685][941]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005089s)
-[2017.11.10-13.55.07:685][941]LogAIModule: Creating AISystem for world EVR_Map
-[2017.11.10-13.55.07:685][941]LogPlayLevel: PIE: World Init took: (0.000677s)
-[2017.11.10-13.55.07:686][941]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.006046s)
-[2017.11.10-13.55.07:740][941]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.10-13.55.07:746][941]LogInit: FAudioDevice initialized.
-[2017.11.10-13.55.07:835][941]LogLoad: Game class is 'Prototype_Gamemode_C'
-[2017.11.10-13.55.07:838][941]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.11.10-14.55.07
-[2017.11.10-13.55.07:839][941]LogWorld: Bringing up level for play took: 0.003544
-[2017.11.10-13.55.07:839][941]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2017.11.10-13.55.07:845][941]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 0.576
-[2017.11.10-13.55.34:694][136]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-13.56.04:607][475]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
-[2017.11.10-13.56.06:014][538]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
-[2017.11.10-13.56.28:053][750]BlueprintLog: New page: Compile EVR_ScoreHUD_3
-[2017.11.10-13.56.39:335][401]BlueprintLog: New page: Compile EVR_ScoreHUD_3
-[2017.11.10-14.04.19:636][900]LogSavePackage: Save=127.19ms
-[2017.11.10-14.04.19:636][900]LogSavePackage: Moving '../../../../Daniel Schmidl/Masterarbeit/Saved/EVR_Map_Auto4DE63D6824610CEF96CC2DB8C263ABE80.tmp' to '../../../../Daniel Schmidl/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Maps/EVR_Map_Auto4.umap'
-[2017.11.10-14.04.19:637][900]LogSavePackage: Display: Finished SavePackage ../../../../Daniel Schmidl/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Maps/EVR_Map_Auto4.umap
-[2017.11.10-14.04.19:639][900]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/EVR_Map' took 0.176
-[2017.11.10-14.04.19:639][900]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.176
-[2017.11.10-14.04.19:641][900]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_ScoreHUD] ([1] browsable assets)...
-[2017.11.10-14.04.19:641][900]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_ScoreHUD]
-[2017.11.10-14.04.19:776][900]LogSavePackage: Save=123.79ms
-[2017.11.10-14.04.19:776][900]LogSavePackage: Moving '../../../../Daniel Schmidl/Masterarbeit/Saved/EVR_ScoreHUD_Auto4AE47CCAE407478A73E6B8B88A0096DE3.tmp' to '../../../../Daniel Schmidl/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_ScoreHUD_Auto4.uasset'
-[2017.11.10-14.04.19:777][900]LogSavePackage: Display: Finished SavePackage ../../../../Daniel Schmidl/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_ScoreHUD_Auto4.uasset
-[2017.11.10-14.04.19:777][900]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Blueprints/Level_EVR_2/EVR_ScoreHUD_3] ([1] browsable assets)...
-[2017.11.10-14.04.19:777][900]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/Level_EVR_2/EVR_ScoreHUD_3]
-[2017.11.10-14.04.19:900][900]LogSavePackage: Save=112.77ms
-[2017.11.10-14.04.19:900][900]LogSavePackage: Moving '../../../../Daniel Schmidl/Masterarbeit/Saved/EVR_ScoreHUD_3_Auto457120047484A2A572C1493A92EA30709.tmp' to '../../../../Daniel Schmidl/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/Level_EVR_2/EVR_ScoreHUD_3_Auto4.uasset'
-[2017.11.10-14.04.19:901][900]LogSavePackage: Display: Finished SavePackage ../../../../Daniel Schmidl/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/Level_EVR_2/EVR_ScoreHUD_3_Auto4.uasset
-[2017.11.10-14.04.19:901][900]LogFileHelpers: Auto-saving content packages took 0.261
-[2017.11.10-14.22.06:626][486]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2017.11.10-14.22.06:750][486]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2017.11.10-14.22.09:727][574]LogSavePackage: Save=102.21ms
-[2017.11.10-14.22.09:727][574]LogSavePackage: Moving '../../../../Daniel Schmidl/Masterarbeit/Saved/EVR_ScoreHUD5744F6984330545A40F88080680FF927.tmp' to '../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_ScoreHUD.uasset'
-[2017.11.10-14.22.09:728][574]LogSavePackage: Display: Finished SavePackage ../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_ScoreHUD.uasset
-[2017.11.10-14.22.09:843][574]LogSavePackage: Save=101.68ms
-[2017.11.10-14.22.09:843][574]LogSavePackage: Moving '../../../../Daniel Schmidl/Masterarbeit/Saved/EVR_ScoreHUD_3C43B35C940957F3842A2578987B5ED1E.tmp' to '../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/Level_EVR_2/EVR_ScoreHUD_3.uasset'
-[2017.11.10-14.22.09:846][574]LogSavePackage: Display: Finished SavePackage ../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/Level_EVR_2/EVR_ScoreHUD_3.uasset
-[2017.11.10-14.22.09:918][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Maps/EVR_Map" FILE="../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/EVR_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.11.10-14.22.10:059][574]LogSavePackage: Save=110.36ms
-[2017.11.10-14.22.10:059][574]LogSavePackage: Moving '../../../../Daniel Schmidl/Masterarbeit/Saved/EVR_Map8D2BC1B4460BC21B0BFDDFA97E0A5C9E.tmp' to '../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/EVR_Map.umap'
-[2017.11.10-14.22.10:061][574]LogSavePackage: Display: Finished SavePackage ../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/EVR_Map.umap
-[2017.11.10-14.22.10:087][574]LogFileHelpers: Saving map 'EVR_Map' took 0.239
-[2017.11.10-14.22.10:171][574]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.11.10-14.22.10:360][575]Cmd: QUIT_EDITOR
-[2017.11.10-14.22.10:720][575]LogExit: Preparing to exit.
-[2017.11.10-14.22.10:956][575]LogDirectoryWatcher: A directory notification for 'D:/Daniel Schmidl/Masterarbeit/Content/' was aborted.
-[2017.11.10-14.22.10:963][575]PIE: UWidget::RemoveFromParent() called on '/Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2017.11.10-14.22.10:964][575]PIE: UWidget::RemoveFromParent() called on '/Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2017.11.10-14.22.10:992][575]LogExit: Editor shut down
-[2017.11.10-14.22.11:000][575]LogExit: Transaction tracking system shut down
-[2017.11.10-14.22.11:154][575]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.11.10-14.22.11:154][575]LogDirectoryWatcher: A directory notification for '../../../../Daniel Schmidl/Masterarbeit/Content/' was aborted.
-[2017.11.10-14.22.11:154][575]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.11.10-14.22.11:154][575]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2017.11.10-14.22.11:154][575]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2017.11.10-14.22.11:256][575]LogExit: Object subsystem successfully closed.
-[2017.11.10-14.22.11:289][575]LogD3D11RHI: Shutdown
-[2017.11.10-14.22.11:289][575]LogD3D11RHI: CleanupD3DDevice
-[2017.11.10-14.22.11:293][575]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.11.10-14.22.11:300][575]LogModuleManager: Shutting down and abandoning module SequencerWidgets (540)
-[2017.11.10-14.22.11:300][575]LogModuleManager: Shutting down and abandoning module BlueprintGraph (538)
-[2017.11.10-14.22.11:300][575]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (536)
-[2017.11.10-14.22.11:300][575]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
-[2017.11.10-14.22.11:300][575]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
-[2017.11.10-14.22.11:300][575]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
-[2017.11.10-14.22.11:300][575]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
-[2017.11.10-14.22.11:300][575]LogDirectoryWatcher: A directory notification for 'D:/UE_4.17/FeaturePacks/' was aborted.
-[2017.11.10-14.22.11:301][575]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
-[2017.11.10-14.22.11:301][575]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
-[2017.11.10-14.22.11:301][575]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
-[2017.11.10-14.22.11:301][575]LogDirectoryWatcher: A directory notification for 'D:/Daniel Schmidl/Masterarbeit/Content/Collections/' was aborted.
-[2017.11.10-14.22.11:301][575]LogDirectoryWatcher: A directory notification for 'D:/Daniel Schmidl/Masterarbeit/Content/Developers/LocalAdmin/Collections/' was aborted.
-[2017.11.10-14.22.11:301][575]LogDirectoryWatcher: A directory notification for 'D:/Daniel Schmidl/Masterarbeit/Saved/Collections/' was aborted.
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module BspMode (504)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (488)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (486)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (484)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (482)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (480)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module Media (479)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (476)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module AudioCapture (472)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module SequenceRecorder (471)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module SmartSnapping (468)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module SessionServices (466)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module ViewportSnapping (464)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module ViewportInteraction (462)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module ClothPainter (460)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module LogVisualizer (458)
-[2017.11.10-14.22.11:302][575]LogModuleManager: Shutting down and abandoning module IntroTutorials (456)
-[2017.11.10-14.22.11:303][575]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (455)
-[2017.11.10-14.22.11:303][575]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (452)
-[2017.11.10-14.22.11:303][575]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (450)
-[2017.11.10-14.22.11:303][575]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (448)
-[2017.11.10-14.22.11:303][575]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (447)
-[2017.11.10-14.22.12:135][575]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (444)
-[2017.11.10-14.22.12:135][575]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (442)
-[2017.11.10-14.22.12:135][575]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (440)
-[2017.11.10-14.22.12:135][575]LogModuleManager: Shutting down and abandoning module InputBindingEditor (438)
-[2017.11.10-14.22.12:135][575]LogModuleManager: Shutting down and abandoning module MergeActors (436)
-[2017.11.10-14.22.12:135][575]LogModuleManager: Shutting down and abandoning module SizeMap (434)
-[2017.11.10-14.22.12:135][575]LogModuleManager: Shutting down and abandoning module TreeMap (432)
-[2017.11.10-14.22.12:135][575]LogModuleManager: Shutting down and abandoning module ReferenceViewer (430)
-[2017.11.10-14.22.12:135][575]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (428)
-[2017.11.10-14.22.12:135][575]LogModuleManager: Shutting down and abandoning module LocalizationService (427)
-[2017.11.10-14.22.12:135][575]LogModuleManager: Shutting down and abandoning module HardwareTargeting (424)
-[2017.11.10-14.22.12:135][575]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (422)
-[2017.11.10-14.22.12:135][575]LogModuleManager: Shutting down and abandoning module UndoHistory (420)
-[2017.11.10-14.22.12:135][575]LogModuleManager: Shutting down and abandoning module XmlParser (418)
-[2017.11.10-14.22.12:135][575]LogModuleManager: Shutting down and abandoning module Blutility (416)
-[2017.11.10-14.22.12:135][575]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (414)
-[2017.11.10-14.22.12:135][575]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (413)
-[2017.11.10-14.22.12:135][575]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (410)
-[2017.11.10-14.22.12:135][575]LogModuleManager: Shutting down and abandoning module SettingsEditor (408)
-[2017.11.10-14.22.12:135][575]LogModuleManager: Shutting down and abandoning module ProjectLauncher (406)
-[2017.11.10-14.22.12:135][575]LogModuleManager: Shutting down and abandoning module SessionFrontend (404)
-[2017.11.10-14.22.12:135][575]LogModuleManager: Shutting down and abandoning module ProfilerClient (402)
-[2017.11.10-14.22.12:135][575]LogModuleManager: Shutting down and abandoning module DeviceManager (400)
-[2017.11.10-14.22.12:135][575]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (399)
-[2017.11.10-14.22.12:189][575]LogModuleManager: Shutting down and abandoning module AutomationController (396)
-[2017.11.10-14.22.12:189][575]LogModuleManager: Shutting down and abandoning module AutomationWindow (394)
-[2017.11.10-14.22.12:189][575]LogModuleManager: Shutting down and abandoning module Layers (392)
-[2017.11.10-14.22.12:189][575]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (390)
-[2017.11.10-14.22.12:189][575]LogModuleManager: Shutting down and abandoning module DetailCustomizations (388)
-[2017.11.10-14.22.12:189][575]LogModuleManager: Shutting down and abandoning module PackagesDialog (386)
-[2017.11.10-14.22.12:190][575]LogModuleManager: Shutting down and abandoning module Persona (384)
-[2017.11.10-14.22.12:190][575]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (383)
-[2017.11.10-14.22.12:190][575]LogModuleManager: Shutting down and abandoning module AnimGraph (381)
-[2017.11.10-14.22.12:190][575]LogModuleManager: Shutting down and abandoning module Kismet (378)
-[2017.11.10-14.22.12:197][575]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
-[2017.11.10-14.22.12:197][575]LogModuleManager: Shutting down and abandoning module Toolbox (374)
-[2017.11.10-14.22.12:197][575]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
-[2017.11.10-14.22.12:197][575]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
-[2017.11.10-14.22.12:197][575]LogModuleManager: Shutting down and abandoning module OutputLog (368)
-[2017.11.10-14.22.12:197][575]LogModuleManager: Shutting down and abandoning module GammaUI (366)
-[2017.11.10-14.22.12:197][575]LogModuleManager: Shutting down and abandoning module Documentation (364)
-[2017.11.10-14.22.12:197][575]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
-[2017.11.10-14.22.12:197][575]LogModuleManager: Shutting down and abandoning module MovieScene (360)
-[2017.11.10-14.22.12:197][575]LogModuleManager: Shutting down and abandoning module Niagara (358)
-[2017.11.10-14.22.12:197][575]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
-[2017.11.10-14.22.12:198][575]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (354)
-[2017.11.10-14.22.12:198][575]LogModuleManager: Shutting down and abandoning module LauncherPlatform (352)
-[2017.11.10-14.22.12:198][575]LogModuleManager: Shutting down and abandoning module AnalyticsET (350)
-[2017.11.10-14.22.12:198][575]LogModuleManager: Shutting down and abandoning module PortalServices (348)
-[2017.11.10-14.22.12:198][575]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
-[2017.11.10-14.22.12:198][575]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
-[2017.11.10-14.22.12:198][575]LogModuleManager: Shutting down and abandoning module AIModule (342)
-[2017.11.10-14.22.12:198][575]LogModuleManager: Shutting down and abandoning module GameplayDebugger (341)
-[2017.11.10-14.22.12:198][575]LogModuleManager: Shutting down and abandoning module AITestSuite (339)
-[2017.11.10-14.22.12:198][575]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
-[2017.11.10-14.22.12:257][575]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
-[2017.11.10-14.22.12:257][575]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
-[2017.11.10-14.22.12:257][575]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
-[2017.11.10-14.22.12:257][575]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
-[2017.11.10-14.22.12:257][575]LogModuleManager: Shutting down and abandoning module OculusInput (326)
-[2017.11.10-14.22.12:257][575]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
-[2017.11.10-14.22.12:257][575]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
-[2017.11.10-14.22.12:257][575]LogModuleManager: Shutting down and abandoning module CableComponent (320)
-[2017.11.10-14.22.12:257][575]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
-[2017.11.10-14.22.12:257][575]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
-[2017.11.10-14.22.12:258][575]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
-[2017.11.10-14.22.12:258][575]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
-[2017.11.10-14.22.12:258][575]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
-[2017.11.10-14.22.12:258][575]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
-[2017.11.10-14.22.12:258][575]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
-[2017.11.10-14.22.12:258][575]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
-[2017.11.10-14.22.12:258][575]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
-[2017.11.10-14.22.12:258][575]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
-[2017.11.10-14.22.12:258][575]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
-[2017.11.10-14.22.12:258][575]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
-[2017.11.10-14.22.12:258][575]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
-[2017.11.10-14.22.12:258][575]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
-[2017.11.10-14.22.12:258][575]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
-[2017.11.10-14.22.12:258][575]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
-[2017.11.10-14.22.12:258][575]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
-[2017.11.10-14.22.12:258][575]LogModuleManager: Shutting down and abandoning module SourceControl (283)
-[2017.11.10-14.22.12:258][575]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
-[2017.11.10-14.22.12:258][575]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
-[2017.11.10-14.22.12:258][575]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
-[2017.11.10-14.22.12:258][575]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
-[2017.11.10-14.22.12:258][575]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
-[2017.11.10-14.22.12:258][575]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
-[2017.11.10-14.22.12:259][575]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
-[2017.11.10-14.22.12:259][575]LogModuleManager: Shutting down and abandoning module MainFrame (268)
-[2017.11.10-14.22.12:259][575]LogModuleManager: Shutting down and abandoning module HotReload (267)
-[2017.11.10-14.22.12:259][575]LogDirectoryWatcher: A directory notification for 'D:/Daniel Schmidl/Masterarbeit/Plugins/VictoryPlugin/Binaries/Win64' was aborted.
-[2017.11.10-14.22.12:259][575]LogModuleManager: Shutting down and abandoning module VictoryBPLibrary (262)
-[2017.11.10-14.22.12:259][575]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
-[2017.11.10-14.22.12:259][575]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
-[2017.11.10-14.22.12:259][575]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
-[2017.11.10-14.22.12:259][575]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
-[2017.11.10-14.22.12:259][575]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
-[2017.11.10-14.22.12:259][575]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
-[2017.11.10-14.22.12:259][575]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
-[2017.11.10-14.22.12:259][575]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
-[2017.11.10-14.22.12:360][575]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
-[2017.11.10-14.22.12:460][575]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
-[2017.11.10-14.22.12:460][575]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
-[2017.11.10-14.22.12:460][575]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
-[2017.11.10-14.22.12:460][575]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
-[2017.11.10-14.22.12:460][575]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
-[2017.11.10-14.22.12:460][575]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
-[2017.11.10-14.22.12:461][575]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
-[2017.11.10-14.22.12:461][575]LogModuleManager: Shutting down and abandoning module Paper2D (228)
-[2017.11.10-14.22.12:461][575]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
-[2017.11.10-14.22.12:461][575]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
-[2017.11.10-14.22.12:462][575]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
-[2017.11.10-14.22.12:462][575]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
-[2017.11.10-14.22.12:462][575]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
-[2017.11.10-14.22.12:463][575]LogModuleManager: Shutting down and abandoning module Overlay (216)
-[2017.11.10-14.22.12:463][575]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
-[2017.11.10-14.22.12:463][575]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
-[2017.11.10-14.22.12:463][575]LogModuleManager: Shutting down and abandoning module VREditor (210)
-[2017.11.10-14.22.12:463][575]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
-[2017.11.10-14.22.12:464][575]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
-[2017.11.10-14.22.12:464][575]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
-[2017.11.10-14.22.12:464][575]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
-[2017.11.10-14.22.12:464][575]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
-[2017.11.10-14.22.12:464][575]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
-[2017.11.10-14.22.12:464][575]LogModuleManager: Shutting down and abandoning module UMG (196)
-[2017.11.10-14.22.12:464][575]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
-[2017.11.10-14.22.12:464][575]LogModuleManager: Shutting down and abandoning module Sequencer (194)
-[2017.11.10-14.22.12:464][575]LogModuleManager: Shutting down and abandoning module MessageLog (191)
-[2017.11.10-14.22.12:464][575]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
-[2017.11.10-14.22.12:464][575]LogModuleManager: Shutting down and abandoning module Slate (184)
-[2017.11.10-14.22.12:464][575]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
-[2017.11.10-14.22.12:466][575]LogModuleManager: Shutting down and abandoning module MRMesh (180)
-[2017.11.10-14.22.12:466][575]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
-[2017.11.10-14.22.12:466][575]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
-[2017.11.10-14.22.12:466][575]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
-[2017.11.10-14.22.12:466][575]LogModuleManager: Shutting down and abandoning module Networking (172)
-[2017.11.10-14.22.12:466][575]LogModuleManager: Shutting down and abandoning module Core (168)
-[2017.11.10-14.22.12:466][575]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2017.11.10-14.22.12:466][575]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
-[2017.11.10-14.22.12:466][575]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
-[2017.11.10-14.22.12:466][575]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
-[2017.11.10-14.22.12:466][575]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
-[2017.11.10-14.22.12:466][575]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
-[2017.11.10-14.22.12:466][575]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
-[2017.11.10-14.22.12:466][575]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
-[2017.11.10-14.22.12:466][575]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
-[2017.11.10-14.22.12:466][575]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
-[2017.11.10-14.22.12:467][575]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2017.11.10-14.22.12:490][575]LogDerivedDataCache: Shutdown
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module SteamVR (54)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.11.10-14.22.12:490][575]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.11.10-14.22.12:490][575]LogOnline: Display: Unloading online subsystem: NULL
-[2017.11.10-14.22.12:491][575]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.11.10-14.22.12:491][575]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.11.10-14.22.12:491][575]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.11.10-14.22.12:491][575]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD243D05D-4186-ED81-535F-0FA530D0DC18%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=f8179dad484facb1bbe537a2f6f6f875%7C6de05fa92587480fb7882ffc140bd849%7Ca8421cad-14d1-4c31-b419-d88541bd8cac&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.11.10-14.22.12:501][575]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.11.10-14.22.12:502][575]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2017.11.10-14.22.12:502][575]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2017.11.10-14.22.12:502][575]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2017.11.10-14.22.12:503][575]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2017.11.10-14.22.12:503][575]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2017.11.10-14.22.12:503][575]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2017.11.10-14.22.12:503][575]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2017.11.10-14.22.12:504][575]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2017.11.10-14.22.12:504][575]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2017.11.10-14.22.12:504][575]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2017.11.10-14.22.12:504][575]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2017.11.10-14.22.12:504][575]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2017.11.10-14.22.12:504][575]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2017.11.10-14.22.12:504][575]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2017.11.10-14.22.12:504][575]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2017.11.10-14.22.12:504][575]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.11.10-14.22.12:504][575]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.11.10-14.22.12:504][575]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.11.10-14.22.12:508][575]LogExit: Exiting.
-[2017.11.10-14.22.12:522][575]Log file closed, 11/10/17 15:22:12
+[2017.11.17-12.25.09:290][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.17-12.25.09:290][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.17-12.25.09:305][  0]LogInit: Computer: PC1011604132
+[2017.11.17-12.25.09:305][  0]LogInit: User: LocalAdmin
+[2017.11.17-12.25.09:305][  0]LogInit: CPU Page size=4096, Cores=6
+[2017.11.17-12.25.09:305][  0]LogInit: High frequency timer resolution =3.220793 MHz
+[2017.11.17-12.25.09:305][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.17-12.25.09:305][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.17-12.25.09:305][  0]LogMemory: Process Physical Memory: 283.29 MB used, 283.29 MB peak
+[2017.11.17-12.25.09:305][  0]LogMemory: Process Virtual Memory: 286.14 MB used, 286.14 MB peak
+[2017.11.17-12.25.09:305][  0]LogMemory: Physical Memory: 3450.95 MB used,  12844.08 MB free, 16295.03 MB total
+[2017.11.17-12.25.09:305][  0]LogMemory: Virtual Memory: 712.69 MB used,  12844.08 MB free, 134217728.00 MB total
+[2017.11.17-12.25.09:535][  0]LogInit: Using OS detected language (de-DE).
+[2017.11.17-12.25.09:535][  0]LogInit: Using OS detected locale (de-DE).
+[2017.11.17-12.25.09:545][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the language.
+[2017.11.17-12.25.09:545][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the locale.
+[2017.11.17-12.25.10:420][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.17-12.25.10:458][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980 Ti' (Feature Level 11_0)
+[2017.11.17-12.25.10:458][  0]LogD3D11RHI:       6103/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.11.17-12.25.10:460][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.17-12.25.10:460][  0]LogD3D11RHI:       0/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.17-12.25.10:460][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.17-12.25.10:464][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.17-12.25.10:464][  0]LogD3D11RHI:     GPU DeviceId: 0x17c8 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.17-12.25.10:464][  0]LogWindows: EnumDisplayDevices:
+[2017.11.17-12.25.10:465][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980 Ti' (P:1 D:1)
+[2017.11.17-12.25.10:465][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2017.11.17-12.25.10:465][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2017.11.17-12.25.10:465][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2017.11.17-12.25.10:465][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.11.17-12.25.10:465][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980 Ti
+[2017.11.17-12.25.10:465][  0]LogD3D11RHI:   Driver Version: 385.69 (internal:22.21.13.8569, unified:385.69)
+[2017.11.17-12.25.10:465][  0]LogD3D11RHI:      Driver Date: 9-16-2017
+[2017.11.17-12.25.10:465][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.17-12.25.10:495][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.17-12.25.10:517][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.11.17-12.25.10:568][  0]LogShaderCompilers: Guid format shader working directory is 11 characters bigger than the processId version (../../../../Daniel Schmidl/Masterarbeit/Intermediate/Shaders/WorkingDirectory/12000/).
+[2017.11.17-12.25.10:568][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/LocalAdmin/AppData/Local/Temp/UnrealShaderWorkingDir/49F663D846E03550B4D790AF2F880AF2/'.
+[2017.11.17-12.25.10:568][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.17-12.25.11:810][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.17-12.25.11:848][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.17-12.25.11:886][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.17-12.25.11:924][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.17-12.25.11:965][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.17-12.25.12:004][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.17-12.25.12:046][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.17-12.25.12:087][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.17-12.25.12:123][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.17-12.25.12:163][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.17-12.25.12:202][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.17-12.25.12:239][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.17-12.25.12:277][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.17-12.25.12:319][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.17-12.25.12:359][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.17-12.25.12:443][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.17-12.25.12:444][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.17-12.25.12:474][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.17-12.25.12:567][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.17-12.25.12:590][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.17-12.25.12:628][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.17-12.25.12:666][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.17-12.25.12:704][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.17-12.25.12:745][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.17-12.25.12:745][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.17-12.25.13:340][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.17-12.25.13:605][  0]LogDerivedDataCache: Loaded boot cache 0.26s 93MB C:/Users/LocalAdmin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.17-12.25.13:605][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/LocalAdmin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.17-12.25.13:605][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Daniel Schmidl/Masterarbeit/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.17-12.25.13:605][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.17-12.25.13:605][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Daniel Schmidl/Masterarbeit/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.17-12.25.13:605][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.17-12.25.13:628][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.17-12.25.13:640][  0]LogDerivedDataCache: Using Local data cache path C:/Users/LocalAdmin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.17-12.25.13:653][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.17-12.25.13:654][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.17-12.25.13:656][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.17-12.25.13:656][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.17-12.25.16:525][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2017.11.17-12.25.16:648][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.17-12.25.17:039][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.17-12.25.17:067][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.17-12.25.17:067][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.17-12.25.17:067][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.17-12.25.17:067][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.17-12.25.17:067][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.17-12.25.17:095][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.17-12.25.17:551][  0]LogNetVersion: DSHockeyGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4108346606)
+[2017.11.17-12.25.17:750][  0]LogPackageLocalizationCache: Processed 6 localized package path(s) for 1 prioritized culture(s) in 0.022797 seconds
+[2017.11.17-12.25.17:756][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.17-12.25.17:756][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.11.17-12.25.17:756][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.17-12.25.17:796][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.17-12.25.20:679][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.17-12.25.20:709][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.17-12.25.21:261][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.17-12.25.21:578][  0]SourceControl: Source control is disabled
+[2017.11.17-12.25.21:578][  0]SourceControl: Source control is disabled
+[2017.11.17-12.25.21:611][  0]SourceControl: Source control is disabled
+[2017.11.17-12.25.21:643][  0]SourceControl: Source control is disabled
+[2017.11.17-12.25.22:056][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.17-12.25.22:234][  0]LogOcInput: OculusInput pre-init called
+[2017.11.17-12.25.22:432][  0]LogEngine: Initializing Engine...
+[2017.11.17-12.25.23:017][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-F79729DE
+[2017.11.17-12.25.23:247][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.17-12.25.23:247][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.17-12.25.23:343][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.17-12.25.23:382][  0]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.17-12.25.23:399][  0]LogInit: FAudioDevice initialized.
+[2017.11.17-12.25.23:482][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/LocalAdmin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.17-12.25.23:494][  0]LogInit: Texture streaming: Enabled
+[2017.11.17-12.25.23:565][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.17-12.25.23:565][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={91D2AC6C-4A76-64B9-37F8-36B338F0635D}
+[2017.11.17-12.25.23:724][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.17-12.25.23:765][  0]LogInit: Transaction tracking system initialized
+[2017.11.17-12.25.23:988][  0]BlueprintLog: New page: Editor Load
+[2017.11.17-12.25.24:601][  0]LocalizationService: Localization service is disabled
+[2017.11.17-12.25.25:094][  0]LogConsoleResponse: Display: 
+[2017.11.17-12.25.25:365][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.17-12.25.25:365][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.17-12.25.25:366][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.17-12.25.25:371][  0]LogFileCache: Scanning file cache for directory 'D:/Daniel Schmidl/Masterarbeit/Content/' took 0.01s
+[2017.11.17-12.25.26:115][  0]SourceControl: Source control is disabled
+[2017.11.17-12.25.26:116][  0]Cmd: MAP LOAD FILE="../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/PrototypeMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.17-12.25.26:117][  0]LightingResults: New page: Lighting Build
+[2017.11.17-12.25.26:147][  0]MapCheck: New page: Map Check
+[2017.11.17-12.25.26:147][  0]LightingResults: New page: Lighting Build
+[2017.11.17-12.25.26:352][  0]LogBlueprint: Warning: [Compiler BP_MotionController] ProjectPointToNavigation_DEPRECATED  is deprecated; This version of ProjectPointToNavigation is deprecated. Please use the new version
+[2017.11.17-12.25.26:370][  0]LogBlueprint: Warning: [Compiler BP_MotionController] [0020.20] Compile of BP_MotionController successful, but with 1 Warning(s) [in 39 ms] (/Game/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController)
+[2017.11.17-12.25.26:852][  0]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.11.17-12.25.26:866][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.17-12.25.26:887][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.17-12.25.26:939][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.776ms to complete.
+[2017.11.17-12.25.26:940][  0]LogFileHelpers: Loading map 'PrototypeMap' took 0.824
+[2017.11.17-12.25.27:074][  0]LogCollectionManager: Loaded 0 collections in 0.000868 seconds
+[2017.11.17-12.25.27:140][  0]LogFileCache: Scanning file cache for directory 'D:/Daniel Schmidl/Masterarbeit/Saved/Collections/' took 0.01s
+[2017.11.17-12.25.27:140][  0]LogFileCache: Scanning file cache for directory 'D:/Daniel Schmidl/Masterarbeit/Content/Developers/LocalAdmin/Collections/' took 0.01s
+[2017.11.17-12.25.27:140][  0]LogFileCache: Scanning file cache for directory 'D:/Daniel Schmidl/Masterarbeit/Content/Collections/' took 0.01s
+[2017.11.17-12.25.27:140][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.11.17-12.25.27:149][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2392 classes and 503 folders.
+[2017.11.17-12.25.27:193][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.11.17-12.25.27:287][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.11.17-12.25.27:319][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.11.17-12.25.27:396][  0]LogSlate: Took 0.000948 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.17-12.25.27:399][  0]LogSlate: Took 0.001000 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.17-12.25.27:406][  0]LogSlate: Took 0.000895 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.17-12.25.27:507][  0]LogRenderer: Reallocating scene render targets to support 1672x804 Format 26 NumSamples 1 (Frame:1).
+[2017.11.17-12.25.27:669][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.11.17-12.25.27:670][  0]LogLoad: (Engine Initialization) Total time: 21.50 seconds
+[2017.11.17-12.25.27:670][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.17-12.25.27:670][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.17-12.25.27:679][  0]LogSteamVRController: Tracker device 1 is being assigned unreal hand: Special 1, for player 0
+[2017.11.17-12.25.27:701][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.17-12.25.27:761][  1]LogAssetRegistry: Asset discovery search completed in 11.2572 seconds
+[2017.11.17-12.25.27:762][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.17-12.25.27:763][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
+[2017.11.17-12.25.29:360][182]LogSlate: Took 0.000869 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.17-12.25.30:659][334]Cmd: MAP LOAD FILE="../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/EVR_Map_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.17-12.25.30:663][334]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.17-12.25.30:669][334]LightingResults: New page: Lighting Build
+[2017.11.17-12.25.30:670][334]LoadErrors: New page: Loading map: EVR_Map_2.umap
+[2017.11.17-12.25.30:673][334]MapCheck: New page: Map Check
+[2017.11.17-12.25.30:673][334]LightingResults: New page: Lighting Build
+[2017.11.17-12.25.31:520][334]LogAIModule: Creating AISystem for world EVR_Map_2
+[2017.11.17-12.25.31:616][334]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.17-12.25.31:666][334]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.17-12.25.31:726][334]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.104ms to complete.
+[2017.11.17-12.25.31:727][334]LogFileHelpers: Loading map 'EVR_Map_2' took 1.068
+[2017.11.17-12.25.34:681][681]LogTemp: Repeating last play command: VR Preview
+[2017.11.17-12.25.34:726][681]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.17-12.25.34:726][681]PIE: New page: PIE session: EVR_Map_2 (Nov 17, 2017, 2:25:34 PM)
+[2017.11.17-12.25.34:726][681]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2
+[2017.11.17-12.25.34:730][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003929s)
+[2017.11.17-12.25.34:731][681]LogAIModule: Creating AISystem for world EVR_Map_2
+[2017.11.17-12.25.34:731][681]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2017.11.17-12.25.34:731][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map_2.EVR_Map_2 to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 (0.004838s)
+[2017.11.17-12.25.34:776][681]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.17-12.25.34:782][681]LogInit: FAudioDevice initialized.
+[2017.11.17-12.25.34:874][681]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.11.17-12.25.34:881][681]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 up for play (max tick rate 0) at 2017.11.17-13.25.34
+[2017.11.17-12.25.34:882][681]LogWorld: Bringing up level for play took: 0.004474
+[2017.11.17-12.25.34:883][681]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.17-12.25.34:912][681]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.11.17-12.25.34:917][681]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2 0.396
+[2017.11.17-12.25.34:979][682]LogRenderer: Reallocating scene render targets to support 3024x1680 Format 26 NumSamples 1 (Frame:1).
+[2017.11.17-12.25.45:345][304]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
+[2017.11.17-12.25.46:021][304]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.17-12.25.46:093][304]LogSlate: Took 0.001008 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.17-12.25.46:384][305]LogSlate: Took 0.001120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.17-12.25.50:192][531]BlueprintLog: New page: Compile MotionControllerPawn
+[2017.11.17-12.25.51:418][579]LogTemp: Repeating last play command: VR Preview
+[2017.11.17-12.25.51:459][579]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.17-12.25.51:459][579]PIE: New page: PIE session: EVR_Map_2 (Nov 17, 2017, 2:25:51 PM)
+[2017.11.17-12.25.51:460][579]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2
+[2017.11.17-12.25.51:463][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003757s)
+[2017.11.17-12.25.51:464][579]LogAIModule: Creating AISystem for world EVR_Map_2
+[2017.11.17-12.25.51:464][579]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2017.11.17-12.25.51:464][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map_2.EVR_Map_2 to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 (0.004700s)
+[2017.11.17-12.25.51:517][579]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.17-12.25.51:523][579]LogInit: FAudioDevice initialized.
+[2017.11.17-12.25.51:610][579]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.11.17-12.25.51:613][579]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 up for play (max tick rate 0) at 2017.11.17-13.25.51
+[2017.11.17-12.25.51:614][579]LogWorld: Bringing up level for play took: 0.003368
+[2017.11.17-12.25.51:614][579]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.17-12.25.51:621][579]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2 1.099
+[2017.11.17-12.25.59:976][874]LogTemp: Repeating last play command: VR Preview
+[2017.11.17-12.25.59:994][874]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.17-12.25.59:994][874]PIE: New page: PIE session: EVR_Map_2 (Nov 17, 2017, 2:25:59 PM)
+[2017.11.17-12.25.59:994][874]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2
+[2017.11.17-12.25.59:998][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004056s)
+[2017.11.17-12.25.59:999][874]LogAIModule: Creating AISystem for world EVR_Map_2
+[2017.11.17-12.25.59:999][874]LogPlayLevel: PIE: World Init took: (0.000733s)
+[2017.11.17-12.25.59:999][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map_2.EVR_Map_2 to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 (0.005070s)
+[2017.11.17-12.26.00:054][874]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.17-12.26.00:059][874]LogInit: FAudioDevice initialized.
+[2017.11.17-12.26.00:176][874]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.11.17-12.26.00:180][874]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 up for play (max tick rate 0) at 2017.11.17-13.26.00
+[2017.11.17-12.26.00:181][874]LogWorld: Bringing up level for play took: 0.003654
+[2017.11.17-12.26.00:181][874]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.17-12.26.00:199][874]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2 -0.322
+[2017.11.17-12.26.04:722][ 76]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.17-12.26.12:765][436]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] Hello
+[2017.11.17-12.26.24:984][983]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.17-12.26.27:754][107]LogHttp: Warning: 000001E01AD21F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-12.26.27:754][107]LogHttp: Warning: 000001E01AD21F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-12.26.27:754][107]LogHttp: Warning: 000001E01AD21F00: libcurl info message cache 1 (Closing connection 0)
+[2017.11.17-12.26.30:301][221]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] Hello
+[2017.11.17-12.26.39:171][618]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.17-12.26.50:787][138]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] Hello
+[2017.11.17-12.26.53:245][263]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] Hello
+[2017.11.17-12.27.00:059][568]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.17-12.27.09:174][976]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] Hello
+[2017.11.17-12.27.10:962][ 56]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] Hello
+[2017.11.17-12.27.15:541][261]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.17-12.27.16:858][320]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.17-12.27.34:865][126]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.17-12.27.37:779][258]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] Hello
+[2017.11.17-12.27.49:319][822]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.17-12.28.03:583][460]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.17-12.28.10:062][750]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] Hello
+[2017.11.17-12.28.17:658][ 90]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.17-12.28.27:777][543]LogHttp: Warning: 000001E01AD22680: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-12.28.27:777][543]LogHttp: Warning: 000001E01AD22680: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-12.28.27:777][543]LogHttp: Warning: 000001E01AD22680: libcurl info message cache 1 (Closing connection 1)
+[2017.11.17-12.28.30:838][680]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.17-12.28.44:041][271]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.17-12.29.00:037][987]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.17-12.29.13:553][592]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.17-12.29.33:726][495]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.17-12.29.47:823][126]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.17-12.30.01:383][733]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.17-12.30.11:302][177]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.17-12.30.17:624][460]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] Hello
+[2017.11.17-12.30.21:356][627]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.17-12.30.27:833][917]LogHttp: Warning: 000001E01AD22B00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-12.30.27:833][917]LogHttp: Warning: 000001E01AD22B00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-12.30.27:833][917]LogHttp: Warning: 000001E01AD22B00: libcurl info message cache 1 (Closing connection 2)
+[2017.11.17-12.30.36:189][291]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.17-12.30.45:148][692]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.17-12.32.28:395][644]LogHttp: Warning: 000001E00AEA1D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-12.32.28:395][644]LogHttp: Warning: 000001E00AEA1D80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-12.32.28:395][644]LogHttp: Warning: 000001E00AEA1D80: libcurl info message cache 1 (Closing connection 3)
+[2017.11.17-12.34.28:728][  5]LogHttp: Warning: 000001E00AEA1000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-12.34.28:728][  5]LogHttp: Warning: 000001E00AEA1000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-12.34.28:728][  5]LogHttp: Warning: 000001E00AEA1000: libcurl info message cache 1 (Closing connection 4)
+[2017.11.17-12.36.29:058][366]LogHttp: Warning: 000001E00AEA2380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-12.36.29:058][366]LogHttp: Warning: 000001E00AEA2380: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-12.36.29:058][366]LogHttp: Warning: 000001E00AEA2380: libcurl info message cache 1 (Closing connection 5)
+[2017.11.17-12.38.29:092][486]LogHttp: Warning: 000001E0054DB880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-12.38.29:092][486]LogHttp: Warning: 000001E0054DB880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-12.38.29:092][486]LogHttp: Warning: 000001E0054DB880: libcurl info message cache 1 (Closing connection 6)
+[2017.11.17-12.38.45:905][481]LogSavePackage: Save=103.53ms
+[2017.11.17-12.38.45:905][481]LogSavePackage: Moving '../../../../Daniel Schmidl/Masterarbeit/Saved/EVR_Map_25AE5AE7C4E170ABFF634BC9812D1F8CA.tmp' to '../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/EVR_Map_2.umap'
+[2017.11.17-12.38.45:906][481]LogSavePackage: Display: Finished SavePackage ../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/EVR_Map_2.umap
+[2017.11.17-12.40.29:114][380]LogHttp: Warning: 000001E00487FA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-12.40.29:114][380]LogHttp: Warning: 000001E00487FA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-12.40.29:114][380]LogHttp: Warning: 000001E00487FA00: libcurl info message cache 1 (Closing connection 7)
+[2017.11.17-12.42.29:143][776]LogHttp: Warning: 000001E00487F280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-12.42.29:143][776]LogHttp: Warning: 000001E00487F280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-12.42.29:143][776]LogHttp: Warning: 000001E00487F280: libcurl info message cache 1 (Closing connection 8)
+[2017.11.17-12.44.29:173][170]LogHttp: Warning: 000001E00487DD80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-12.44.29:173][170]LogHttp: Warning: 000001E00487DD80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-12.44.29:173][170]LogHttp: Warning: 000001E00487DD80: libcurl info message cache 1 (Closing connection 9)
+[2017.11.17-12.46.29:190][563]LogHttp: Warning: 000001E00487EC80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-12.46.29:190][563]LogHttp: Warning: 000001E00487EC80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-12.46.29:190][563]LogHttp: Warning: 000001E00487EC80: libcurl info message cache 1 (Closing connection 10)
+[2017.11.17-12.48.29:212][959]LogHttp: Warning: 000001E00487D600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-12.48.29:212][959]LogHttp: Warning: 000001E00487D600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-12.48.29:212][959]LogHttp: Warning: 000001E00487D600: libcurl info message cache 1 (Closing connection 11)
+[2017.11.17-12.48.36:589][843]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.17-12.48.45:593][909]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/EVR_Map_2' took 0.022
+[2017.11.17-12.48.45:596][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn] ([1] browsable assets)...
+[2017.11.17-12.48.45:610][909]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn]
+[2017.11.17-12.48.45:610][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn]
+[2017.11.17-12.48.45:808][909]LogSavePackage: Save=185.53ms
+[2017.11.17-12.48.45:808][909]LogSavePackage: Moving '../../../../Daniel Schmidl/Masterarbeit/Saved/MotionControllerPawn_Auto124506681487E82E844FBAF8B2494F28D.tmp' to '../../../../Daniel Schmidl/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/MotionControllerPawn_Auto1.uasset'
+[2017.11.17-12.48.45:811][909]LogSavePackage: Display: Finished SavePackage ../../../../Daniel Schmidl/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/MotionControllerPawn_Auto1.uasset
+[2017.11.17-12.48.45:811][909]LogFileHelpers: Auto-saving content packages took 0.217
+[2017.11.17-12.50.29:246][315]LogHttp: Warning: 000001E0054D9300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-12.50.29:246][315]LogHttp: Warning: 000001E0054D9300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-12.50.29:246][315]LogHttp: Warning: 000001E0054D9300: libcurl info message cache 1 (Closing connection 12)
+[2017.11.17-12.52.29:294][709]LogHttp: Warning: 000001E0054DBD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-12.52.29:294][709]LogHttp: Warning: 000001E0054DBD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-12.52.29:294][709]LogHttp: Warning: 000001E0054DBD00: libcurl info message cache 1 (Closing connection 13)
+[2017.11.17-12.54.29:325][105]LogHttp: Warning: 000001E0054DA500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-12.54.29:325][105]LogHttp: Warning: 000001E0054DA500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-12.54.29:325][105]LogHttp: Warning: 000001E0054DA500: libcurl info message cache 1 (Closing connection 14)
+[2017.11.17-12.56.29:344][501]LogHttp: Warning: 000001E0054DBD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-12.56.29:344][501]LogHttp: Warning: 000001E0054DBD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-12.56.29:344][501]LogHttp: Warning: 000001E0054DBD00: libcurl info message cache 1 (Closing connection 15)
+[2017.11.17-12.58.29:394][901]LogHttp: Warning: 000001E0054DBD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-12.58.29:394][901]LogHttp: Warning: 000001E0054DBD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-12.58.29:394][901]LogHttp: Warning: 000001E0054DBD00: libcurl info message cache 1 (Closing connection 16)
+[2017.11.17-13.00.29:418][298]LogHttp: Warning: 000001E0054DBD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.00.29:418][298]LogHttp: Warning: 000001E0054DBD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.00.29:418][298]LogHttp: Warning: 000001E0054DBD00: libcurl info message cache 1 (Closing connection 17)
+[2017.11.17-13.02.29:438][695]LogHttp: Warning: 000001E0054DA980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.02.29:438][695]LogHttp: Warning: 000001E0054DA980: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.02.29:438][695]LogHttp: Warning: 000001E0054DA980: libcurl info message cache 1 (Closing connection 18)
+[2017.11.17-13.04.29:461][ 93]LogHttp: Warning: 000001E0054DAB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.04.29:461][ 93]LogHttp: Warning: 000001E0054DAB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.04.29:461][ 93]LogHttp: Warning: 000001E0054DAB00: libcurl info message cache 1 (Closing connection 19)
+[2017.11.17-13.06.29:501][492]LogHttp: Warning: 000001E0054D9780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.06.29:501][492]LogHttp: Warning: 000001E0054D9780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.06.29:501][492]LogHttp: Warning: 000001E0054D9780: libcurl info message cache 1 (Closing connection 20)
+[2017.11.17-13.08.29:541][891]LogHttp: Warning: 000001E0054D9780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.08.29:541][891]LogHttp: Warning: 000001E0054D9780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.08.29:541][891]LogHttp: Warning: 000001E0054D9780: libcurl info message cache 1 (Closing connection 21)
+[2017.11.17-13.10.29:566][288]LogHttp: Warning: 000001E0054D9A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.10.29:567][288]LogHttp: Warning: 000001E0054D9A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.10.29:567][288]LogHttp: Warning: 000001E0054D9A80: libcurl info message cache 1 (Closing connection 22)
+[2017.11.17-13.12.29:594][685]LogHttp: Warning: 000001E0054DB580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.12.29:594][685]LogHttp: Warning: 000001E0054DB580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.12.29:594][685]LogHttp: Warning: 000001E0054DB580: libcurl info message cache 1 (Closing connection 23)
+[2017.11.17-13.14.29:615][ 80]LogHttp: Warning: 000001E0054DA980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.14.29:615][ 80]LogHttp: Warning: 000001E0054DA980: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.14.29:615][ 80]LogHttp: Warning: 000001E0054DA980: libcurl info message cache 1 (Closing connection 24)
+[2017.11.17-13.16.29:642][477]LogHttp: Warning: 000001E0054DB280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.16.29:642][477]LogHttp: Warning: 000001E0054DB280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.16.29:642][477]LogHttp: Warning: 000001E0054DB280: libcurl info message cache 1 (Closing connection 25)
+[2017.11.17-13.18.29:661][873]LogHttp: Warning: 000001E0054D8100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.18.29:662][873]LogHttp: Warning: 000001E0054D8100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.18.29:662][873]LogHttp: Warning: 000001E0054D8100: libcurl info message cache 1 (Closing connection 26)
+[2017.11.17-13.20.29:687][271]LogHttp: Warning: 000001E0054DAB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.20.29:687][271]LogHttp: Warning: 000001E0054DAB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.20.29:687][271]LogHttp: Warning: 000001E0054DAB00: libcurl info message cache 1 (Closing connection 27)
+[2017.11.17-13.22.29:719][670]LogHttp: Warning: 000001E0054DB280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.22.29:719][670]LogHttp: Warning: 000001E0054DB280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.22.29:719][670]LogHttp: Warning: 000001E0054DB280: libcurl info message cache 1 (Closing connection 28)
+[2017.11.17-13.24.29:743][ 67]LogHttp: Warning: 000001E0054D9000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.24.29:743][ 67]LogHttp: Warning: 000001E0054D9000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.24.29:743][ 67]LogHttp: Warning: 000001E0054D9000: libcurl info message cache 1 (Closing connection 29)
+[2017.11.17-13.26.29:761][464]LogHttp: Warning: 000001E0054D9000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.26.29:761][464]LogHttp: Warning: 000001E0054D9000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.26.29:761][464]LogHttp: Warning: 000001E0054D9000: libcurl info message cache 1 (Closing connection 30)
+[2017.11.17-13.28.29:800][863]LogHttp: Warning: 000001E0054DAB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.28.29:800][863]LogHttp: Warning: 000001E0054DAB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.28.29:800][863]LogHttp: Warning: 000001E0054DAB00: libcurl info message cache 1 (Closing connection 31)
+[2017.11.17-13.30.29:829][262]LogHttp: Warning: 000001E0054D9180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.30.29:830][262]LogHttp: Warning: 000001E0054D9180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.30.29:830][262]LogHttp: Warning: 000001E0054D9180: libcurl info message cache 1 (Closing connection 32)
+[2017.11.17-13.32.29:870][662]LogHttp: Warning: 000001E0054D9300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.32.29:871][662]LogHttp: Warning: 000001E0054D9300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.32.29:871][662]LogHttp: Warning: 000001E0054D9300: libcurl info message cache 1 (Closing connection 33)
+[2017.11.17-13.34.29:920][ 61]LogHttp: Warning: 000001E0054DB580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.34.29:920][ 61]LogHttp: Warning: 000001E0054DB580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.34.29:920][ 61]LogHttp: Warning: 000001E0054DB580: libcurl info message cache 1 (Closing connection 34)
+[2017.11.17-13.36.29:943][457]LogHttp: Warning: 000001E0054DA200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.36.29:943][457]LogHttp: Warning: 000001E0054DA200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.36.29:943][457]LogHttp: Warning: 000001E0054DA200: libcurl info message cache 1 (Closing connection 35)
+[2017.11.17-13.38.29:992][856]LogHttp: Warning: 000001E0054D9180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.38.29:992][856]LogHttp: Warning: 000001E0054D9180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.38.29:992][856]LogHttp: Warning: 000001E0054D9180: libcurl info message cache 1 (Closing connection 36)
+[2017.11.17-13.40.30:019][253]LogHttp: Warning: 000001E0054DA500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.40.30:019][253]LogHttp: Warning: 000001E0054DA500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.40.30:019][253]LogHttp: Warning: 000001E0054DA500: libcurl info message cache 1 (Closing connection 37)
+[2017.11.17-13.42.30:058][651]LogHttp: Warning: 000001E0054DBD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.42.30:058][651]LogHttp: Warning: 000001E0054DBD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.42.30:058][651]LogHttp: Warning: 000001E0054DBD00: libcurl info message cache 1 (Closing connection 38)
+[2017.11.17-13.44.30:079][ 47]LogHttp: Warning: 000001E0054D9480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.44.30:079][ 47]LogHttp: Warning: 000001E0054D9480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.44.30:079][ 47]LogHttp: Warning: 000001E0054D9480: libcurl info message cache 1 (Closing connection 39)
+[2017.11.17-13.46.30:111][445]LogHttp: Warning: 000001E0054D9480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.46.30:111][445]LogHttp: Warning: 000001E0054D9480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.46.30:112][445]LogHttp: Warning: 000001E0054D9480: libcurl info message cache 1 (Closing connection 40)
+[2017.11.17-13.48.30:154][845]LogHttp: Warning: 000001E0054D9480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.48.30:154][845]LogHttp: Warning: 000001E0054D9480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.48.30:154][845]LogHttp: Warning: 000001E0054D9480: libcurl info message cache 1 (Closing connection 41)
+[2017.11.17-13.50.30:182][243]LogHttp: Warning: 000001E0054D9480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.50.30:182][243]LogHttp: Warning: 000001E0054D9480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.50.30:182][243]LogHttp: Warning: 000001E0054D9480: libcurl info message cache 1 (Closing connection 42)
+[2017.11.17-13.52.30:204][641]LogHttp: Warning: 000001E0054D9300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.52.30:204][641]LogHttp: Warning: 000001E0054D9300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.52.30:204][641]LogHttp: Warning: 000001E0054D9300: libcurl info message cache 1 (Closing connection 43)
+[2017.11.17-13.54.30:237][ 39]LogHttp: Warning: 000001E0054D9300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.54.30:237][ 39]LogHttp: Warning: 000001E0054D9300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.54.30:237][ 39]LogHttp: Warning: 000001E0054D9300: libcurl info message cache 1 (Closing connection 44)
+[2017.11.17-13.56.30:271][438]LogHttp: Warning: 000001E0054DAC80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.56.30:271][438]LogHttp: Warning: 000001E0054DAC80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.56.30:271][438]LogHttp: Warning: 000001E0054DAC80: libcurl info message cache 1 (Closing connection 45)
+[2017.11.17-13.57.34:208][895]LogSavePackage: Save=181.94ms
+[2017.11.17-13.57.34:208][895]LogSavePackage: Moving '../../../../Daniel Schmidl/Masterarbeit/Saved/MotionControllerPawn43436018437CFCEE5D0EA0BF98253E4E.tmp' to '../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2017.11.17-13.57.34:210][895]LogSavePackage: Display: Finished SavePackage ../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2017.11.17-13.57.34:468][896]Cmd: QUIT_EDITOR
+[2017.11.17-13.57.35:310][896]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.17-13.57.35:318][896]LogExit: Preparing to exit.
+[2017.11.17-13.57.36:583][896]LogDirectoryWatcher: A directory notification for 'D:/Daniel Schmidl/Masterarbeit/Content/' was aborted.
+[2017.11.17-13.57.36:585][896]PIE: UWidget::RemoveFromParent() called on '/Game/VirtualRealityBP/Maps/EVR_Map_2.EVR_Map_2:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.11.17-13.57.36:586][896]PIE: UWidget::RemoveFromParent() called on '/Game/VirtualRealityBP/Maps/EVR_Map_2.EVR_Map_2:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.11.17-13.57.36:618][896]LogExit: Editor shut down
+[2017.11.17-13.57.36:626][896]LogExit: Transaction tracking system shut down
+[2017.11.17-13.57.36:843][896]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.17-13.57.36:843][896]LogDirectoryWatcher: A directory notification for '../../../../Daniel Schmidl/Masterarbeit/Content/' was aborted.
+[2017.11.17-13.57.36:843][896]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.17-13.57.36:843][896]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.11.17-13.57.36:843][896]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.11.17-13.57.36:942][896]LogExit: Object subsystem successfully closed.
+[2017.11.17-13.57.36:962][896]LogD3D11RHI: Shutdown
+[2017.11.17-13.57.36:963][896]LogD3D11RHI: CleanupD3DDevice
+[2017.11.17-13.57.36:967][896]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.17-13.57.36:975][896]LogModuleManager: Shutting down and abandoning module BlueprintGraph (538)
+[2017.11.17-13.57.36:975][896]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (536)
+[2017.11.17-13.57.36:975][896]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2017.11.17-13.57.36:975][896]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2017.11.17-13.57.36:975][896]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
+[2017.11.17-13.57.36:975][896]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
+[2017.11.17-13.57.36:975][896]LogDirectoryWatcher: A directory notification for 'D:/UE_4.17/FeaturePacks/' was aborted.
+[2017.11.17-13.57.36:976][896]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
+[2017.11.17-13.57.36:976][896]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
+[2017.11.17-13.57.36:976][896]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
+[2017.11.17-13.57.36:976][896]LogDirectoryWatcher: A directory notification for 'D:/Daniel Schmidl/Masterarbeit/Content/Collections/' was aborted.
+[2017.11.17-13.57.36:976][896]LogDirectoryWatcher: A directory notification for 'D:/Daniel Schmidl/Masterarbeit/Content/Developers/LocalAdmin/Collections/' was aborted.
+[2017.11.17-13.57.36:976][896]LogDirectoryWatcher: A directory notification for 'D:/Daniel Schmidl/Masterarbeit/Saved/Collections/' was aborted.
+[2017.11.17-13.57.36:976][896]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
+[2017.11.17-13.57.36:976][896]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
+[2017.11.17-13.57.36:976][896]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module BspMode (504)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (488)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (486)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (484)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (482)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (480)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module Media (479)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (476)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module AudioCapture (472)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module SequenceRecorder (471)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module SmartSnapping (468)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module SessionServices (466)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module ViewportSnapping (464)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module ViewportInteraction (462)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module ClothPainter (460)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module LogVisualizer (458)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module IntroTutorials (456)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (455)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (452)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (450)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (448)
+[2017.11.17-13.57.36:977][896]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (447)
+[2017.11.17-13.57.37:852][896]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (444)
+[2017.11.17-13.57.37:852][896]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (442)
+[2017.11.17-13.57.37:852][896]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (440)
+[2017.11.17-13.57.37:852][896]LogModuleManager: Shutting down and abandoning module InputBindingEditor (438)
+[2017.11.17-13.57.37:852][896]LogModuleManager: Shutting down and abandoning module MergeActors (436)
+[2017.11.17-13.57.37:852][896]LogModuleManager: Shutting down and abandoning module SizeMap (434)
+[2017.11.17-13.57.37:852][896]LogModuleManager: Shutting down and abandoning module TreeMap (432)
+[2017.11.17-13.57.37:852][896]LogModuleManager: Shutting down and abandoning module ReferenceViewer (430)
+[2017.11.17-13.57.37:852][896]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (428)
+[2017.11.17-13.57.37:852][896]LogModuleManager: Shutting down and abandoning module LocalizationService (427)
+[2017.11.17-13.57.37:852][896]LogModuleManager: Shutting down and abandoning module HardwareTargeting (424)
+[2017.11.17-13.57.37:852][896]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (422)
+[2017.11.17-13.57.37:852][896]LogModuleManager: Shutting down and abandoning module UndoHistory (420)
+[2017.11.17-13.57.37:852][896]LogModuleManager: Shutting down and abandoning module XmlParser (418)
+[2017.11.17-13.57.37:852][896]LogModuleManager: Shutting down and abandoning module Blutility (416)
+[2017.11.17-13.57.37:852][896]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (414)
+[2017.11.17-13.57.37:853][896]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (413)
+[2017.11.17-13.57.37:853][896]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (410)
+[2017.11.17-13.57.37:853][896]LogModuleManager: Shutting down and abandoning module SettingsEditor (408)
+[2017.11.17-13.57.37:853][896]LogModuleManager: Shutting down and abandoning module ProjectLauncher (406)
+[2017.11.17-13.57.37:853][896]LogModuleManager: Shutting down and abandoning module SessionFrontend (404)
+[2017.11.17-13.57.37:853][896]LogModuleManager: Shutting down and abandoning module ProfilerClient (402)
+[2017.11.17-13.57.37:853][896]LogModuleManager: Shutting down and abandoning module DeviceManager (400)
+[2017.11.17-13.57.37:853][896]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (399)
+[2017.11.17-13.57.37:906][896]LogModuleManager: Shutting down and abandoning module AutomationController (396)
+[2017.11.17-13.57.37:906][896]LogModuleManager: Shutting down and abandoning module AutomationWindow (394)
+[2017.11.17-13.57.37:906][896]LogModuleManager: Shutting down and abandoning module Layers (392)
+[2017.11.17-13.57.37:906][896]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (390)
+[2017.11.17-13.57.37:906][896]LogModuleManager: Shutting down and abandoning module DetailCustomizations (388)
+[2017.11.17-13.57.37:906][896]LogModuleManager: Shutting down and abandoning module PackagesDialog (386)
+[2017.11.17-13.57.37:907][896]LogModuleManager: Shutting down and abandoning module Persona (384)
+[2017.11.17-13.57.37:907][896]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (383)
+[2017.11.17-13.57.37:907][896]LogModuleManager: Shutting down and abandoning module AnimGraph (381)
+[2017.11.17-13.57.37:907][896]LogModuleManager: Shutting down and abandoning module Kismet (378)
+[2017.11.17-13.57.37:913][896]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
+[2017.11.17-13.57.37:913][896]LogModuleManager: Shutting down and abandoning module Toolbox (374)
+[2017.11.17-13.57.37:913][896]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
+[2017.11.17-13.57.37:913][896]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
+[2017.11.17-13.57.37:913][896]LogModuleManager: Shutting down and abandoning module OutputLog (368)
+[2017.11.17-13.57.37:913][896]LogModuleManager: Shutting down and abandoning module GammaUI (366)
+[2017.11.17-13.57.37:913][896]LogModuleManager: Shutting down and abandoning module Documentation (364)
+[2017.11.17-13.57.37:914][896]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
+[2017.11.17-13.57.37:914][896]LogModuleManager: Shutting down and abandoning module MovieScene (360)
+[2017.11.17-13.57.37:914][896]LogModuleManager: Shutting down and abandoning module Niagara (358)
+[2017.11.17-13.57.37:914][896]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
+[2017.11.17-13.57.37:914][896]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (354)
+[2017.11.17-13.57.37:914][896]LogModuleManager: Shutting down and abandoning module LauncherPlatform (352)
+[2017.11.17-13.57.37:914][896]LogModuleManager: Shutting down and abandoning module AnalyticsET (350)
+[2017.11.17-13.57.37:914][896]LogModuleManager: Shutting down and abandoning module PortalServices (348)
+[2017.11.17-13.57.37:914][896]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
+[2017.11.17-13.57.37:914][896]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
+[2017.11.17-13.57.37:914][896]LogModuleManager: Shutting down and abandoning module AIModule (342)
+[2017.11.17-13.57.37:914][896]LogModuleManager: Shutting down and abandoning module GameplayDebugger (341)
+[2017.11.17-13.57.37:914][896]LogModuleManager: Shutting down and abandoning module AITestSuite (339)
+[2017.11.17-13.57.37:914][896]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module OculusInput (326)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module CableComponent (320)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module SourceControl (283)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
+[2017.11.17-13.57.38:055][896]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
+[2017.11.17-13.57.38:056][896]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
+[2017.11.17-13.57.38:056][896]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
+[2017.11.17-13.57.38:056][896]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
+[2017.11.17-13.57.38:056][896]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
+[2017.11.17-13.57.38:056][896]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
+[2017.11.17-13.57.38:056][896]LogModuleManager: Shutting down and abandoning module MainFrame (268)
+[2017.11.17-13.57.38:056][896]LogModuleManager: Shutting down and abandoning module HotReload (267)
+[2017.11.17-13.57.38:056][896]LogDirectoryWatcher: A directory notification for 'D:/Daniel Schmidl/Masterarbeit/Plugins/VictoryPlugin/Binaries/Win64' was aborted.
+[2017.11.17-13.57.38:057][896]LogModuleManager: Shutting down and abandoning module VictoryBPLibrary (262)
+[2017.11.17-13.57.38:057][896]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.11.17-13.57.38:057][896]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.11.17-13.57.38:057][896]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.11.17-13.57.38:057][896]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.11.17-13.57.38:057][896]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.11.17-13.57.38:057][896]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.11.17-13.57.38:057][896]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.11.17-13.57.38:057][896]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.11.17-13.57.38:158][896]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.11.17-13.57.38:258][896]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.11.17-13.57.38:258][896]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.11.17-13.57.38:258][896]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.11.17-13.57.38:258][896]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.11.17-13.57.38:259][896]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.11.17-13.57.38:259][896]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.11.17-13.57.38:260][896]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.11.17-13.57.38:260][896]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.11.17-13.57.38:260][896]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.11.17-13.57.38:260][896]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.11.17-13.57.38:260][896]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.11.17-13.57.38:260][896]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.11.17-13.57.38:260][896]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.11.17-13.57.38:262][896]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.11.17-13.57.38:262][896]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.11.17-13.57.38:262][896]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.11.17-13.57.38:262][896]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.11.17-13.57.38:262][896]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.11.17-13.57.38:262][896]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.11.17-13.57.38:262][896]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.11.17-13.57.38:262][896]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.11.17-13.57.38:262][896]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.11.17-13.57.38:262][896]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.11.17-13.57.38:262][896]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.11.17-13.57.38:262][896]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.11.17-13.57.38:262][896]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.11.17-13.57.38:262][896]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.11.17-13.57.38:262][896]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.11.17-13.57.38:262][896]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.11.17-13.57.38:262][896]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.11.17-13.57.38:264][896]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.11.17-13.57.38:264][896]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.11.17-13.57.38:264][896]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.11.17-13.57.38:264][896]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.11.17-13.57.38:264][896]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.11.17-13.57.38:264][896]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.11.17-13.57.38:264][896]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.11.17-13.57.38:264][896]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.11.17-13.57.38:264][896]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.11.17-13.57.38:264][896]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.11.17-13.57.38:264][896]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.11.17-13.57.38:264][896]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.11.17-13.57.38:264][896]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.11.17-13.57.38:264][896]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.11.17-13.57.38:264][896]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.11.17-13.57.38:264][896]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.11.17-13.57.38:265][896]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.17-13.57.38:336][896]LogDerivedDataCache: Shutdown
+[2017.11.17-13.57.38:336][896]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.17-13.57.38:336][896]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.17-13.57.38:336][896]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.17-13.57.38:336][896]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.17-13.57.38:336][896]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.17-13.57.38:336][896]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.17-13.57.38:336][896]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.17-13.57.38:336][896]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.17-13.57.38:336][896]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.17-13.57.38:336][896]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.17-13.57.38:337][896]LogOnline: Display: Unloading online subsystem: NULL
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.17-13.57.38:337][896]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.17-13.57.38:337][896]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.17-13.57.38:337][896]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDBC54778-401F-2927-983E-D390C42995AF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=f8179dad484facb1bbe537a2f6f6f875%7C6de05fa92587480fb7882ffc140bd849%7Ca8421cad-14d1-4c31-b419-d88541bd8cac&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.17-13.57.38:337][896]LogHttp: Warning: 000001DFC69F3D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-13.57.38:337][896]LogHttp: Warning: 000001DFC69F3D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-13.57.38:337][896]LogHttp: Warning: 000001DFC69F3D00: libcurl info message cache 1 (Closing connection 46)
+[2017.11.17-13.57.38:362][896]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.17-13.57.38:363][896]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.11.17-13.57.38:363][896]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.11.17-13.57.38:363][896]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.11.17-13.57.38:363][896]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.11.17-13.57.38:363][896]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.11.17-13.57.38:363][896]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.11.17-13.57.38:363][896]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.11.17-13.57.38:364][896]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.11.17-13.57.38:364][896]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.11.17-13.57.38:364][896]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.11.17-13.57.38:364][896]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.11.17-13.57.38:364][896]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.11.17-13.57.38:364][896]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.11.17-13.57.38:364][896]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.11.17-13.57.38:364][896]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.11.17-13.57.38:364][896]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.17-13.57.38:365][896]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.17-13.57.38:365][896]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.17-13.57.38:368][896]LogExit: Exiting.
+[2017.11.17-13.57.38:384][896]Log file closed, 11/17/17 14:57:38
