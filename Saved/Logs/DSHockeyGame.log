@@ -1,0 +1,472 @@
+﻿Log file open, 11/24/17 12:34:30
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: DSHockeyGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(314818644) SRandInit(314818644).
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.253045
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin VictoryBPLibrary
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogHMD: Failed initializing OVRPlugin 1.15.0
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.24-11.34.31:517][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.24-11.34.31:517][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.24-11.34.31:534][  0]LogInit: Computer: PC1011604132
+[2017.11.24-11.34.31:534][  0]LogInit: User: LocalAdmin
+[2017.11.24-11.34.31:534][  0]LogInit: CPU Page size=4096, Cores=6
+[2017.11.24-11.34.31:534][  0]LogInit: High frequency timer resolution =3.220796 MHz
+[2017.11.24-11.34.31:534][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.24-11.34.31:534][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.24-11.34.31:534][  0]LogMemory: Process Physical Memory: 283.66 MB used, 283.66 MB peak
+[2017.11.24-11.34.31:534][  0]LogMemory: Process Virtual Memory: 286.13 MB used, 286.13 MB peak
+[2017.11.24-11.34.31:534][  0]LogMemory: Physical Memory: 3393.88 MB used,  12901.15 MB free, 16295.03 MB total
+[2017.11.24-11.34.31:534][  0]LogMemory: Virtual Memory: 712.69 MB used,  12901.15 MB free, 134217728.00 MB total
+[2017.11.24-11.34.31:770][  0]LogInit: Using OS detected language (de-DE).
+[2017.11.24-11.34.31:770][  0]LogInit: Using OS detected locale (de-DE).
+[2017.11.24-11.34.31:780][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the language.
+[2017.11.24-11.34.31:780][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the locale.
+[2017.11.24-11.34.32:680][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.24-11.34.32:728][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980 Ti' (Feature Level 11_0)
+[2017.11.24-11.34.32:728][  0]LogD3D11RHI:       6103/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.11.24-11.34.32:729][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.24-11.34.32:729][  0]LogD3D11RHI:       0/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.24-11.34.32:729][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.24-11.34.32:733][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.24-11.34.32:733][  0]LogD3D11RHI:     GPU DeviceId: 0x17c8 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.24-11.34.32:733][  0]LogWindows: EnumDisplayDevices:
+[2017.11.24-11.34.32:733][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980 Ti' (P:1 D:1)
+[2017.11.24-11.34.32:733][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2017.11.24-11.34.32:734][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2017.11.24-11.34.32:734][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2017.11.24-11.34.32:734][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.11.24-11.34.32:734][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980 Ti
+[2017.11.24-11.34.32:734][  0]LogD3D11RHI:   Driver Version: 385.69 (internal:22.21.13.8569, unified:385.69)
+[2017.11.24-11.34.32:734][  0]LogD3D11RHI:      Driver Date: 9-16-2017
+[2017.11.24-11.34.32:734][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.24-11.34.32:765][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.24-11.34.32:784][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.24-11.34.32:836][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (../../../../Daniel Schmidl/Masterarbeit/Intermediate/Shaders/WorkingDirectory/9604/).
+[2017.11.24-11.34.32:836][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/LocalAdmin/AppData/Local/Temp/UnrealShaderWorkingDir/CACCB0EF433C2F4CC5550DA989A612AC/'.
+[2017.11.24-11.34.32:837][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.24-11.34.34:046][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.24-11.34.34:084][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.24-11.34.34:122][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.24-11.34.34:160][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.24-11.34.34:201][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.24-11.34.34:238][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.24-11.34.34:275][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.24-11.34.34:312][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.24-11.34.34:344][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.24-11.34.34:384][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.24-11.34.34:421][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.24-11.34.34:457][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.24-11.34.34:494][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.24-11.34.34:530][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.24-11.34.34:566][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.24-11.34.34:639][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.24-11.34.34:639][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.24-11.34.34:665][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.24-11.34.34:757][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.24-11.34.34:780][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.24-11.34.34:816][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.24-11.34.34:853][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.24-11.34.34:889][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.24-11.34.34:930][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.24-11.34.34:930][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.24-11.34.35:537][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.24-11.34.35:803][  0]LogDerivedDataCache: Loaded boot cache 0.27s 93MB C:/Users/LocalAdmin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.24-11.34.35:803][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/LocalAdmin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.24-11.34.35:803][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Daniel Schmidl/Masterarbeit/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.24-11.34.35:803][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.24-11.34.35:803][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Daniel Schmidl/Masterarbeit/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.24-11.34.35:803][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.24-11.34.35:825][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.24-11.34.35:838][  0]LogDerivedDataCache: Using Local data cache path C:/Users/LocalAdmin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.24-11.34.35:851][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.24-11.34.35:852][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.24-11.34.35:854][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.24-11.34.35:854][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.24-11.34.38:559][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2017.11.24-11.34.38:681][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.24-11.34.39:108][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.24-11.34.39:136][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.24-11.34.39:136][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.24-11.34.39:136][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.24-11.34.39:136][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.24-11.34.39:136][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.24-11.34.39:146][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.24-11.34.39:608][  0]LogNetVersion: DSHockeyGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4108346606)
+[2017.11.24-11.34.39:795][  0]LogPackageLocalizationCache: Processed 6 localized package path(s) for 1 prioritized culture(s) in 0.018932 seconds
+[2017.11.24-11.34.39:801][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.24-11.34.39:801][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.11.24-11.34.39:801][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.24-11.34.39:838][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.24-11.34.42:688][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.24-11.34.42:718][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.24-11.34.43:259][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.24-11.34.43:572][  0]SourceControl: Source control is disabled
+[2017.11.24-11.34.43:572][  0]SourceControl: Source control is disabled
+[2017.11.24-11.34.43:605][  0]SourceControl: Source control is disabled
+[2017.11.24-11.34.43:637][  0]SourceControl: Source control is disabled
+[2017.11.24-11.34.44:043][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.24-11.34.44:212][  0]LogOcInput: OculusInput pre-init called
+[2017.11.24-11.34.44:411][  0]LogEngine: Initializing Engine...
+[2017.11.24-11.34.46:985][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-F79729DE
+[2017.11.24-11.34.47:219][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.24-11.34.47:219][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.24-11.34.47:317][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.24-11.34.47:356][  0]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.24-11.34.47:375][  0]LogInit: FAudioDevice initialized.
+[2017.11.24-11.34.47:455][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/LocalAdmin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.24-11.34.47:462][  0]LogInit: Texture streaming: Enabled
+[2017.11.24-11.34.47:534][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.24-11.34.47:739][  0]LogInit: Transaction tracking system initialized
+[2017.11.24-11.34.47:954][  0]BlueprintLog: New page: Editor Load
+[2017.11.24-11.34.48:556][  0]LocalizationService: Localization service is disabled
+[2017.11.24-11.34.49:082][  0]LogConsoleResponse: Display: 
+[2017.11.24-11.34.49:286][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.24-11.34.49:287][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.24-11.34.49:287][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.24-11.34.49:327][  0]LogFileCache: Scanning file cache for directory 'D:/Daniel Schmidl/Masterarbeit/Content/' took 0.01s
+[2017.11.24-11.34.50:087][  0]SourceControl: Source control is disabled
+[2017.11.24-11.34.50:088][  0]Cmd: MAP LOAD FILE="../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/PrototypeMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.24-11.34.50:089][  0]LightingResults: New page: Lighting Build
+[2017.11.24-11.34.50:126][  0]MapCheck: New page: Map Check
+[2017.11.24-11.34.50:126][  0]LightingResults: New page: Lighting Build
+[2017.11.24-11.34.50:331][  0]LogBlueprint: Warning: [Compiler BP_MotionController] ProjectPointToNavigation_DEPRECATED  is deprecated; This version of ProjectPointToNavigation is deprecated. Please use the new version
+[2017.11.24-11.34.50:351][  0]LogBlueprint: Warning: [Compiler BP_MotionController] [0022.11] Compile of BP_MotionController successful, but with 1 Warning(s) [in 42 ms] (/Game/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController)
+[2017.11.24-11.34.50:852][  0]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.11.24-11.34.50:866][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.24-11.34.50:887][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.24-11.34.50:945][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.313ms to complete.
+[2017.11.24-11.34.50:945][  0]LogFileHelpers: Loading map 'PrototypeMap' took 0.857
+[2017.11.24-11.34.51:080][  0]LogCollectionManager: Loaded 0 collections in 0.000894 seconds
+[2017.11.24-11.34.51:150][  0]LogFileCache: Scanning file cache for directory 'D:/Daniel Schmidl/Masterarbeit/Saved/Collections/' took 0.01s
+[2017.11.24-11.34.51:150][  0]LogFileCache: Scanning file cache for directory 'D:/Daniel Schmidl/Masterarbeit/Content/Developers/LocalAdmin/Collections/' took 0.01s
+[2017.11.24-11.34.51:150][  0]LogFileCache: Scanning file cache for directory 'D:/Daniel Schmidl/Masterarbeit/Content/Collections/' took 0.01s
+[2017.11.24-11.34.51:150][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.11.24-11.34.51:160][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2392 classes and 503 folders.
+[2017.11.24-11.34.51:212][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.11.24-11.34.51:308][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.11.24-11.34.51:340][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.11.24-11.34.51:419][  0]LogSlate: Took 0.000904 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.24-11.34.51:422][  0]LogSlate: Took 0.000937 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.24-11.34.51:430][  0]LogSlate: Took 0.000911 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.24-11.34.51:531][  0]LogRenderer: Reallocating scene render targets to support 1672x804 Format 26 NumSamples 1 (Frame:1).
+[2017.11.24-11.34.51:686][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.11.24-11.34.51:686][  0]LogLoad: (Engine Initialization) Total time: 23.44 seconds
+[2017.11.24-11.34.51:686][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.24-11.34.51:686][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.24-11.34.52:026][  0]LogSteamVRController: Tracker device 1 is being assigned unreal hand: Special 1, for player 0
+[2017.11.24-11.34.52:050][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.24-11.34.52:366][  1]LogAssetRegistry: Asset discovery search completed in 13.8292 seconds
+[2017.11.24-11.34.52:368][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.24-11.34.52:369][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000088 seconds (updated 0 objects)
+[2017.11.24-11.34.54:541][211]LogSlate: Took 0.000890 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.24-11.34.55:553][327]Cmd: MAP LOAD FILE="../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/EVR_Map_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.24-11.34.55:557][327]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.24-11.34.55:563][327]LightingResults: New page: Lighting Build
+[2017.11.24-11.34.55:564][327]LoadErrors: New page: Loading map: EVR_Map_2.umap
+[2017.11.24-11.34.55:565][327]MapCheck: New page: Map Check
+[2017.11.24-11.34.55:565][327]LightingResults: New page: Lighting Build
+[2017.11.24-11.34.56:419][327]LogAIModule: Creating AISystem for world EVR_Map_2
+[2017.11.24-11.34.56:500][327]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.24-11.34.56:551][327]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.24-11.34.56:615][327]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 64.11ms to complete.
+[2017.11.24-11.34.56:615][327]LogFileHelpers: Loading map 'EVR_Map_2' took 1.063
+[2017.11.24-11.35.11:612][885]LogTemp: Repeating last play command: VR Preview
+[2017.11.24-11.35.11:657][885]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.24-11.35.11:658][885]PIE: New page: PIE session: EVR_Map_2 (Nov 24, 2017, 1:35:11 PM)
+[2017.11.24-11.35.11:658][885]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2
+[2017.11.24-11.35.11:662][885]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004183s)
+[2017.11.24-11.35.11:663][885]LogAIModule: Creating AISystem for world EVR_Map_2
+[2017.11.24-11.35.11:663][885]LogPlayLevel: PIE: World Init took: (0.000708s)
+[2017.11.24-11.35.11:663][885]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map_2.EVR_Map_2 to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 (0.005204s)
+[2017.11.24-11.35.11:724][885]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.24-11.35.11:744][885]LogInit: FAudioDevice initialized.
+[2017.11.24-11.35.11:847][885]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.11.24-11.35.11:855][885]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 up for play (max tick rate 0) at 2017.11.24-12.35.11
+[2017.11.24-11.35.11:856][885]LogWorld: Bringing up level for play took: 0.004825
+[2017.11.24-11.35.11:857][885]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.24-11.35.11:886][885]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.11.24-11.35.11:892][885]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2 -0.689
+[2017.11.24-11.35.11:940][886]LogRenderer: Reallocating scene render targets to support 3024x1680 Format 26 NumSamples 1 (Frame:1).
+[2017.11.24-11.35.14:365][ 40]LogTemp: Repeating last play command: VR Preview
+[2017.11.24-11.35.14:384][ 40]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.24-11.35.14:385][ 40]PIE: New page: PIE session: EVR_Map_2 (Nov 24, 2017, 1:35:14 PM)
+[2017.11.24-11.35.14:385][ 40]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2
+[2017.11.24-11.35.14:389][ 40]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003946s)
+[2017.11.24-11.35.14:389][ 40]LogAIModule: Creating AISystem for world EVR_Map_2
+[2017.11.24-11.35.14:389][ 40]LogPlayLevel: PIE: World Init took: (0.000648s)
+[2017.11.24-11.35.14:390][ 40]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map_2.EVR_Map_2 to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 (0.004858s)
+[2017.11.24-11.35.14:438][ 40]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.24-11.35.14:445][ 40]LogInit: FAudioDevice initialized.
+[2017.11.24-11.35.14:531][ 40]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.11.24-11.35.14:535][ 40]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 up for play (max tick rate 0) at 2017.11.24-12.35.14
+[2017.11.24-11.35.14:535][ 40]LogWorld: Bringing up level for play took: 0.003453
+[2017.11.24-11.35.14:536][ 40]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.24-11.35.14:539][ 40]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2 -0.041
+[2017.11.24-11.35.53:405][563]LogTemp: Repeating last play command: VR Preview
+[2017.11.24-11.35.53:424][563]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.24-11.35.53:424][563]PIE: New page: PIE session: EVR_Map_2 (Nov 24, 2017, 1:35:53 PM)
+[2017.11.24-11.35.53:424][563]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2
+[2017.11.24-11.35.53:428][563]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004143s)
+[2017.11.24-11.35.53:429][563]LogAIModule: Creating AISystem for world EVR_Map_2
+[2017.11.24-11.35.53:429][563]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2017.11.24-11.35.53:429][563]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map_2.EVR_Map_2 to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 (0.005179s)
+[2017.11.24-11.35.53:475][563]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.24-11.35.53:480][563]LogInit: FAudioDevice initialized.
+[2017.11.24-11.35.53:560][563]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.11.24-11.35.53:564][563]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 up for play (max tick rate 0) at 2017.11.24-12.35.53
+[2017.11.24-11.35.53:564][563]LogWorld: Bringing up level for play took: 0.003603
+[2017.11.24-11.35.53:565][563]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.24-11.35.53:568][563]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2 0.988
+[2017.11.24-11.36.04:345][257]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
+[2017.11.24-11.36.05:032][257]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.24-11.36.05:106][257]LogSlate: Took 0.001020 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.24-11.36.05:401][258]LogSlate: Took 0.002386 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.24-11.36.08:192][422]BlueprintLog: New page: Compile MotionControllerPawn
+[2017.11.24-11.36.08:901][436]LogTemp: Repeating last play command: VR Preview
+[2017.11.24-11.36.08:945][436]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.24-11.36.08:945][436]PIE: New page: PIE session: EVR_Map_2 (Nov 24, 2017, 1:36:08 PM)
+[2017.11.24-11.36.08:945][436]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2
+[2017.11.24-11.36.08:949][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003933s)
+[2017.11.24-11.36.08:950][436]LogAIModule: Creating AISystem for world EVR_Map_2
+[2017.11.24-11.36.08:950][436]LogPlayLevel: PIE: World Init took: (0.000656s)
+[2017.11.24-11.36.08:950][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map_2.EVR_Map_2 to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 (0.004862s)
+[2017.11.24-11.36.09:004][436]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.24-11.36.09:009][436]LogInit: FAudioDevice initialized.
+[2017.11.24-11.36.09:097][436]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.11.24-11.36.09:101][436]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 up for play (max tick rate 0) at 2017.11.24-12.36.09
+[2017.11.24-11.36.09:101][436]LogWorld: Bringing up level for play took: 0.003734
+[2017.11.24-11.36.09:102][436]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.24-11.36.09:109][436]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2 0.529
+[2017.11.24-11.36.18:115][841]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.24-11.36.33:250][543]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.24-11.36.53:954][403]LogTemp: Repeating last play command: VR Preview
+[2017.11.24-11.36.53:972][403]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.24-11.36.53:972][403]PIE: New page: PIE session: EVR_Map_2 (Nov 24, 2017, 1:36:53 PM)
+[2017.11.24-11.36.53:972][403]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2
+[2017.11.24-11.36.53:976][403]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004063s)
+[2017.11.24-11.36.53:977][403]LogAIModule: Creating AISystem for world EVR_Map_2
+[2017.11.24-11.36.53:977][403]LogPlayLevel: PIE: World Init took: (0.000725s)
+[2017.11.24-11.36.53:977][403]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map_2.EVR_Map_2 to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 (0.005051s)
+[2017.11.24-11.36.54:028][403]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.24-11.36.54:034][403]LogInit: FAudioDevice initialized.
+[2017.11.24-11.36.54:154][403]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.11.24-11.36.54:158][403]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2.EVR_Map_2 up for play (max tick rate 0) at 2017.11.24-12.36.54
+[2017.11.24-11.36.54:158][403]LogWorld: Bringing up level for play took: 0.003739
+[2017.11.24-11.36.54:159][403]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.24-11.36.54:173][403]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map_2 -0.407
+[2017.11.24-11.37.03:006][796]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.24-11.37.13:886][283]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.24-11.37.50:122][905]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.24-11.38.02:431][457]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.24-11.38.10:495][818]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] Hello
+[2017.11.24-11.38.14:786][ 10]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.24-11.38.34:602][897]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.24-11.38.50:553][611]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.24-11.39.03:129][174]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.24-11.39.16:511][774]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] Hello
+[2017.11.24-11.39.31:659][452]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.24-11.39.46:559][119]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.24-11.40.09:436][143]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.24-11.40.22:951][748]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] Hello
+[2017.11.24-11.40.49:871][953]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] Hello
+[2017.11.24-11.41.11:720][931]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.24-11.41.16:947][165]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.24-11.41.30:240][760]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.24-11.41.44:604][403]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.24-11.41.58:500][ 25]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.24-11.42.08:664][480]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.24-11.43.01:756][889]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] Hello
+[2017.11.24-11.43.08:972][213]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.24-11.43.22:064][799]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.24-11.43.44:717][813]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.24-11.43.58:232][418]LogBlueprintUserMessages: [TriggerBoxPass_Blueprint_3] trigger
+[2017.11.24-11.52.17:469][185]LogSavePackage: Save=186.71ms
+[2017.11.24-11.52.17:469][185]LogSavePackage: Moving '../../../../Daniel Schmidl/Masterarbeit/Saved/MotionControllerPawn3F748CC64005653C7CF3218B15225306.tmp' to '../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2017.11.24-11.52.17:471][185]LogSavePackage: Display: Finished SavePackage ../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2017.11.24-11.52.17:671][185]LogSavePackage: Save=100.75ms
+[2017.11.24-11.52.17:672][185]LogSavePackage: Moving '../../../../Daniel Schmidl/Masterarbeit/Saved/EVR_Map_288F2F85C4B33953679F456B568A65998.tmp' to '../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/EVR_Map_2.umap'
+[2017.11.24-11.52.17:674][185]LogSavePackage: Display: Finished SavePackage ../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/EVR_Map_2.umap
+[2017.11.24-11.52.17:702][185]LogFileHelpers: Saving map 'EVR_Map_2' took 0.228
+[2017.11.24-11.52.17:704][185]Cmd: MAP LOAD FILE="../../../../Daniel Schmidl/Masterarbeit/Content/VirtualRealityBP/Maps/EVR_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.24-11.52.17:709][185]LightingResults: New page: Lighting Build
+[2017.11.24-11.52.17:710][185]LoadErrors: New page: Loading map: EVR_Map.umap
+[2017.11.24-11.52.17:711][185]MapCheck: New page: Map Check
+[2017.11.24-11.52.17:711][185]LightingResults: New page: Lighting Build
+[2017.11.24-11.52.17:863][185]LogAIModule: Creating AISystem for world EVR_Map
+[2017.11.24-11.52.17:983][185]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.24-11.52.18:038][185]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.24-11.52.18:100][185]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.334ms to complete.
+[2017.11.24-11.52.18:100][185]LogFileHelpers: Loading map 'EVR_Map' took 0.397
+[2017.11.24-11.52.29:088][377]LogTemp: Repeating last play command: VR Preview
+[2017.11.24-11.52.29:108][377]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map:PersistentLevel.EVR_Map' with GeneratedClass '/Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map:PersistentLevel.EVR_Map'
+[2017.11.24-11.52.29:108][377]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.24-11.52.29:145][377]LogPlayLevel: [PlayLevel] Compiling MotionControllerPawn before play...
+[2017.11.24-11.52.29:450][377]LogPlayLevel: PlayLevel: Blueprint regeneration took 341 ms (1 blueprints)
+[2017.11.24-11.52.29:450][377]PIE: New page: PIE session: EVR_Map (Nov 24, 2017, 1:52:29 PM)
+[2017.11.24-11.52.29:451][377]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map
+[2017.11.24-11.52.29:456][377]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005436s)
+[2017.11.24-11.52.29:457][377]LogAIModule: Creating AISystem for world EVR_Map
+[2017.11.24-11.52.29:457][377]LogPlayLevel: PIE: World Init took: (0.000647s)
+[2017.11.24-11.52.29:457][377]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map to /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map (0.006347s)
+[2017.11.24-11.52.29:509][377]LogInit: XAudio2 using 'HTC-VIVE-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.24-11.52.29:515][377]LogInit: FAudioDevice initialized.
+[2017.11.24-11.52.29:591][377]LogLoad: Game class is 'Prototype_Gamemode_C'
+[2017.11.24-11.52.29:595][377]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map.EVR_Map up for play (max tick rate 0) at 2017.11.24-12.52.29
+[2017.11.24-11.52.29:596][377]LogWorld: Bringing up level for play took: 0.003522
+[2017.11.24-11.52.29:596][377]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.24-11.52.29:601][377]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_EVR_Map 1.02
+[2017.11.24-11.52.29:601][377]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map:PersistentLevel.EVR_Map' with GeneratedClass '/Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map:PersistentLevel.EVR_Map'
+[2017.11.24-11.52.37:888][748]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
+[2017.11.24-11.52.39:138][804]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
+[2017.11.24-11.52.50:979][334]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
+[2017.11.24-11.52.52:140][386]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
+[2017.11.24-11.53.05:813][998]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
+[2017.11.24-11.53.07:398][ 69]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
+[2017.11.24-11.53.20:959][676]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
+[2017.11.24-11.53.22:321][737]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
+[2017.11.24-11.53.34:743][293]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
+[2017.11.24-11.53.36:284][362]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
+[2017.11.24-11.53.45:848][790]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
+[2017.11.24-11.53.47:365][858]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
+[2017.11.24-11.53.56:169][252]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
+[2017.11.24-11.53.57:105][294]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
+[2017.11.24-11.54.08:677][812]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
+[2017.11.24-11.54.16:028][141]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
+[2017.11.24-11.54.17:278][197]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
+[2017.11.24-11.54.26:617][615]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
+[2017.11.24-11.54.28:091][681]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
+[2017.11.24-11.54.37:921][121]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
+[2017.11.24-11.54.39:351][185]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
+[2017.11.24-11.54.45:629][466]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
+[2017.11.24-11.54.47:081][531]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
+[2017.11.24-11.54.54:074][844]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
+[2017.11.24-11.54.55:391][903]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
+[2017.11.24-11.55.01:311][168]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
+[2017.11.24-11.55.02:629][227]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
+[2017.11.24-11.55.10:180][565]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
+[2017.11.24-11.55.11:409][620]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
+[2017.11.24-11.55.25:438][248]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
+[2017.11.24-11.55.34:397][649]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
+[2017.11.24-11.55.43:713][ 66]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
+[2017.11.24-11.55.45:075][127]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
+[2017.11.24-11.55.51:152][399]LogBlueprintUserMessages: [EVR_TriggerBoxGoal_Blueprint_2] tor
+[2017.11.24-11.55.52:425][456]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
+[2017.11.24-11.55.59:999][795]LogBlueprintUserMessages: [EVR_TriggerBoxNoGoal_BP_Blueprint_5] kein tor
+[2017.11.24-11.56.07:104][113]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map:PersistentLevel.EVR_Map' with GeneratedClass '/Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map:PersistentLevel.EVR_Map'
+[2017.11.24-11.56.07:279][113]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map:PersistentLevel.EVR_Map' with GeneratedClass '/Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map:PersistentLevel.EVR_Map'
+[2017.11.24-12.05.45:297][992]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.24-12.05.54:475][ 19]LogSavePackage: Save=130.02ms
+[2017.11.24-12.05.54:475][ 19]LogSavePackage: Moving '../../../../Daniel Schmidl/Masterarbeit/Saved/EVR_Map_Auto1B8568E1045157800B788EB9FB56FED98.tmp' to '../../../../Daniel Schmidl/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Maps/EVR_Map_Auto1.umap'
+[2017.11.24-12.05.54:476][ 19]LogSavePackage: Display: Finished SavePackage ../../../../Daniel Schmidl/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Maps/EVR_Map_Auto1.umap
+[2017.11.24-12.05.54:477][ 19]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/EVR_Map' took 0.171
+[2017.11.24-12.05.54:477][ 19]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.171
