@@ -1,0 +1,433 @@
+﻿Log file open, 12/06/17 10:16:57
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: DSHockeyGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1641192872) SRandInit(1641192872).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 5.208836
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin VictoryBPLibrary
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.06-09.16.59:721][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.06-09.16.59:722][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.06-09.16.59:823][  0]LogInit: Computer: LAPTOP-ELQTR10M
+[2017.12.06-09.16.59:823][  0]LogInit: User: danie
+[2017.12.06-09.16.59:823][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.12.06-09.16.59:823][  0]LogInit: High frequency timer resolution =2.531254 MHz
+[2017.12.06-09.16.59:823][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.12.06-09.16.59:823][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.06-09.16.59:823][  0]LogMemory: Process Physical Memory: 279.98 MB used, 279.98 MB peak
+[2017.12.06-09.16.59:823][  0]LogMemory: Process Virtual Memory: 275.88 MB used, 275.88 MB peak
+[2017.12.06-09.16.59:823][  0]LogMemory: Physical Memory: 4911.41 MB used,  3194.50 MB free, 8105.91 MB total
+[2017.12.06-09.16.59:823][  0]LogMemory: Virtual Memory: 668.24 MB used,  3194.50 MB free, 134217728.00 MB total
+[2017.12.06-09.17.01:146][  0]LogInit: Using OS detected language (de-DE).
+[2017.12.06-09.17.01:146][  0]LogInit: Using OS detected locale (de-DE).
+[2017.12.06-09.17.01:504][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the language.
+[2017.12.06-09.17.01:504][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the locale.
+[2017.12.06-09.17.04:381][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.06-09.17.05:714][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2017.12.06-09.17.05:714][  0]LogD3D11RHI:       4065/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.12.06-09.17.05:721][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2017.12.06-09.17.05:721][  0]LogD3D11RHI:       128/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.12.06-09.17.05:722][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.06-09.17.05:722][  0]LogD3D11RHI:       0/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.06-09.17.05:722][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.06-09.17.05:728][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.06-09.17.05:728][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2017.12.06-09.17.05:728][  0]LogWindows: EnumDisplayDevices:
+[2017.12.06-09.17.05:728][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2017.12.06-09.17.05:728][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:1)
+[2017.12.06-09.17.05:729][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.12.06-09.17.05:729][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.12.06-09.17.05:729][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2017.12.06-09.17.05:729][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.12.06-09.17.05:729][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.12.06-09.17.05:729][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.06-09.17.06:381][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.06-09.17.06:841][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.12.06-09.17.06:951][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../Github/Masterarbeit/Intermediate/Shaders/WorkingDirectory/10876/).
+[2017.12.06-09.17.06:952][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/danie/AppData/Local/Temp/UnrealShaderWorkingDir/D9E9ABF043D560F50621A19C2854726E/'.
+[2017.12.06-09.17.06:963][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.06-09.17.11:284][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.06-09.17.11:354][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.06-09.17.11:421][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.06-09.17.11:477][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.06-09.17.11:531][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.06-09.17.11:576][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.06-09.17.11:623][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.06-09.17.11:666][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.06-09.17.11:705][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.06-09.17.11:779][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.06-09.17.11:825][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.06-09.17.11:868][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.06-09.17.11:914][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.06-09.17.11:972][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.06-09.17.12:040][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.06-09.17.12:175][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.06-09.17.12:175][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.06-09.17.12:237][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.06-09.17.12:440][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.06-09.17.12:469][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.06-09.17.12:513][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.06-09.17.12:557][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.06-09.17.12:600][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.06-09.17.12:654][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.06-09.17.12:654][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.06-09.17.14:269][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.06-09.17.14:665][  0]LogDerivedDataCache: Loaded boot cache 0.39s 93MB C:/Users/danie/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.06-09.17.14:665][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/danie/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.06-09.17.14:665][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Github/Masterarbeit/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.06-09.17.14:665][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.06-09.17.14:665][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Github/Masterarbeit/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.06-09.17.14:665][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.06-09.17.14:793][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.06-09.17.14:808][  0]LogDerivedDataCache: Using Local data cache path C:/Users/danie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.06-09.17.14:901][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.06-09.17.14:959][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.06-09.17.15:076][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.06-09.17.15:095][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.06-09.17.25:028][  0]LogAssetRegistry: FAssetRegistry took 0.0409 seconds to start up
+[2017.12.06-09.17.28:100][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.06-09.17.36:457][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.06-09.17.39:520][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.06-09.17.39:685][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.06-09.17.39:685][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.06-09.17.39:685][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.06-09.17.39:685][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.06-09.17.39:685][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.06-09.17.49:577][  0]LogNetVersion: DSHockeyGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4108346606)
+[2017.12.06-09.17.54:881][  0]LogPackageLocalizationCache: Processed 6 localized package path(s) for 1 prioritized culture(s) in 0.228262 seconds
+[2017.12.06-09.17.54:906][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.12.06-09.17.54:906][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.12.06-09.17.54:906][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.06-09.17.54:996][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.06-09.18.38:195][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.06-09.18.38:283][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.06-09.18.40:282][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.06-09.18.41:161][  0]SourceControl: Source control is disabled
+[2017.12.06-09.18.41:161][  0]SourceControl: Source control is disabled
+[2017.12.06-09.18.41:253][  0]SourceControl: Source control is disabled
+[2017.12.06-09.18.41:331][  0]SourceControl: Source control is disabled
+[2017.12.06-09.18.42:526][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.06-09.18.42:858][  0]LogOcInput: OculusInput pre-init called
+[2017.12.06-09.18.43:885][  0]LogEngine: Initializing Engine...
+[2017.12.06-09.18.43:996][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.06-09.18.44:594][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.06-09.18.44:595][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.06-09.18.45:671][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.06-09.18.46:316][  0]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.06-09.18.46:900][  0]LogInit: FAudioDevice initialized.
+[2017.12.06-09.18.47:073][  0]LogDerivedDataCache: Saved boot cache 0.13s 93MB C:/Users/danie/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.06-09.18.47:083][  0]LogInit: Texture streaming: Enabled
+[2017.12.06-09.18.47:382][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.06-09.18.48:425][  0]LogInit: Transaction tracking system initialized
+[2017.12.06-09.18.49:292][  0]BlueprintLog: New page: Editor Load
+[2017.12.06-09.18.51:943][  0]LocalizationService: Localization service is disabled
+[2017.12.06-09.18.53:612][  0]LogConsoleResponse: Display: 
+[2017.12.06-09.18.57:662][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Masterarbeit/Content/' took 0.01s
+[2017.12.06-09.18.57:662][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.06-09.18.57:680][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.06-09.18.57:814][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.06-09.19.01:217][  0]SourceControl: Source control is disabled
+[2017.12.06-09.19.01:274][  0]Cmd: MAP LOAD FILE="../../../../Github/Masterarbeit/Content/VirtualRealityBP/Maps/PrototypeMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.06-09.19.01:342][  0]LightingResults: New page: Lighting Build
+[2017.12.06-09.19.01:794][  0]MapCheck: New page: Map Check
+[2017.12.06-09.19.01:794][  0]LightingResults: New page: Lighting Build
+[2017.12.06-09.19.04:820][  0]LogBlueprint: Warning: [Compiler BP_MotionController] ProjectPointToNavigation_DEPRECATED  is deprecated; This version of ProjectPointToNavigation is deprecated. Please use the new version
+[2017.12.06-09.19.04:900][  0]LogBlueprint: Warning: [Compiler BP_MotionController] [0143.31] Compile of BP_MotionController successful, but with 1 Warning(s) [in 227 ms] (/Game/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController)
+[2017.12.06-09.19.06:026][  0]LogMaterial: Missing cached shader map for material PuckMaterial, compiling. 
+[2017.12.06-09.19.08:121][  0]LogAIModule: Creating AISystem for world PrototypeMap
+[2017.12.06-09.19.10:407][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.06-09.19.11:234][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.06-09.19.11:286][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.403ms to complete.
+[2017.12.06-09.19.11:286][  0]LogFileHelpers: Loading map 'PrototypeMap' took 10.042
+[2017.12.06-09.19.14:375][  0]LogCollectionManager: Loaded 0 collections in 0.001024 seconds
+[2017.12.06-09.19.14:760][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Masterarbeit/Saved/Collections/' took 0.01s
+[2017.12.06-09.19.14:761][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Masterarbeit/Content/Developers/danie/Collections/' took 0.01s
+[2017.12.06-09.19.14:761][  0]LogFileCache: Scanning file cache for directory 'D:/Github/Masterarbeit/Content/Collections/' took 0.01s
+[2017.12.06-09.19.14:761][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.06-09.19.14:823][  0]LogContentBrowser: Native class hierarchy populated in 0.0374 seconds. Added 2392 classes and 503 folders.
+[2017.12.06-09.19.15:042][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.12.06-09.19.16:131][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.12.06-09.19.16:310][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.12.06-09.19.18:837][  0]LogSlate: Took 0.016564 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.06-09.19.18:876][  0]LogSlate: Took 0.015139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.06-09.19.18:950][  0]LogSlate: Took 0.016602 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.06-09.19.19:596][  0]LogRenderer: Reallocating scene render targets to support 1208x564 Format 26 NumSamples 1 (Frame:1).
+[2017.12.06-09.19.21:239][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.12.06-09.19.21:240][  0]LogLoad: (Engine Initialization) Total time: 159.65 seconds
+[2017.12.06-09.19.21:240][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.06-09.19.21:271][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.06-09.19.21:271][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.06-09.19.22:626][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.06-09.19.24:354][  4]LogAssetRegistry: Asset discovery search completed in 119.3477 seconds
+[2017.12.06-09.19.24:379][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.06-09.19.24:392][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.012539 seconds (updated 0 objects)
+[2017.12.06-09.38.37:223][  7]LogSlate: Took 0.053748 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.06-09.38.41:895][275]Cmd: MAP LOAD FILE="../../../../Github/Masterarbeit/Content/VirtualRealityBP/Maps/EVR_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.06-09.38.41:989][275]LogSlate: Took 0.000274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.06-09.38.42:058][275]LightingResults: New page: Lighting Build
+[2017.12.06-09.38.42:059][275]LoadErrors: New page: Loading map: EVR_Map.umap
+[2017.12.06-09.38.42:099][275]MapCheck: New page: Map Check
+[2017.12.06-09.38.42:099][275]LightingResults: New page: Lighting Build
+[2017.12.06-09.38.43:174][275]LogSlate: Took 0.028016 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.06-09.38.43:182][275]LogTexture: Display: Building textures: hockeyFieldTop (BGRA8, 1262X633)
+[2017.12.06-09.38.43:182][275]LogStaticMesh: Building static mesh Arena_01_Cube_025...
+[2017.12.06-09.38.45:537][275]LogStaticMesh: Built static mesh [2.36s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_025.Arena_01_Cube_025
+[2017.12.06-09.38.45:814][275]LogStaticMesh: Building static mesh Arena_01_Cube_026...
+[2017.12.06-09.38.46:204][275]LogStaticMesh: Built static mesh [0.39s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_026.Arena_01_Cube_026
+[2017.12.06-09.38.46:230][275]LogStaticMesh: Building static mesh Arena_01_Cube_027...
+[2017.12.06-09.38.47:610][275]LogStaticMesh: Built static mesh [1.38s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_027.Arena_01_Cube_027
+[2017.12.06-09.38.47:625][275]LogStaticMesh: Building static mesh Arena_01_Cube_028...
+[2017.12.06-09.38.47:671][275]LogStaticMesh: Built static mesh [0.05s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_028.Arena_01_Cube_028
+[2017.12.06-09.38.47:683][275]LogStaticMesh: Building static mesh Arena_01_Cube_033...
+[2017.12.06-09.38.47:699][275]LogStaticMesh: Built static mesh [0.02s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_033.Arena_01_Cube_033
+[2017.12.06-09.38.47:700][275]LogStaticMesh: Building static mesh Arena_01_Cube_035...
+[2017.12.06-09.39.03:605][275]LogStaticMesh: Built static mesh [15.90s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_035.Arena_01_Cube_035
+[2017.12.06-09.39.03:996][275]LogStaticMesh: Building static mesh Arena_01_Cube_038...
+[2017.12.06-09.39.05:270][275]LogStaticMesh: Built static mesh [1.27s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_038.Arena_01_Cube_038
+[2017.12.06-09.39.05:368][275]LogStaticMesh: Building static mesh Arena_01_Cube...
+[2017.12.06-09.39.10:663][275]LogStaticMesh: Built static mesh [5.30s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube.Arena_01_Cube
+[2017.12.06-09.39.10:863][275]LogStaticMesh: Building static mesh Arena_01_Plane...
+[2017.12.06-09.39.10:863][275]LogStaticMesh: Built static mesh [0.00s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane.Arena_01_Plane
+[2017.12.06-09.39.10:877][275]LogStaticMesh: Building static mesh Arena_01_Plane_005...
+[2017.12.06-09.39.10:972][275]LogStaticMesh: Built static mesh [0.09s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_005.Arena_01_Plane_005
+[2017.12.06-09.39.10:981][275]LogStaticMesh: Building static mesh Arena_01_Plane_008...
+[2017.12.06-09.39.10:982][275]LogStaticMesh: Built static mesh [0.00s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_008.Arena_01_Plane_008
+[2017.12.06-09.39.10:983][275]LogStaticMesh: Building static mesh Arena_01_Plane_009...
+[2017.12.06-09.39.10:984][275]LogStaticMesh: Built static mesh [0.00s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_009.Arena_01_Plane_009
+[2017.12.06-09.39.10:984][275]LogStaticMesh: Building static mesh Arena_01_Plane_010...
+[2017.12.06-09.39.11:416][275]LogStaticMesh: Built static mesh [0.43s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_010.Arena_01_Plane_010
+[2017.12.06-09.39.11:442][275]LogStaticMesh: Building static mesh Arena_01_Plane_014...
+[2017.12.06-09.39.11:453][275]LogStaticMesh: Built static mesh [0.01s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_014.Arena_01_Plane_014
+[2017.12.06-09.39.11:457][275]LogStaticMesh: Building static mesh Arena_01_Cube_006...
+[2017.12.06-09.39.12:990][275]LogStaticMesh: Built static mesh [1.53s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_006.Arena_01_Cube_006
+[2017.12.06-09.39.13:065][275]LogStaticMesh: Building static mesh Arena_01_Plane_016...
+[2017.12.06-09.39.13:642][275]LogStaticMesh: Built static mesh [0.58s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Plane_016.Arena_01_Plane_016
+[2017.12.06-09.39.13:681][275]LogStaticMesh: Building static mesh Arena_01_Cube_001...
+[2017.12.06-09.39.15:265][275]LogStaticMesh: Built static mesh [1.58s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_001.Arena_01_Cube_001
+[2017.12.06-09.39.15:379][275]LogStaticMesh: Building static mesh Arena_01_Cube_012...
+[2017.12.06-09.39.16:788][275]LogStaticMesh: Built static mesh [1.41s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_012.Arena_01_Cube_012
+[2017.12.06-09.39.17:225][275]LogStaticMesh: Building static mesh Arena_01_Cube_016...
+[2017.12.06-09.39.19:711][275]LogStaticMesh: Built static mesh [2.49s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_016.Arena_01_Cube_016
+[2017.12.06-09.39.19:822][275]LogStaticMesh: Building static mesh Arena_01_Cube_020...
+[2017.12.06-09.39.19:887][275]LogStaticMesh: Built static mesh [0.06s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_020.Arena_01_Cube_020
+[2017.12.06-09.39.19:891][275]LogStaticMesh: Building static mesh Arena_01_Cube_021...
+[2017.12.06-09.39.24:306][275]LogStaticMesh: Built static mesh [4.41s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_021.Arena_01_Cube_021
+[2017.12.06-09.39.24:484][275]LogStaticMesh: Building static mesh Arena_01_Cube_022...
+[2017.12.06-09.39.28:958][275]LogStaticMesh: Built static mesh [4.47s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Cube_022.Arena_01_Cube_022
+[2017.12.06-09.39.29:126][275]LogStaticMesh: Building static mesh Arena_01_Circle...
+[2017.12.06-09.39.29:212][275]LogStaticMesh: Built static mesh [0.09s] /Game/VirtualRealityBP/Blueprints/DonauArena/Arena_01_Circle.Arena_01_Circle
+[2017.12.06-09.39.29:283][275]LogMaterial: Missing cached shader map for material DarkGray, compiling. 
+[2017.12.06-09.39.29:340][275]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.12.06-09.39.29:364][275]LogMaterial: Missing cached shader map for material Gra, compiling. 
+[2017.12.06-09.39.29:392][275]LogMaterial: Missing cached shader map for material Glas, compiling. 
+[2017.12.06-09.39.29:441][275]LogAIModule: Creating AISystem for world EVR_Map
+[2017.12.06-09.39.29:832][275]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.06-09.39.29:979][275]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.06-09.39.30:043][275]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.806ms to complete.
+[2017.12.06-09.39.30:043][275]LogFileHelpers: Loading map 'EVR_Map' took 48.248
+[2017.12.06-10.35.46:334][305]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (MotionControllerPawn)
+[2017.12.06-10.35.47:013][305]LogEditorViewport: Clicking on Actor (context menu): DonauArena_BP_C (DonauArena_BP)
+[2017.12.06-10.35.47:628][305]LogEditorViewport: Clicking on Actor (LMB): DonauArena_BP_C (DonauArena_BP)
+[2017.12.06-10.35.47:673][305]LogEditorViewport: Clicking on Actor (context menu): DonauArena_BP_C (DonauArena_BP)
+[2017.12.06-10.38.29:878][289]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0037 seconds. Added 113 classes and 0 folders.
+[2017.12.06-10.38.32:386][289]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
+[2017.12.06-10.38.33:635][289]LogMaterial: Missing cached shader map for material PersonaFloorMat, compiling. 
+[2017.12.06-10.38.35:103][289]LogSlate: Took 0.047439 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.06-10.38.36:022][290]LogSlate: Took 0.059058 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.06-10.38.40:355][426]LogRenderer: Reallocating scene render targets to support 1208x712 Format 26 NumSamples 1 (Frame:1).
+[2017.12.06-10.38.47:035][526]LogSlate: Took 0.010599 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.06-10.48.36:872][235]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/EVR_Map' took 0.667
+[2017.12.06-10.48.36:974][235]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_ScoreHUD] ([1] browsable assets)...
+[2017.12.06-10.48.36:989][235]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_ScoreHUD]
+[2017.12.06-10.48.37:562][235]LogSavePackage: Save=307.10ms
+[2017.12.06-10.48.37:562][235]LogSavePackage: Moving '../../../../Github/Masterarbeit/Saved/EVR_ScoreHUD_Auto12E5B48D14D3278020B685CA136A78126.tmp' to '../../../../Github/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_ScoreHUD_Auto1.uasset'
+[2017.12.06-10.48.37:601][235]LogSavePackage: Display: Finished SavePackage ../../../../Github/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_ScoreHUD_Auto1.uasset
+[2017.12.06-10.48.37:601][235]LogFileHelpers: Auto-saving content packages took 0.728
+[2017.12.06-11.06.34:992][107]LogRenderer: Reallocating scene render targets to support 1528x1000 Format 26 NumSamples 1 (Frame:1956).
+[2017.12.06-11.06.37:827][134]LogRenderer: Reallocating scene render targets to support 1616x1000 Format 26 NumSamples 1 (Frame:7053).
+[2017.12.06-11.07.55:274][404]LogMaterial: Missing cached shader map for material M_SkyBox, compiling. 
+[2017.12.06-11.07.58:105][405]LogRenderer: Reallocating scene render targets to support 1912x1284 Format 26 NumSamples 1 (Frame:1).
+[2017.12.06-13.08.24:998][587]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.12.06-13.13.09:166][811]Cmd: TRANSACTION UNDO
+[2017.12.06-13.13.09:188][811]LogEditorTransaction: Undo Create Actors
+[2017.12.06-13.13.35:640][371]Cmd: TRANSACTION UNDO
+[2017.12.06-13.13.35:640][371]LogEditorTransaction: Undo Move Actors
+[2017.12.06-13.13.35:834][372]Cmd: TRANSACTION UNDO
+[2017.12.06-13.13.35:834][372]LogEditorTransaction: Undo Rotate Actors
+[2017.12.06-13.13.36:906][414]Cmd: TRANSACTION UNDO
+[2017.12.06-13.13.36:906][414]LogEditorTransaction: Undo Move Actors
+[2017.12.06-13.13.37:509][427]Cmd: TRANSACTION UNDO
+[2017.12.06-13.13.37:510][427]LogEditorTransaction: Undo Create Actors
+[2017.12.06-13.13.38:135][440]Cmd: TRANSACTION UNDO
+[2017.12.06-13.13.38:135][440]LogEditorTransaction: Undo Modify Component(s)
+[2017.12.06-13.13.38:809][454]Cmd: TRANSACTION UNDO
+[2017.12.06-13.13.38:809][454]LogEditorTransaction: Undo Edit Color and Opacity
+[2017.12.06-13.13.39:517][454]Cmd: TRANSACTION UNDO
+[2017.12.06-13.13.39:517][454]LogEditorTransaction: Undo Edit Color and Opacity
+[2017.12.06-13.13.40:098][468]Cmd: TRANSACTION UNDO
+[2017.12.06-13.13.40:098][468]LogEditorTransaction: Undo Change Color Pin Value
+[2017.12.06-13.13.43:194][538]Cmd: TRANSACTION REDO
+[2017.12.06-13.13.43:194][538]LogEditorTransaction: Redo Change Color Pin Value
+[2017.12.06-13.13.49:744][702]Cmd: TRANSACTION REDO
+[2017.12.06-13.13.49:744][702]LogEditorTransaction: Redo Edit Color and Opacity
+[2017.12.06-13.13.50:906][747]Cmd: TRANSACTION REDO
+[2017.12.06-13.13.50:906][747]LogEditorTransaction: Redo Edit Color and Opacity
+[2017.12.06-13.13.51:626][764]Cmd: TRANSACTION REDO
+[2017.12.06-13.13.51:626][764]LogEditorTransaction: Redo Modify Component(s)
+[2017.12.06-13.13.53:136][799]Cmd: TRANSACTION REDO
+[2017.12.06-13.13.53:136][799]LogEditorTransaction: Redo Create Actors
+[2017.12.06-13.13.55:559][853]Cmd: DELETE
+[2017.12.06-13.13.55:559][853]Cmd: ACTOR DELETE
+[2017.12.06-13.13.55:984][853]LogEditorActor: Deleted Actor: DirectionalLight
+[2017.12.06-13.13.56:458][853]LogEditorActor: Deleted 1 Actors (0.501 secs)
+[2017.12.06-13.16.54:876][225]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.12.06-13.24.40:219][236]LogSavePackage: Save=816.29ms
+[2017.12.06-13.24.40:219][236]LogSavePackage: Moving '../../../../Github/Masterarbeit/Saved/EVR_Map_Auto27CA33DD9452EED9D7DDF8081243DA855.tmp' to '../../../../Github/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Maps/EVR_Map_Auto2.umap'
+[2017.12.06-13.24.40:248][236]LogSavePackage: Display: Finished SavePackage ../../../../Github/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Maps/EVR_Map_Auto2.umap
+[2017.12.06-13.24.40:426][236]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/EVR_Map' took 1.600
+[2017.12.06-13.24.40:426][236]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.600
+[2017.12.06-13.24.40:519][236]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VirtualRealityBP/Blueprints/DonauArena/Field_BP] ([1] browsable assets)...
+[2017.12.06-13.24.40:625][236]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VirtualRealityBP/Blueprints/DonauArena/Field_BP.Field_BP]
+[2017.12.06-13.24.40:625][236]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/DonauArena/Field_BP]
+[2017.12.06-13.24.40:741][236]LogSavePackage: Save=96.89ms
+[2017.12.06-13.24.40:741][236]LogSavePackage: Moving '../../../../Github/Masterarbeit/Saved/Field_BP_Auto2076B8656475ADD607821F2AB647085A8.tmp' to '../../../../Github/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/DonauArena/Field_BP_Auto2.uasset'
+[2017.12.06-13.24.40:745][236]LogSavePackage: Display: Finished SavePackage ../../../../Github/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/DonauArena/Field_BP_Auto2.uasset
+[2017.12.06-13.24.40:772][236]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_ScoreHUD] ([1] browsable assets)...
+[2017.12.06-13.24.40:772][236]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_ScoreHUD]
+[2017.12.06-13.24.41:031][236]LogSavePackage: Save=214.12ms
+[2017.12.06-13.24.41:031][236]LogSavePackage: Moving '../../../../Github/Masterarbeit/Saved/EVR_ScoreHUD_Auto2D61251B54CB22424286729972F42B91B.tmp' to '../../../../Github/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_ScoreHUD_Auto2.uasset'
+[2017.12.06-13.24.41:054][236]LogSavePackage: Display: Finished SavePackage ../../../../Github/Masterarbeit/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_ScoreHUD_Auto2.uasset
+[2017.12.06-13.24.41:054][236]LogFileHelpers: Auto-saving content packages took 0.559
+[2017.12.06-15.30.29:577][874]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.12.06-15.30.33:446][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Blueprints/DonauArena/Field_BP" FILE="../../../../Github/Masterarbeit/Content/VirtualRealityBP/Blueprints/DonauArena/Field_BP.uasset" SILENT=true
+[2017.12.06-15.30.33:592][905]LogSavePackage: Save=92.99ms
+[2017.12.06-15.30.33:592][905]LogSavePackage: Moving '../../../../Github/Masterarbeit/Saved/Field_BP856015AA4A075AC194BCE3A3F8E8A90D.tmp' to '../../../../Github/Masterarbeit/Content/VirtualRealityBP/Blueprints/DonauArena/Field_BP.uasset'
+[2017.12.06-15.30.33:642][905]LogSavePackage: Display: Finished SavePackage ../../../../Github/Masterarbeit/Content/VirtualRealityBP/Blueprints/DonauArena/Field_BP.uasset
+[2017.12.06-15.30.33:932][905]LogSavePackage: Save=240.31ms
+[2017.12.06-15.30.33:932][905]LogSavePackage: Moving '../../../../Github/Masterarbeit/Saved/EVR_ScoreHUD562225FC4F41C84A990AB68DD6FCD429.tmp' to '../../../../Github/Masterarbeit/Content/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_ScoreHUD.uasset'
+[2017.12.06-15.30.33:937][905]LogSavePackage: Display: Finished SavePackage ../../../../Github/Masterarbeit/Content/VirtualRealityBP/Blueprints/Level_EVR_1/EVR_ScoreHUD.uasset
+[2017.12.06-15.30.37:095][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Maps/EVR_Map" FILE="../../../../Github/Masterarbeit/Content/VirtualRealityBP/Maps/EVR_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.06-15.30.37:460][905]LogSavePackage: Save=277.45ms
+[2017.12.06-15.30.37:460][905]LogSavePackage: Moving '../../../../Github/Masterarbeit/Saved/EVR_MapCB5B460245A7118C2D4AAFA3A5E123CA.tmp' to '../../../../Github/Masterarbeit/Content/VirtualRealityBP/Maps/EVR_Map.umap'
+[2017.12.06-15.30.37:464][905]LogSavePackage: Display: Finished SavePackage ../../../../Github/Masterarbeit/Content/VirtualRealityBP/Maps/EVR_Map.umap
+[2017.12.06-15.30.37:553][905]LogFileHelpers: Saving map 'EVR_Map' took 3.596
+[2017.12.06-15.30.37:867][905]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.06-15.30.38:759][906]Cmd: QUIT_EDITOR
+[2017.12.06-15.30.40:086][906]LogExit: Preparing to exit.
+[2017.12.06-15.30.42:032][906]LogDirectoryWatcher: A directory notification for 'D:/Github/Masterarbeit/Content/' was aborted.
+[2017.12.06-15.30.42:185][906]PIE: UWidget::RemoveFromParent() called on '/Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.06-15.30.42:203][906]PIE: UWidget::RemoveFromParent() called on '/Game/VirtualRealityBP/Maps/EVR_Map.EVR_Map:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.12.06-15.30.44:354][906]LogExit: Editor shut down
+[2017.12.06-15.30.44:476][906]LogExit: Transaction tracking system shut down
+[2017.12.06-15.30.45:463][906]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.06-15.30.45:464][906]LogDirectoryWatcher: A directory notification for '../../../../Github/Masterarbeit/Content/' was aborted.
+[2017.12.06-15.30.45:464][906]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.06-15.30.45:464][906]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.12.06-15.30.45:464][906]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.12.06-15.30.53:035][906]LogExit: Object subsystem successfully closed.
+[2017.12.06-15.30.53:842][906]LogD3D11RHI: Shutdown
+[2017.12.06-15.30.53:843][906]LogD3D11RHI: CleanupD3DDevice
+[2017.12.06-15.30.55:136][906]LogD3D11RHI: ~FD3D11DynamicRHI
